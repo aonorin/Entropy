@@ -1,0 +1,60 @@
+vertex_program EntropyShadowVP cg
+{
+    source EntropyShadow.cg
+    entry_point VS_Main
+    profiles vs_2_0 arbvp1 vp30
+    
+	default_params
+    {
+        param_named_auto worldViewProj		worldviewproj_matrix
+        param_named_auto world				world_matrix
+        param_named_auto shadow				texture_viewproj_matrix 0
+        param_named_auto shadow1			texture_viewproj_matrix 1
+        param_named_auto shadow2			texture_viewproj_matrix 2
+    }
+}
+
+fragment_program EntropyShadowFP cg
+{
+    source EntropyShadow.cg
+    entry_point PS_Main
+}
+
+material EntropyShadow
+{
+    technique 1
+    {
+        pass
+        {
+            vertex_program_ref EntropyShadowVP
+            {
+            
+			}
+
+            fragment_program_ref EntropyShadowFP
+            {
+            
+			}
+            
+			texture_unit 0
+            {
+                tex_coord_set 0
+            }
+            
+			texture_unit 1
+            {
+                content_type shadow
+            }
+            
+			texture_unit 2
+            {
+                content_type shadow
+            }
+            
+			texture_unit 3
+            {
+                content_type shadow
+            }
+        }
+    }
+}

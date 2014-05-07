@@ -1,0 +1,25 @@
+Mar2511
+$code=post
+$botprompt=SecureBot: 
+$userprompt=Somniloquist: >
+$control_post=~control
+$control_main=~control
+$control_pre=~control
+$token=239
+$login=Somniloquist
+$bot=Harry
+$randindex=1303
+$it_pronoun=
+$currenttopic=~access
+0 1 2 ~access 1301 13304416281810696613 4 # glblflags, convo start, input#, rejoinder a: ( * ~no ) Warming up organics i...
+~introductions ~access #interesting
+~access + 13304416281810696613 4 maaaaaaa
+#end topics
+ Somniloquist
+ Who the fuck are you?
+#`end usr
+ SecurBot grants you conversational clearance.
+ Unauthorized personnel detected. Organic Termination sequence is booting up in 10, 9, 8…
+ The only authorized individual scheduled for clearance is Somniloquist. Are you Somniloquist?
+#`end bot
+0 #sets flags

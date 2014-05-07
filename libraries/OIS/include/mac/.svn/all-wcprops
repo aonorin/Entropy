@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/wgois/!svn/ver/9/ois/trunk/includes/mac
+END
+MacMouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacMouse.h
+END
+MacInputManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacInputManager.h
+END
+MacHIDManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacHIDManager.h
+END
+MacJoyStick.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/wgois/!svn/ver/9/ois/trunk/includes/mac/MacJoyStick.h
+END
+MacKeyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacKeyboard.h
+END
+MacPrereqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacPrereqs.h
+END
+MacHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/mac/MacHelpers.h
+END

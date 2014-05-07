@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x2b85f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x14d71590" />
+  <item nodeId="node-0x2b85f0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Test1
+An Interactive Fiction by Chad McKinney
+Release 1 / Serial number 120501 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+prison cell
+A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">NO</temporary>
+    <children>
+      <child nodeId="node-0x2b8680" />
+    </children>
+  </item>
+  <item nodeId="node-0x2b8680">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">prison cell
+A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x2bd610" />
+      <child nodeId="node-0x567790" />
+    </children>
+  </item>
+  <item nodeId="node-0x567790">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d967d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d967d0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d7cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d7cf0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x5cde20" />
+    </children>
+  </item>
+  <item nodeId="node-0x5cde20">
+    <command xml:space="preserve">going south</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b60ffb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b60ffb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d6a6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d6a6f0">
+    <command xml:space="preserve">norht</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b31d820" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b31d820">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f2500" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f2500">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d71590" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d71590">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x2bd610">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x2bd660" />
+      <child nodeId="node-0x575ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x575ca0">
+    <command xml:space="preserve">look north</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x2c9dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c9dd0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">prison cell
+A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x2bd660">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d9c130" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d9c130">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d9f5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d9f5f0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x14da4ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14da4ce0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">prison cell
+A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. A small light flickers outside, dimly illuminated the cold stone of the cell. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x5b1ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5b1ac0">
+    <command xml:space="preserve">Egg carton</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x14d9bb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x14d9bb90">
+    <command xml:space="preserve">look egg carton</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+</Skein>

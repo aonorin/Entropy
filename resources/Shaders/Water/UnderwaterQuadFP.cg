@@ -1,0 +1,65 @@
+float4 main(
+        float2 uv: TEXCOORD0,
+        float2 projCoord: TEXCOORD1,
+
+        uniform sampler tex: register(s0),
+        uniform float time
+        //uniform sampler Tex1: register(s1)
+	) : COLOR 
+{
+        //float4 a0 = tex2D(Tex0, texCoord); // Attribute 0: Diffuse color+shininess
+        //float4 a1 = tex2D(Tex1, texCoord); // Attribute 1: Normal+depth
+        //float4 scene = tex2D(Tex0,texCoord);
+        float4 waterColor = float4(0.75,0.85,1.0,1.0);
+        // some const, tweak for best look
+        float sampleDist = 0.25;
+        float sampleStrength = 2.5;
+
+
+// some sample positions
+   float samples[10] =
+   float[](-0.08,-0.05,-0.03,-0.02,-0.01,0.01,0.02,0.03,0.05,0.08);
+
+    // 0.5,0.5 is the center of the screen
+    // so substracting uv from it will result in
+    // a vector pointing to the middle of the screen
+    vec2 dir = 0.5 - uv;
+
+
+    // calculate the distance to the center of the screen
+    float dist = sqrt(dir.x*dir.x + dir.y*dir.y);
+
+sampleDist = sampleDist + ( (((sin(time*0.5)+sin(dist*4))*0.2)));
+
+    // normalize the direction (reuse the distance)
+    dir = dir/dist;
+
+    // this is the original colour of this fragment
+    // using only this would result in a nonblurred version
+    vec4 color = tex2D(tex,uv);
+
+    vec4 sum = color;
+
+    // take 10 additional blur samples in the direction towards
+    // the center of the screen
+    for (int i = 0; i < 10; i++)
+    {
+      sum += tex2D( tex, uv + dir * samples[i] * sampleDist );
+    }
+
+    // we have taken eleven samples
+    sum *= 1.0/11.0;
+
+    // weighten the blur effect with the distance to the
+    // center of the screen ( further out is blurred more)
+    float t = dist * sampleStrength;
+    t = clamp( t ,0.0,1.0); //0 &lt;= t &lt;= 1
+
+
+    float4 finalColor = mix(color,sum,t);
+    finalColor = waterColor*finalColor;
+    finalColor*=1.0;
+
+        return float4(finalColor.xyz, 0);
+}
+

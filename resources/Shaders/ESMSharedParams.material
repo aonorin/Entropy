@@ -1,0 +1,11 @@
+shared_params ESM/SharedParams
+{
+	// [0.01, 10.0]
+	shared_param_named depth_scale float 1.0
+	
+	// [1.0, 50.0]
+	shared_param_named over_darkening_factor float 0.5
+	
+	// [0.0, 1.0]
+	shared_param_named light_shadow_bias float 0.001
+}

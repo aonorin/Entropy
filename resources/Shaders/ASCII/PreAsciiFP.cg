@@ -1,0 +1,38 @@
+float4 main(
+        float2 uv: TEXCOORD0,
+        float2 projCoord: TEXCOORD1,
+
+        uniform sampler tex: register(s0)
+        ) : COLOR
+{
+	vec4 color = tex2D(tex,uv);
+	int numSamples = 5;
+	int total = numSamples*numSamples;
+	float areaSize = 0.02/3.0;
+	float avgR = 0;
+	float avgG = 0;
+	float avgB = 0;
+	float2 newUV;
+	newUV.x = uv.x - fmod(uv.x,areaSize);
+	newUV.y = uv.y - fmod(uv.y,areaSize);
+	float2 tempUV;
+	for(int x=0;x<numSamples;++x)
+	{
+		for(int y=0;y<numSamples;++y)
+		{
+			
+			tempUV.x = newUV.x + (x*(areaSize/numSamples));
+			tempUV.y = newUV.y + (y*(areaSize/numSamples));
+			float4 tempColor = tex2D(tex,tempUV);
+			avgR = avgR+ tempColor.r;
+			avgG = avgG+ tempColor.g;
+			avgB = avgB+ tempColor.b;
+		}
+	}
+	avgR = avgR/total;
+	avgG = avgG/total;
+	avgB = avgB/total;
+	float4 finalColor = float4(avgR,avgG,avgB,1);
+	return finalColor;
+}
+

@@ -1,0 +1,273 @@
+//UNDERWATER
+vertex_program EntropyUnderwaterVP cg
+{
+    source EntropyUnderwater.cg
+    entry_point main_vp
+    profiles vs_4_0 vs_1_1 arbvp1
+
+}
+
+
+fragment_program EntropyUnderwaterFP cg
+{
+    source EntropyUnderwater.cg
+    entry_point main_fp
+    profiles ps_4_0 ps_2_0 arbfp1
+}
+
+material EntropyUnderwater
+{
+	// ps_2_0 / arbfp1
+	technique
+	{
+        NoGbuffer
+		pass 
+		{	
+                        scene_blend one one_minus_src_alpha
+                        vertex_program_ref EntropyUnderwaterVP
+			{
+                                param_named_auto eyePosition camera_position
+                                param_named_auto lightPosition light_position 0
+                                param_named_auto worldViewProjMatrix worldviewproj_matrix
+                                param_named_auto worldViewMatrix worldview_matrix
+                                param_named_auto viewMatrix view_matrix
+                                param_named_auto worldMatrix world_matrix
+                                param_named_auto timeVal time 0.005
+                                param_named scroll float 1
+                                param_named scale float 1
+                                param_named noise float 1
+                                param_named BumpScale float 0.015
+                                param_named textureScale float2 0.05 0.03
+                                param_named bumpSpeed float2 0.00125 0.0025
+                                param_named_auto time time_0_x 100.0
+                                param_named waveFreq float 0.028
+                                param_named waveAmp float 15.0
+				// scroll and noisePos will need updating per frame
+			}
+                        fragment_program_ref EntropyUnderwaterFP
+			{
+                        param_named_auto worldViewMatrix worldview_matrix
+                                param_named_auto inverseProjectionMatrix inverse_projection_matrix
+                                param_named fresnelBias float 0.85
+                                param_named fresnelScale float 0.1
+                                param_named fresnelPower float 64
+                                param_named tintColour float4 0.00 0.08 0.12 0.0005
+                                param_named noiseScale float 0.1
+                                param_named deepColor float4 0.0 0.0 0.0 1
+                                param_named shallowColor float4 0.95 1 1 1
+                                param_named reflectionColor float4 1.0 1.0 1.0 1.0
+                                param_named reflectionAmount float 1
+                                param_named reflectionBlur float 0
+                                param_named waterAmount float 0.3
+                                param_named hdrMultiplier float 0.571
+                                param_named_auto timeVal time 0.005
+                                param_named scroll float 1
+                                param_named scale float 1
+                                param_named noise float 1
+                                param_named BumpScale float 0.015
+                                param_named textureScale float2 0.05 0.03
+                                param_named bumpSpeed float2 0.00125 0.0025
+                                param_named_auto time time_0_x 100.0
+                                param_named waveFreq float 0.028
+                                param_named waveAmp float 15.0
+			}
+            
+			texture_unit
+            {
+            	content_type compositor DeferredShading/ShowLit showLitOutput 0		
+                tex_address_mode clamp
+            }
+
+			// Noise
+			texture_unit
+			{
+				// Perlin noise volume
+				texture waves2.dds
+				//texture WaveNM.png
+				// min / mag filtering, no mip
+				filtering linear linear none
+			}
+			texture_unit
+            {
+				content_type compositor DeferredShading/ShowLit showLitOutput 1
+                tex_address_mode clamp
+            }
+
+                        // Reflection
+                        texture_unit
+                        //{
+                        //        // Will be filled in at runtime
+                        //        texture reflection
+                        //        tex_address_mode clamp
+                        //}
+			// Refraction
+                        //texture_unit
+                        //{
+                        //	// Will be filled in at runtime
+                        //	texture refraction
+                        //	tex_address_mode clamp
+                        //}
+		}
+		
+			
+	}
+}
+
+//ABOVE WATER
+
+vertex_program Examples/FresnelRefractReflectVPCg cg
+{
+        source Example_Fresnel.cg
+        entry_point main_vp
+        profiles vs_4_0 vs_1_1 arbvp1
+}
+vertex_program Examples/FresnelRefractReflectVPold cg
+{
+        source Example_Fresnel.cg
+        entry_point main_vp_old
+        profiles vs_1_1 arbvp1
+}
+vertex_program Examples/FresnelRefractReflectVPGLSLES glsles
+{
+        source Example_FresnelVp.glsles
+        entry_point main
+        profiles glsles
+}
+
+vertex_program Examples/FresnelRefractReflectVP unified
+{
+        delegate Examples/FresnelRefractReflectVPGLSLES
+        delegate Examples/FresnelRefractReflectVPCg
+}
+
+fragment_program Examples/FresnelRefractReflectFPCg cg
+{
+        source Example_Fresnel.cg
+        entry_point main_fp
+        // sorry, ps_1_1 and fp20 can't do this
+        profiles ps_4_0 ps_2_0 arbfp1
+}
+
+fragment_program Examples/FresnelRefractReflectPS asm
+{
+        source Example_FresnelPS.asm
+        // sorry, only for ps_1_4 :)
+        syntax ps_1_4
+}
+
+fragment_program Examples/FresnelRefractReflectFPGLSLES glsles
+{
+        source Example_FresnelFp.glsles
+        entry_point main
+        profiles glsles
+        default_params
+        {
+                // assign samplers as required by GLSL
+                param_named noiseMap int 0
+                param_named reflectMap int 1
+                param_named refractMap int 2
+        }
+}
+
+fragment_program Examples/FresnelRefractReflectFP unified
+{
+        delegate Examples/FresnelRefractReflectFPGLSLES
+        delegate Examples/FresnelRefractReflectFPCg
+}
+
+material Examples/FresnelReflectionRefraction
+{
+        // ps_2_0 / arbfp1
+        technique
+        {
+                pass
+                {
+                        scene_blend one one_minus_src_alpha
+                        vertex_program_ref Examples/FresnelRefractReflectVP
+                        {
+                                param_named_auto eyePosition camera_position
+                                param_named_auto lightPosition light_position 0
+                                param_named_auto worldViewProjMatrix worldviewproj_matrix
+                                param_named_auto worldViewMatrix worldview_matrix
+                                param_named_auto viewMatrix view_matrix
+                                param_named_auto worldMatrix world_matrix
+                                param_named_auto timeVal time 0.005
+                                param_named scroll float 1
+                                param_named scale float 1
+                                param_named noise float 1
+                                param_named BumpScale float 0.015
+                                param_named textureScale float2 0.05 0.03
+                                param_named bumpSpeed float2 0.00125 0.0025
+                                param_named_auto time time_0_x 100.0
+                                param_named waveFreq float 0.028
+                                param_named waveAmp float 15.0
+                                // scroll and noisePos will need updating per frame
+                        }
+                        fragment_program_ref Examples/FresnelRefractReflectFP
+                        {
+                        param_named_auto worldViewMatrix worldview_matrix
+                                param_named_auto inverseProjectionMatrix inverse_projection_matrix
+                                param_named fresnelBias float 0.85
+                                param_named fresnelScale float 0.1
+                                param_named fresnelPower float 64
+                                param_named tintColour float4 0.00 0.08 0.12 0.0005
+                                param_named noiseScale float 0.1
+                                param_named deepColor float4 0.0 0.0 0.0 1
+                                param_named shallowColor float4 0.95 1 1 1
+                                param_named reflectionColor float4 1.0 1.0 1.0 1.0
+                                param_named reflectionAmount float 1
+                                param_named reflectionBlur float 0
+                                param_named waterAmount float 0.3
+                                param_named hdrMultiplier float 0.571
+                                param_named_auto timeVal time 0.005
+                                param_named scroll float 1
+                                param_named scale float 1
+                                param_named noise float 1
+                                param_named BumpScale float 0.015
+                                param_named textureScale float2 0.05 0.03
+                                param_named bumpSpeed float2 0.00125 0.0025
+                                param_named_auto time time_0_x 100.0
+                                param_named waveFreq float 0.028
+                                param_named waveAmp float 15.0
+                        }
+
+            texture_unit
+            {
+                content_type compositor DeferredShading/ShowLit showLitOutput 0
+                tex_address_mode clamp
+            }
+
+                        // Noise
+                        texture_unit
+                        {
+                                // Perlin noise volume
+                                texture waves2.dds
+                                //texture WaveNM.png
+                                // min / mag filtering, no mip
+                                filtering linear linear none
+                        }
+                        texture_unit
+            {
+                content_type compositor DeferredShading/ShowLit showLitOutput 1
+                tex_address_mode clamp
+            }
+
+                        // Reflection
+                        texture_unit
+                        //{
+                        //        // Will be filled in at runtime
+                        //        texture reflection
+                        //        tex_address_mode clamp
+                        //}
+                        // Refraction
+                        //texture_unit
+                        //{
+                        //	// Will be filled in at runtime
+                        //	texture refraction
+                        //	tex_address_mode clamp
+                        //}
+                }
+
+
+        }
+}

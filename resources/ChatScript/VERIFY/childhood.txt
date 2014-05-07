@@ -1,0 +1,20 @@
+0 #! This topic is a sample of a simple topic, with good indentation style.
+0 #! It is well commented with annotations for :abstract and :verify.
+58 #! sure
+87 #! never
+276 #! I was scared of the dark
+331 #! I like chicken454
+366 #! the boogie man
+444 #! I feared dragons
+542 #! spiders scared me
+594 #! tigers
+679 #! snakes
+796 #! I had nightmares
+862 #! yes
+930 #! no 
+1119 #! did you ever run away?
+1162 #! how was your childhood
+1219 #! how were you was a kid
+1266 #! what scares you?
+1312 #! what is your earliest childhood memory?
+1405 #! tell me your history

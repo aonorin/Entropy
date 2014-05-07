@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/wgois/!svn/ver/17/ois/trunk/includes/linux
+END
+LinuxInputManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/wgois/!svn/ver/17/ois/trunk/includes/linux/LinuxInputManager.h
+END
+LinuxKeyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/wgois/!svn/ver/17/ois/trunk/includes/linux/LinuxKeyboard.h
+END
+LinuxPrereqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/wgois/!svn/ver/14/ois/trunk/includes/linux/LinuxPrereqs.h
+END
+LinuxForceFeedback.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/linux/LinuxForceFeedback.h
+END
+EventHelpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/linux/EventHelpers.h
+END
+LinuxJoyStickEvents.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/linux/LinuxJoyStickEvents.h
+END
+LinuxMouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/linux/LinuxMouse.h
+END

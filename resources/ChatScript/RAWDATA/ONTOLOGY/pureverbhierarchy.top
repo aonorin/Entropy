@@ -1,0 +1,456 @@
+# special postagging data to detect questions should postagging be turned off
+
+concept: ~auxverblist (have has had be am are is was were been being do does did  dare dares dared got get  gets getting 
+ will would may might shall should ought can could must )  
+concept: ~DETERMINERLIST (a an the )
+concept: ~qwords (where when why how whom who whose whomever whoever what which whichever whatever )
+
+# otherwise they are WH-pronouns (when not joining clauses)
+# WH-pronoun and WH-adverb distinguish adverb use liek WHEN from noun questions like WHO
+concept: ~SYSTEM_JOINER (and or but nor yet , ) # parallel word construction allowed
+concept: ~SYSTEM_INDEPENDENT_MARKER ( furthermore however  moreover  nevertheless therefore )
+
+
+############################## _verbs hierarchy
+
+concept: ~ABORT (annul~v cancel~v fail~v invalidate~v nullify~v quash~v void~v )
+concept: ~ABSORB (absorb~v inject~v insert~v )
+concept: ~ACCEPT_OBEY (comply~v give_in~v obey~v submit~v succumb~v yield~v )
+concept: ~ACHIEVE (accomplish~v attain~v complete~v earn~v fulfill~v satisfy~v succeed~v win~v )
+concept: ~ACQUIRING_VERBS (~begiven ~get ~give ~steal )
+concept: ~ACT (act~v attempt~v can~v commit~v dedicate~v devote~v do~v intend~v labor~v perform~v retry~v strive~v toil~v try~v )
+concept: ~ADD_MAGNETISM (magnetise~v magnetize~v )
+concept: ~ADD_SMELL (aromatise~v aromatize~v odorize~v odourise~v )
+concept: ~AFFECT_OBJECT_VERBS (abate~v advance~v air~v alter~v appreciate~v awake~v blur~v climb~v develop~v differ~v ease~v fade~v focus~v footstep~v fray~v fuse~v hatch~v loop~v natural~v 
+                               process~v rid~v rocket~v shift~v short-circuit~v short~v soar~v spare~v sprout~v staunch~v steep~v straighten~v subside~v surge~v taper~v tire~v turn~v vary~v ~alter_age ~alter_chemistry 
+                               ~alter_cleanliness_verbs ~alter_complexity_verbs ~alter_container_verbs ~alter_electricity_verbs ~alter_esthetics_verbs ~alter_functionality_verbs ~alter_location_verbs ~alter_magnetism_verbs ~alter_moisture_verbs ~alter_orientation ~alter_quantity_verbs ~alter_radiation ~alter_sharpness_verbs ~alter_size_verbs ~alter_smell_verbs ~alter_strength_verbs ~alter_temperature_verbs ~alter_tightness_verbs ~attachment_verbs 
+                               ~creation_verbs ~extinguis ~generic_effect ~substitute )
+concept: ~AFFECTION (buss~v canoodle~v caress~v cuddle~v embrace~v fondle~v hug~v kiss~v nuzzle~v pet~v stroke~v )
+concept: ~ALTER_AGE (age~v mature~v )
+concept: ~ALTER_CHEMISTRY_VERBS (denature~v ~alter_concentration_higher ~alter_concentration_lower ~alter_ph_higher ~alter_ph_lower ~rust )
+concept: ~ALTER_CLEANLINESS_VERBS (~make_cleaner ~make_dirtier )
+concept: ~ALTER_COMPLEXITY_VERBS (~complicate ~simplify )
+concept: ~ALTER_CONCENTRATION_HIGHER (concentrate~v decant~v distill~v intensify~v purify~v repurify~v )
+concept: ~ALTER_CONCENTRATION_LOWER (dilute~v dilute~v )
+concept: ~ALTER_CONTAINER_VERBS (~block_access_containment ~enable_access_containment ~increase_containment ~reduce_containment )
+concept: ~ALTER_ELECTRICITY_VERBS (~discharge ~electrify )
+concept: ~ALTER_ESTHETICS_BETTER_VERBS (~brand ~colorize ~cutart ~draw ~genericart ~sew )
+concept: ~ALTER_ESTHETICS_VERBS (~ALTER_ESTHETICS_BETTER_VERBS ~alter_esthetics_worse )
+concept: ~ALTER_ESTHETICS_WORSE (blacken~v decolor~v decolorise~v decolorize~v decolour~v decolourise~v decolourize~v discolor~v discolorise~v discolorize~v discolour~v discolourise~v nigrify~v uglify~v unwrap~v vandalise~v )
+concept: ~ALTER_FUNCTIONALITY_VERBS (~disable ~enable ~start ~stop_verbs )
+concept: ~ALTER_HIGHER (boost~v elevate~v heft~v hoist~v jack_up~v lift~v raise~v )
+concept: ~ALTER_HORIZONTAL (spin~v turn~v )
+concept: ~ALTER_LOCATION_VERBS (capsize~v  ~ALTER_HIGHER ~alter_lower ~throw  ~carry )
+concept: ~carry (transfer~v transport~v  carry~v  ferry~v move~v lug~v backpack~v convey~v haul~v portage~v relocate~v schlep~v tote~v  transplant~v )
+concept: ~ALTER_LOWER (drop~v fall~v plummet~v plunge~v sink~v )
+concept: ~ALTER_MAGNETISM_VERBS (~ADD_MAGNETISM ~remove_magnetism )
+concept: ~ALTER_MOISTURE_VERBS (~make_drier ~make_wetter )
+concept: ~ALTER_ORIENTATION (~ALTER_HORIZONTAL ~alter_vertical ~alter_wiggle )
+concept: ~ALTER_PH_HIGHER (alkalify~v alkalinise~v alkalinize~v alkalise~v alkalize~v )
+concept: ~ALTER_PH_LOWER (acidify~v )
+concept: ~ALTER_QUANTITY_VERBS (~decrease_verbs ~increase_verbs )
+concept: ~ALTER_RADIATION (irradiate~v radiate~v )
+concept: ~ALTER_SHARPNESS_VERBS (~dull ~sharpen )
+concept: ~ALTER_SIZE_VERBS (fluctuate~v ~get_bigger ~get_smaller )
+concept: ~ALTER_SMELL_VERBS (~ADD_SMELL ~remove_smell )
+concept: ~ALTER_STRENGTH_VERBS (~strengthen ~weaken )
+concept: ~ALTER_TEMPERATURE_VERBS ( ~heat_verbs ~cool_verbs )
+concept: ~heat_verbs (~heat ~change_state_by heat~v ~ignite )
+concept: ~cool_verbs (~chill ~change_state_by_cool )
+concept: ~ALTER_TIGHTNESS_VERBS (~loosen ~tighten )
+concept: ~ALTER_VERTICAL (balance~v overturn~v tilt~v tip~v topple~v tumble~v upend~v upheave~v )
+concept: ~ALTER_WIGGLE (brandish~v flap~v fluctuate~v flutter~v gyrate~v gyre~v oscillate~v pirouette~v pivot~v pulsate~v purl~v quaver~v quiver~v revolve~v shake~v spin~v sway~v swing~v swish~v 
+                        turn~v twirl~v undulate~v wave~v whirl~v wiggle~v wigwag~v wobble~v )
+concept: ~ANIMALSOUNDS (baa~v bark~v bay~v bellow~v bleat~v bray~v buzz~v cackle~v call~v caw~v chatter~v cheep~v chirp~v chirrup~v chitter~v cluck~v coo~v croak~v crow~v 
+                        cuckoo~v drone~v gobble~v growl~v grunt~v hee-haw~v hiss~v honk~v hoot~v howl~v low~v meow~v mewl~v mew~v moo~v neigh~v oink~v peep~v pipe~v purr~v 
+                        quack~v roar~v scream~v screech~v sing~v snap~v snarl~v snort~v snuffle~v squeak~v squeal~v stridulate~v trill~v tweet~v twitter~v wail~v warble~v whimper~v whinny~v whistle~v 
+                        woof~v yap~v yell~v yelp~v yip~v yowl~v )
+concept: ~ANIMATE_MOVE_VERBS (beach~v clump~v find~v land~v lollop~v place~v ~arrive ~moving_air ~moving_beyond ~moving_escape ~moving_fast_land ~moving_generic ~moving_object ~moving_slow_land ~moving_to ~moving_water ~vehicle_verbs )
+concept: ~ANIMATE_VERBS (~AFFECT_OBJECT_VERBS ~ANIMATE_MOVE_VERBS ~body_verbs ~generic_do_verbs ~health_verbs ~mental_verbs ~perception_verbs ~social_verbs ~special_activities_verbs )
+concept: ~ARRANGE (align~v arrange~v categorize~v codify~v coil~v design~v dot~v formalize~v heap~v layer~v mound~v organize~v pile~v rack~v rearrange~v reorganize~v schedule~v scramble~v unscramble~v )
+concept: ~ARRIVE (arrive~v get_to~v reach~v return~v visit~v )
+concept: ~ATTACHMENT_VERBS (~join ~unjoin ~change_state_by_mixing )
+concept: ~AVOID (avoid~v boycott~v circumvent~v dodge~v duck~v elude~v eschew~v evade~v forgo~v shun~v sidestep~v )
+concept: ~AWAREOF (appear~v be_you_aware_of~v be_you_familiar_with~v detect~v discern~v discover~v do_you_know~v experience~v have_you_heard_of~v have_you_run_across~v intuit~v materialize~v perceive~v sense~v show_up~v what_do_you_know_about~v who_be~v )
+concept: ~BALANCE (balance~v dizzy~v )
+concept: ~BANISH (banish~v deport~v disbar~v discharge~v disenfranchise~v disfranchise~v evacuate~v evict~v evict~v excommunicate~v exile~v expel~v fire~v ignore~v ostracise~v ostracize~v sack~v terminate~v 
+                  unfrock~v )
+concept: ~BE_VERBS (~endure ~tobe )
+concept: ~BECOME_VISIBLE (arise~v dawn~v emerge~v erupt~v issue~v pop_up~v re-emerge~v reappear~v )
+concept: ~BEDEACQUIRED (defraud~v defrock~v depose~v desert~v disarm~v disinherit~v disown~v lose~v oust~v overthrow~v raffle~v relinquish~v spend~v usurp~v )
+concept: ~BEFRIEND (ally~v associate~v befriend~v friend~v )
+concept: ~BEGIVEN (accept~v borrow~v cadge~v inherit~v receive~v )
+concept: ~BLOCK_ACCESS (ban~v bar~v block~v constrain~v criminalise~v criminalize~v decertify~v deny~v disallow~v exclude~v illegalise~v illegalize~v proscribe~v restrict~v withhold~v )
+concept: ~BLOCK_ACCESS_CONTAINMENT (clog~v close~v lock~v seal~v shut~v )
+concept: ~BLOOD_ILL (blanch~v bleed~v blench~v faint~v hemorrhage~v pale~v )
+concept: ~BODILY_ACTIVITIES_VERBS (~clothing_verbs ~groom )
+concept: ~BODILY_FUNCTION_VERBS (~breathe ~excreting_verbs ~ingesting_verbs ~reproduce_verbs ~sleepstate_verbs )
+concept: ~BODY_VERBS (~BODILY_ACTIVITIES_VERBS ~BODILY_FUNCTION_VERBS ~remain_stationary )
+concept: ~BOSS (anoint~v appoint~v boss~v command~v crown~v elect~v govern~v head~v lead~v manage~v oversee~v supervise~v )
+concept: ~BRAND (autograph~v brand~v caption~v initial~v label~v letter~v monogram~v sign~v )
+concept: ~BREATHE (breathe~v exhale~v hyperventilate~v inhale~v respire~v )
+concept: ~BUILD (amalgamate~v assemble~v build~v code~v compose~v concoct~v conjure~v construct~v contrive~v create~v design~v develop~v fabricate~v fashion~v forge~v formulate~v generate~v improvise~v instantiate~v 
+                 invent~v make~v manufacture~v mint~v produce~v program~v rebuild~v reconstitute~v recreate~v synthesize~v synthetise~v synthetize~v write~v )
+concept: ~CHANGE_STATE_BY_COOL (condense~v cristallise~v cristallize~v crystalise~v crystalize~v crystallise~v crystallize~v )
+concept: ~CHANGE_STATE_BY_HEAT (evaporate~v gasify~v liquefy~v liquify~v resublime~v sublime~v vaporise~v )
+concept: ~CHANGE_STATE_BY_MIXING (dissolve~v mix~v infuse~v combine~v )
+concept: ~CHAT (answer~v ask~v banter~v chatter~v chat~v chitchat~v commiserate~v confer~v consult~v converse~v debate~v discuss~v engage_in_conversation~v gab~v gossip~v jest~v joke~v muse~v parley~v 
+                rap~v retort~v schmooze~v speak~v talk~v )
+concept: ~CHILL (chill~v dethaw~v freeze~v frost~v glaciate~v quick-freeze~v refrigerate~v solidify~v unthaw~v )
+concept: ~CHOOSE (arbitrate~v chance~v choose~v decide~v guess~v handpick~v pick~v prefer~v rather~v risk~v select~v suggest~v )
+concept: ~CLASSIFY (categorise~v characterize~v classify~v class~v define~v diagnose~v identify~v interpret~v misclassify~v name~v peg~v pigeonhole~v reclassify~v sort~v stereotype~v subcategorise~v subcategorize~v subclassify~v typecast~v 
+                    winnow~v )
+concept: ~CLOTHING_VERBS (~dress ~gussy ~undress )
+concept: ~COLD_WEATHER (freeze~v hail~v sleet~v snow~v )
+concept: ~COLORIZE (bodypaint~v brighten~v coat~v colorise~v colorize~v color~v colourise~v colourize~v dye~v enamel~v fancify~v gild~v glaze~v handcolor~v handcolour~v lacquer~v paint~v polychromise~v polychromize~v 
+                    prettify~v repaint~v shellac~v stain~v tan~v tie-dye~v tint~v varnish~v watercolour~v whiten~v )
+concept: ~COMMUNICATE_VERBS (~generic_communicates ~nonverbal_communication_verbs ~speak_verbs ~videoing ~writing )
+concept: ~COMPETE_VERBS (~defend ~fight ~lost ~won )
+concept: ~COMPLETE (end~v expire~v finish~v ~ACHIEVE )
+concept: ~COMPLICATE (complexify~v complicate~v obfuscate~v )
+concept: ~CONTROLLING_VERBS (connive~v constrain~v contrive~v convince~v decontrol~v defer~v endeavor~v persuade~v plot~v ~AVOID ~exclusion_verbs ~govern_verbs ~include )
+concept: ~COOK (bake~v barbecue~v blanch~v boil~v braise~v broil~v brown~v caramelise~v caramelize~v coddle~v cook~v crispen~v crisp~v deep-fry~v free-base~v fry~v grill~v heat~v julienne~v 
+                microwave~v ovenbake~v overboil~v overcook~v overheat~v pan-broil~v pan-fry~v parboil~v parch~v peel~v percolate~v perk~v pickle~v plank~v poach~v pressure-cook~v pulp~v puree~v reheat~v rissole~v 
+                roast~v saute~v scale~v scallop~v shirr~v simmer~v steam~v stew~v toast~v warm-up~v )
+concept: ~COPY (ape~v chart~v copy~v diagram~v document~v duplicate~v emulate~v facsimile~v graph~v imitate~v map~v mimeograph~v mimic~v mimic~v publish~v quadruplicate~v record~v replicate~v reproduce~v 
+                tape~v xerox~v )
+concept: ~list ( enumerate~v list~v )
+concept: ~COUNT (average~v catalogue~v catalog~v ~list count~v  measure~v sum~v tally~v total~v )
+concept: ~CREATION_VERBS (blow~v churn~v coin~v compile~v derive~v form~v grind~v grow~v hack~v hammer~v model~v mold~v pound~v roll~v stage~v style~v summon~v ~ARRANGE ~BUILD 
+                          ~COPY )
+concept: ~CRY (cry~v mourn~v sob~v weep~v )
+concept: ~CUTART VERB (carve~v cast~v chisel~v engrave~v etch~v imprint~v incise~v inscribe~v scar~v scratch~v sculpture~v sculpt~v whittle~v )
+concept: ~DAMAGE_BEND VERB (bend~v contort~v crease~v crinkle~v crumple~v deform~v dent~v dislocate~v distend~v fold~v furrow~v pleat~v roll~v rumple~v scrunch~v splay~v sprain~v strain~v twist~v 
+                       wind~v wrinkle~v )
+concept: ~DAMAGE_BURN VERB (burn~v combust~v cremate~v ~ignite immolate~v incinerate~v scald~v smolder~v smoulder~v )
+concept: ~DAMAGE_EXPLODE VERB (atom-bomb~v blast~v bomb~v burst~v detonate~v explode~v nuke~v pop~v rupture~v torpedo~v vaporize~v )
+concept: ~DAMAGE_FATAL (~fatal_to_other ~fatal_to_self )
+concept: ~DAMAGE_GENERIC VERB (accost~v atomise~v atomize~v barbarise~v barbarize~v besiege~v brutalise~v brutalize~v coagulate~v coerce~v congeal~v corrupt~v curdle~v damage~v debilitate~v declaw~v defang~v defeminise~v defeminize~v 
+                          degrade~v dehumanise~v dehumanize~v demasculinise~v demasculinize~v deprive~v desex~v desexualise~v desexualize~v deteriorate~v detusk~v devitalise~v devitalize~v discommode~v discontinue~v emulsify~v enervate~v enfeeble~v eradicate~v excruciate~v 
+                          hospitalise~v hurt~v immobilise~v immobilize~v impair~v imperil~v impoverish~v incapacitate~v inflict~v injure~v institutionalise~v jellify~v jeopardise~v liquidise~v liquidize~v lobectomise~v lobectomize~v lobotomise~v lobotomize~v macerate~v 
+                          maltreat~v mastectomise~v mastectomize~v misalign~v mistreat~v mutate~v neutralise~v neutralize~v overwhelm~v paralyse~v paralyze~v penalise~v ravage~v skew~v sodomise~v sodomize~v spay~v steamroll~v sterilise~v stun~v 
+                          stupefy~v toperment~v torture~v trash~v traumatise~v traumatize~v unsex~v vasectomise~v vasectomize~v victimise~v wound~v )
+concept: ~DAMAGE_HIT (~damage_hit_foot ~damage_hit_other )
+concept: ~DAMAGE_HIT_FOOT VERB (flatten~v kick~v squash~v squish~v step_on~v )
+concept: ~DAMAGE_HIT_OTHER VERB (bean~v bludgeon~v bonk~v bruise~v bump~v cane~v clip~v concuss~v contuse~v crash~v crumble~v cuff~v graze~v hit~v impact~v K/O~v pistol-whip~v pulverise~v pulverize~v 
+                            punch~v smash_down~v smash~v smite~v strike~v trash~v )
+concept: ~DAMAGE_MAGIC VERB (accurse~v alchemise~v alchemize~v anathemise~v bedamn~v compel~v bewitch~v brainwash~v curse~v dematerialise~v dematerialize~v desanctify~v enchant~v ensourcel~v execrate~v fossilise~v fossilize~v hypnotise~v hypnotize~v imprecate~v 
+                        maledict~v mesmerize~v petrify~v powderise~v powderize~v sorcerise~v sorcerize~v spellbind~v stupefy~v transmute~v )
+concept: ~DAMAGE_POISON VERB (bacterise~v bacterize~v dose~v euthanize~v infect~v irradiate~v poison~v sting~v taint~v )
+concept: ~DAMAGE_PROJECTILE VERB (discharge~v fire~v gun_down~v gun~v launch~v shell~v shoot~v stone~v strafe~v )
+concept: ~DAMAGE_PUNCTURE VERB (bayonet~v bite~v bleed~v disembowel~v impale~v knife~v nip~v perforate~v pierce~v prick~v puncture~v stab~v thrust~v )
+concept: ~DAMAGE_SLICE VERB (amputate~v ax~v behead~v bifurcate~v butcher~v castrate~v chip~v chop~v chop_up~v cleave~v cut~v decapitate~v disfigure~v dismember~v emasculate~v eviscerate~v flake~v fragmentise~v fragmentize~v 
+                        gash~v geld~v guillotine~v hack~v hew~v juice~v maim~v mutilate~v nick~v pole-ax~v pole-axe~v poleax~v poleaxe~v prune~v rend~v reslice~v rip~v rive~v saw~v scissor~v 
+                        scrape~v scratch~v sever~v shred~v skin~v slash~v slice~v sliver~v snip~v subdivide~v sunder~v tear~v trifurcate~v trisect~v vivisect~v )
+concept: ~DAMAGE_SNAP VERB (break~v break_apart~v break_down~v break_up~v bust~v crack~v fracture~v rip~v shatter~v snap~v splinter~v split~v )
+concept: ~DAMAGE_UNUSUAL VERB (assimilate~v blind~v deafen~v defoliate~v deforest~v denude~v dissolve~v emaciate~v sunburn~v )
+concept: ~DAMAGE_VERBAL VERB (besmirch~v desecrate~v libel~v slander~v )
+concept: ~DAMAGE_VERBS (~DAMAGE_BEND ~DAMAGE_BURN ~DAMAGE_FATAL ~DAMAGE_GENERIC ~DAMAGE_HIT ~DAMAGE_MAGIC ~DAMAGE_POISON ~DAMAGE_PROJECTILE ~DAMAGE_PUNCTURE ~DAMAGE_SLICE ~DAMAGE_UNUSUAL ~DAMAGE_VERBAL )
+concept: ~DATE (court~v date~v go_out_with~v womanise~v womanize~v woo~v come_out_with~v ask_me_out~v asking_me_out~v seeing_anyone~v seeing_anybody~v )
+concept: ~DEACQUIRING_VERBS (~BEDEACQUIRED ~drop_verbs )
+concept: ~DECEIVE (bamboozle~v belie~v deceive~v dissemble~v equivocate~v feign~v fib~v hoodwink~v lie~v misinform~v mislead~v misrepresent~v misstate~v perjure~v prevaricate~v )
+concept: ~DECLINE_OBEY (balk~v disobey~v flout~v )
+concept: ~DECREASE_COUNT (decrease~v depreciate~v diminish~v divide~v dwindle~v halve~v lessen~v lose~v reduce~v shrink~v subtract~v )
+concept: ~DECREASE_SPEED (decelerate~v )
+concept: ~DECREASE_VERBS (~DECREASE_COUNT ~DECREASE_SPEED )
+concept: ~DEFEND (block~v counterattack~v cower~v deflect~v dodge~v feint~v parry~v riposte~v )
+concept: ~DEGRADE (decline~v decompose~v degrade~v devolve~v fester~v languish~v putrefy~v rot~v wane~v wilt~v wither~v worsen~v )
+concept: ~DESCRIBE (cast~v depict~v describe~v detail~v portray~v recast~v represent~v specify~v )
+concept: ~DISABLE (deactivate~v disable~v inactivate~v stop~v switch_off~v switch~v turn_off~v )
+concept: ~DISAPPEAR (conceal~v disappear~v hide~v vanish~v )
+concept: ~DISCHARGE (discharge~v )
+concept: ~DISENCHANT VERB (deenchant~v despell~v disenchant~v unenchant~v unsourcel~v )
+concept: ~DISLIKE (abhor~v abominate~v condemn~v deplore~v despise~v detest~v disdain~v dislike~v distrust~v do_not_like~v dread~v eschew~v execrate~v fear~v hate~v lament~v least_favorite~v loathe~v not_a_fan_of~v 
+                   resent~v scorn~v shun~v )
+concept: ~DRAW (applique~v autograph~v chalk~v cartoon~v charcoal~v crayon~v doodle~v draw~v forge~v illustrate~v ink~v doodle~v pencil~v print~v sketch~v stamp~v star~v stencil~v tattoo~v )
+concept: ~DRESS (attire~v camouflage~v change~v clad~v clothe~v disguise~v don~v dress~v enclothe~v enrobe~v garb~v overclothe~v robe~v tog~v underdress~v wear~v )
+concept: ~DRINK (bottlefeed~v breastfeed~v chug~v down~v drink~v glug~v gulp~v guzzle~v imbibe~v quaff~v sip~v slake~v slurp~v suck~v sup~v swig~v swill~v to_drink~v )
+concept: ~DRIVE (chauffeur~v drive~v park~v ticket~v )
+concept: ~DROP_JOB (abdicate~v renounce~v resign~v retire~v )
+concept: ~DROP_OBJECT (cede~v deal~v discard~v dispose~v distribute~v divest~v drop~v dump~v forfeit~v forsake~v give_onto~v give_up~v leave~v lose~v quit~v refund~v relinquish~v scrap~v shed~v 
+                       vacate~v  release~v )
+concept: ~DROP_VERBS (~DROP_JOB ~DROP_OBJECT )
+concept: ~DULL (dull~v )
+concept: ~EAT (bite~v bolt~v chew~v chomp~v chow_down~v crunch~v dine~v eat~v feed~v gluttonize~v gnaw~v gobble~v lick~v masticate~v munch~v nibble~v overeat~v overgorge~v partake~v 
+               peck~v salivate~v snack~v spoonfeed~v to_eat~v wolf~v )
+concept: ~ELECTRIFY (electrify~v energise~v energize~v recharge~v )
+concept: ~EMITFIRE (blaze~v burn~v enkindle~v flame~v flare~v ignite~v kindle~v light~v rekindle~v )
+concept: ~EMITGAS (bubble~v puff~v steam~v )
+concept: ~EMITGENERIC (emanate~v emit~v exude~v )
+concept: ~EMITLIGHT (beam~v blink~v flash~v flicker~v fluoresce~v glare~v illuminate~v gleam~v glint~v glisten~v glitter~v  glimmer~v dazzle~v bedazzle~v flicker~v  coruscate~v 
+ luminesce~v phosphoresce~v glow~v incandesce~v light~v scintillate~v shimmer~v shine~v sparkle~v twinkle~v )
+concept: ~EMITLIQUID (dribble~v drip~v drool~v expectorate~v foam~v gush~v jet~v leak~v ooze~v percolate~v pour~v secrete~v seep~v slobber~v slop~v slosh~v spill~v spit~v spout~v 
+                      sprout~v spurt~v squirt~v stream~v trickle~v )
+concept: ~EMITSMELL (reek~v smell~v stink~v )
+concept: ~EMITSOUND (babble~v bang~v beat~v beep~v bellow~v blare~v blast~v blat~v boom~v bubble~v burble~v burr~v buzz~v chatter~v chime~v chink~v chitter~v chug~v clack~v 
+                     clang~v clank~v clap~v clash~v clatter~v click~v cling~v clomp~v clump~v clunk~v crackle~v crack~v crash~v creak~v crepitate~v crunch~v cry~v ding~v dong~v echo~v 
+                     explode~v fizzle~v fizz~v groan~v growl~v gurgle~v hiss~v hoot~v hum~v jangle~v jingle~v knell~v knock~v lilt~v moan~v murmur~v patter~v peal~v pink~v plonk~v 
+                     plop~v plunk~v pop~v purr~v putter~v rap~v rasp~v rattle~v resonate~v resound~v reverberate~v ring~v roar~v roll~v rumble~v rustle~v scream~v screech~v shriek~v shrill~v 
+                     sing~v sizzle~v snap~v splash~v splutter~v sputter~v squeak~v squeal~v squelch~v swish~v swoosh~v thrum~v thud~v thump~v thunder~v thunk~v tick~v ting~v tinkle~v toll~v 
+                     toot~v trill~v trumpet~v twang~v vroom~v wail~v wheeze~v whine~v whir~v whish~v whistle~v whoosh~v zing~v )
+concept: ~EMOTIONAL_VERBS (goggle~v jeer~v mystify~v snort~v tempt~v ~AFFECTION ~CRY ~laugh ~misc_negative_emotions ~misc_positive_emotions ~surprise )
+concept: ~EMPLOY (commission~v contract~v employ~v engage~v enlist~v hire~v recruit~v reinstate~v sign_on~v sign_up~v subcontract~v train~v )
+concept: ~ENABLE (activate~v enable~v reactivate~v start~v switch_on~v toggle~v turn_on~v )
+concept: ~ENABLE_ACCESS_CONTAINMENT (open~v reopen~v unclog~v unlock~v unseal~v )
+concept: ~ENDRELATION (abandon~v annul~v betray~v break_up~v divorce~v estrange~v secede~v separate~v )
+concept: ~ENDURE (bear~v endure~v last~v linger~v maintain~v persist~v prevail~v remain~v survive~v weather~v withstand~v )
+concept: ~ENHANCE_VERBS (~DISENCHANT ~improve ~medical_improve ~repair ~resurrect )
+concept: ~EVENT_VERBS (~happen ~repeat )
+concept: ~EXCHANGE (~buy  ~swap ~sell ~invest earn~v  for_a_living~v for_cash~v for_money~v 
+   negotiate~v   owe~v transact~v   )
+concept: ~buy( buy~v purchase~v prepay~v pay~v  shop~v   underpay~v reimburse~v misspend~v overspend~v overpay~v underspend~v )
+concept: ~swap( barter~v exchange~v trade~v swap~v )
+concept: ~invest( bet~v invest~v gamble~v lend~v loan~v  )
+concept: ~sell(sell~v peddle~v  undersell~v merchandise~v flog~v overprice~v  underprice~v auction~v )
+concept: ~EXCLUSION_VERBS (boycott~v except~v omit~v ~BANISH ~BLOCK_ACCESS ~jail ~capture ~prevent ~silence )
+concept: ~EXCRETE_AIR (belch~v blow~v burp~v eruct~v fart~v sneeze~v )
+concept: ~EXCRETE_LIQUID (pee~v perspire~v piss~v sweat~v urinate~v wee~v )
+concept: ~EXCRETE_SOLID (defecate~v excrete~v poop~v shit~v void~v )
+concept: ~EXCRETING_VERBS (egest~v ~EXCRETE_AIR ~EXCRETE_LIQUID ~EXCRETE_SOLID )
+concept: ~EXERCISE (exercise~v fence~v mud-wrestle~v mudwrestle~v waterski~v weight-lift~v weightlift~v )
+concept: ~EXTINGUISH (extinguish~v put_out~v )
+concept: ~FARM (dig~v farm~v fertilise~v fertilize~v germinate~v grow~v hoe~v mow~v mulch~v plant~v plough~v plow~v pollinate~v raise~v rake~v replant~v ripen~v seed~v shade~v 
+                shovel~v tend~v till~v )
+concept: ~FATAL_OTHER_BURN (immolate~v incinerate~v )
+concept: ~FATAL_OTHER_STRANGLE (asphyxiate~v choke~v garrote~v hang~v lynch~v smother~v strangle~v strangulate~v suffocate~v throttle~v )
+concept: ~FATAL_TO_OTHER (abolish~v annihilate~v assassinate~v behead~v blitz~v bury~v bushwhack~v butcher~v chop_up~v cleave~v crucify~v crumble~v crush~v death~v decapitate~v decimate~v delete~v demolish~v destroy~v 
+                          devastate~v disconnect~v discorporate~v disembowel~v disintegrate~v dismember~v dispatch~v drown~v efface~v electrocute~v eliminate~v eliminate~v entomb~v erase~v euthanatise~v euthanatize~v euthanize~v expire~v exsanguinate~v exterminate~v 
+                          exterpate~v extirpate~v freeze~v gun~v gun_down~v impale~v inter~v juice~v kill~v level~v liquidate~v martyrise~v martyrize~v massacre~v melt~v mummify~v murder~v obliterate~v off~v poison~v 
+                          power-off~v power_off~v raze~v rebury~v reobliterate~v ruin~v sacrifice~v slaughter~v slay~v smash~v smash_down~v squash~v squish~v starve~v step_on~v turn_off~v undo~v unmake~v unplug~v waste~v 
+                          wreck~v ~DAMAGE_EXPLODE ~DAMAGE_SNAP ~FATAL_OTHER_BURN ~FATAL_OTHER_STRANGLE )
+concept: ~FATAL_TO_SELF (asphyxiate~v die_out~v die~v discorporate~v drown~v explode~v implode~v mariticide~v perish~v power-off~v predecease~v self-destroy~v self-destruct~v starve~v suffocate~v suicide~v )
+concept: ~FAULTY_THINK (confuse~v forget~v misapprehend~v misconceive~v misconstrue~v misidentify~v misinterpret~v misremember~v misunderstand~v )
+concept: ~FIGHT (aim~v altercate~v attack~v battle~v beat~v box~v brawl~v challenge~v clash~v combat~v compete~v conflict~v confront~v counterchallenge~v duel~v endanger~v feud~v fight~v invade~v 
+                 joust~v oppose~v repel~v resist~v retaliate~v scuffle~v skirmish~v spar~v struggle~v target~v threaten~v tilt~v tussle~v vie~v war~v wrestle~v )
+concept: ~FLOURISH (extend~v flourish~v predominate~v prosper~v thrive~v )
+concept: ~FORCE_OBEY (command~v compel~v demand~v enslave~v oblige~v order~v require~v subjugate~v tame~v )
+concept: ~GAIN_VERBS (~ACQUIRING_VERBS )
+concept: ~GAMBLE (bet~v wager~v )
+concept: ~GENERIC_COMMUNICATES (communicate~v contact~v empathize~v get_in_touch_with~v reach~v )
+concept: ~GENERIC_DO_VERBS (~ACT ~use )
+concept: ~GENERIC_EFFECT (affect~v alter~v change~v modify~v morph~v transform~v )
+concept: ~GENERIC_INGESTION (consume~v digest~v down~v ingest~v )
+concept: ~GENERICART (adorn~v antique~v beautify~v cover~v decorate~v embellish~v glamorise~v glamorize~v glamourise~v glamourize~v mark~v ornament~v speckle~v wrap~v )
+concept: ~GESTURES (cue~v demonstrate~v designate~v genuflect~v gesture~v indicate~v mark~v nod~v point~v semaphore~v show~v shrug~v signal~v sign~v tremble~v wince~v )
+concept: ~GET (accrue~v accumulate~v acquire~v adopt~v appropriate~v batch~v collect~v compensate~v exact~v find~v garner~v gather~v get~v grab~v grip~v hunt~v obtain~v 
+               pick_up~v recompense~v recover~v regain~v remunerate~v repay~v retrieve~v serve~v stockpile~v take~v take_up~v )
+concept: ~GET_BIGGER (bloat~v bulge~v dilate~v distend~v enlarge~v expand~v grow~v mushroom~v snowball~v stretch~v widen~v )
+concept: ~GET_SMALLER (compress~v condense~v contract~v shrink~v shrivel~v slenderize~v slim~v thin~v )
+concept: ~GIVE (award~v bequeath~v bestow~v contribute~v convey~v deed~v deliver~v dish_out~v dish~v dispense~v dole_out~v donate~v fork_over~v fund~v furnish~v gift~v give~v grant~v hand_over~v 
+                hand~v reward~v turn_over~v )
+concept: ~GIVE_BIRTH (calve~v cub~v fawn~v foal~v kitten~v lamb~v litter~v pup~v reproduce~v spawn~v whelp~v )
+concept: ~GOLFING (putt~v )
+concept: ~GOVERN_VERBS (conquer~v impose~v ~BOSS ~legal_verbs ~obedience_verbs )
+concept: ~GROOM (bathe~v bob~v braid~v brush~v clip~v coiffe~v coldcream~v comb~v condition~v crimp~v crop~v curl~v curry~v cut~v depilate~v dry~v dye~v file~v floss~v 
+                 gel~v groom~v henna~v highlight~v lather~v lave~v manicure~v neaten~v paint~v part~v pedicure~v perm~v plait~v pluck~v powder~v rinse~v rouge~v shampoo~v shave~v shower~v 
+                 soap~v stye~v talc~v tease~v towel~v )
+concept: ~GUSSY (doll~v overdress~v preen~v primp~v spruce~v )
+concept: ~HALT (cease~v halt~v stop~v terminate~v )
+concept: ~HAPPEN (come_about~v happen~v occur~v take_place~v transpire~v )
+concept: ~HEALTH_VERBS (~DAMAGE_VERBS ~DEGRADE ~ENHANCE_VERBS ~FLOURISH ~illhealth_verbs )
+concept: ~HEAR (eavesdrop~v hear~v listen~v overhear~v )
+concept: ~IGNITE (fire~v flame~v ignite~v light~v kindle~v enkindle~v incinerate~v burn~v  )
+concept: ~HEAT ( boil~v cauterise~v cauterize~v char~v cook~v defrost~v deice~v electrocauterise~v electrocauterize~v fry~v heat~v pasteurise~v pasteurize~v preheat~v 
+               bake~v barbeque~v boil~v broil~v fry~v roast~v simmer~v stir_fry~v smelt~v fuse~v melt~v rewarm~v scorch~v sear~v singe~v sterilize~v thaw~v thermalise~v thermalize~v thermocauterise~v thermocauterize~v unfreeze~v warm~v )
+concept: ~HELP (abet~v advise~v aid~v assist~v do_I_a_favor~v do_you_a_favor~v facilitate~v give_I_a_hand~v give_you_a_hand~v help~v lend_I_a_hand~v lend_you_a_hand~v )
+concept: ~HOT_WEATHER (swelter~v thaw~v )
+concept: ~ILLHEALTH_VERBS (ache~v hurt~v sicken~v ~BLOOD_ILL ~lung_ill ~stomach_ill )
+concept: ~IMAGINING_THINK (cerebrate~v cogitate~v conceive~v dream_up~v dummy~v envisage~v envision~v fake~v fantasize~v hypothecate~v hypothesise~v hypothesize~v image~v imagine~v introspect~v outguess~v plan~v predict~v preplan~v 
+                           pretend~v simulate~v suppose~v theorise~v visualise~v visualize~v wish~v wonder~v )
+concept: ~capture (capture~v catch~v ensnare~v entrap~v handcuff~v hem_in~v herd~v  restrain~v shanghai~v )
+concept: ~IMPROVE (augment~v enhance~v evolve~v improve~v prolong~v regenerate~v remodel~v renovate~v restitute~v revamp~v revolutionize~v )
+concept: ~INANIMATE_MOVE_VERBS (angle~v ascend~v bring~v cache~v carry~v cascade~v climb~v come~v crawl~v crest~v crisscross~v cross~v cut~v descend~v dip~v dive~v drip~v drop~v edge~v 
+                                emerge~v flow~v go~v meander~v mount~v ooze~v pack~v pass~v plummet~v plunge~v range~v ricochet~v rise~v run~v seep~v skirt~v slant~v snake~v store~v stow~v 
+                                straggle~v stretch~v sweep~v swerve~v transport~v tumble~v turn~v twist~v undulate~v veer~v wander~v weave~v wind~v zigzag~v )
+concept: ~INANIMATE_STATIONARY_VERBS (abut~v adjoin~v balance~v bestride~v blanket~v border~v bound~v bow~v bracket~v bridge~v cap~v circle~v cloak~v cluster~v contain~v cover~v cross~v crouch~v dangle~v 
+                                      droop~v edge~v encircle~v enclose~v encompass~v engulf~v envelop~v fence~v fill~v flank~v flop~v follow~v frame~v group~v hang~v head~v hover~v huddle~v hunch~v intersect~v 
+                                      jut~v kneel~v lean~v lie~v line~v loll~v loom~v lounge~v neighbor~v nestle~v overcast~v perch~v plop~v precede~v protrude~v recline~v repose~v rest~v rim~v ring~v 
+                                      rise~v roost~v sag~v sit~v skirt~v slope~v slouch~v slump~v span~v sprawl~v squat~v stand~v stoop~v straddle~v support~v surmount~v surround~v swing~v tilt~v top~v 
+                                      touch~v tower~v traverse~v underlie~v wreathe~v )
+concept: ~INANIMATE_VERBS (~INANIMATE_MOVE_VERBS ~INANIMATE_STATIONARY_VERBS ~physicalattribute_verbs )
+concept: ~INCLUDE (admit~v include~v invite~v open~v welcome~v )
+concept: ~INCREASE_CONTAINMENT (cram~v fill~v inflate~v load~v pack~v stuff~v )
+concept: ~INCREASE_COUNT (accrete~v accumulate~v add~v aggravate~v amass~v amplify~v append~v augment~v double~v enrich~v gain~v grow~v improve~v increase~v multiply~v proliferate~v quadruple~v refill~v replenish~v 
+                          skyrocket~v swell~v )
+concept: ~INCREASE_SPEED (accelerate~v )
+concept: ~INCREASE_VERBS (~INCREASE_COUNT ~INCREASE_SPEED )
+concept: ~INGESTING_VERBS (~ABSORB ~GENERIC_INGESTION ~inhale ~swallowing_verbs )
+concept: ~INHALE (breathe~v exhale~v hyperventilate~v inhale~v respire~v smoke~v snort~v suspire~v toke~v )
+concept: ~JAIL (cage~v commit~v  confine~v detain~v  hospitalize~v imprison~v incarcerate~v institutionalize~v jail~v  )
+concept: ~JOIN (adhere~v admix~v adsorb~v affix~v amalgamate~v amalgamate~v anchor~v assemble~v associate~v attach~v band~v belt~v bind~v blend~v bolt~v bond~v bracket~v buckle~v button~v 
+                cement~v chain~v cinch~v coalesce~v combine~v compose~v conjoin~v connect~v couple~v entangle~v entwine~v epoxy~v fasten_down~v fasten~v fetter~v glue~v handcuff~v harness~v hinge~v hitch~v 
+                homogenize~v hook~v incorporate~v integrate~v join~v knot~v lace~v lash~v lassoo~v lasso~v latch~v leash~v link~v loop~v manacle~v match~v mix~v moor~v muzzle~v nail~v 
+                overlap~v padlock~v peg~v pin~v plaster~v rivet~v rope~v screw~v shackle~v skewer~v solder~v splice~v staple~v stick~v stitch~v strap~v tack~v tape~v tether~v thread~v 
+                thumbtack~v tie~v trammel~v truss~v unify~v unite~v wire~v yoke~v zip~v )
+concept: ~JUDGE (adjudicate~v analyze~v compare~v contrast~v critique~v deem~v determine~v evaluate~v grade~v judge~v lowball~v misgauge~v misjudge~v overrate~v overvalue~v rank~v underrate~v valuate~v )
+concept: ~JUDGEMENT_VERBS (~CHOOSE ~CLASSIFY ~DESCRIBE ~JUDGE ~opinion_verbs )
+concept: ~LAUGH (cackle~v chortle~v chuckle~v giggle~v grin~v groan~v guffaw~v howl~v laughter~v laugh~v smirk~v snicker~v snigger~v titter~v )
+concept: ~LEGAL_ALLOW (accede~v allow~v approve~v authorise~v authorize~v capitulate~v certify~v decriminalise~v decriminalize~v legalise~v legalize~v legitimatise~v legitimatize~v legitimise~v legitimize~v let~v license~v okay~v permit~v 
+                       sanction~v tolerate~v vet~v )
+concept: ~LEGAL_GUILT (admit~v cheat~v commit~v )
+concept: ~LEGAL_HARM (accuse~v arraign~v arrest~v blame~v charge~v convict~v court-martial~v enforce~v extradite~v sentence~v )
+concept: ~LEGAL_HELP (appeal~v commute~v pardon~v reprieve~v )
+concept: ~LEGAL_LAWMAKING (amend~v countermand~v overrule~v petition~v repeal~v rescind~v )
+concept: ~LEGAL_VERBS (~LEGAL_ALLOW ~LEGAL_GUILT ~LEGAL_HARM ~LEGAL_HELP ~LEGAL_LAWMAKING )
+concept: ~LIKE (adore~v approve~v are_big_on~v be_keen_on~v be_partial_to~v care_about~v care_for~v care~v cherish~v deify~v delight_in~v desire~v dote_on~v enjoy~v esteem~v exalt~v fancy~v favorite~v favor~v go_for~v 
+               interested_in~v like~v  idolize~v indulge_in~v like~v love~v need~v prefer~v prize~v relish~v require~v respect~v revel_in~v savor~v treasure~v trust~v value~v venerate~v worship~v )
+concept: ~LIVE (abide~v board~v domicile~v dwell~v live_with~v exist~v frequent~v inhabit~v live~v lodge~v nest~v occupy~v rent~v infest~v reside~v shelter~v stay~v )
+concept: ~LOOSEN (loosen~v )
+concept: ~LOSE_VERBS (leech~v place~v tax~v ~DEACQUIRING_VERBS )
+concept: ~LOST (concede~v lose~v )
+concept: ~LUNG_ILL (cough_up~v cough~v expectorate~v sneeze~v snuffle~v wheeze~v )
+concept: ~MAKE_CLEANER (brighten~v clean_up~v cleanse~v clean~v hand-wash~v mop~v pressure-wash~v sand-blast~v scrub~v sponge~v spring-clean~v trim~v vacuum-clean~v vacuum~v wash~v water-wash~v wax~v wipe~v )
+concept: ~MAKE_DIRTIER (dirty~v fade~v grime~v mess~v muddy~v muss~v stain~v tarnish~v )
+concept: ~MAKE_DRIER (blow-dry~v defog~v dehumidify~v dehydrate~v demist~v desiccate~v dessicate~v dry~v spin-dry~v )
+concept: ~MAKE_LOVE (a_quickie~v bang_me~v bang_you~v bone_you~v bonk~v butt_fuck~v coitus~n consumate~v copulate~v deflower~v ejaculate~v fellate~v fingering~v fisting~v fornicate~v fuck~v get_into_your_pants~v get_it_on~v get_laid~v 
+                     give_head~v go_down_on~v go_to_bed~v had_sex~v hand_job~v have_sex~v have_sex~v humping~v hump~v impregnate~v intercourse~n jack_off~v jerk_off~v jill_off~v made_love~v make_love~v make_out~v masturbate~v pop_her_cherry~v pop_your_cherry~v 
+                     rimming~v rub_your~v rut~v screw_you~v screw~v seduce~v shag~v sleep_with_I~v stick_it_in_you~v suck_your~v tit_fuck~v  to_bed_with~v to_hump~v wank_off~v wank~v you_to_bed~v )
+concept: ~MAKE_WETTER (baste~v douse~v drench~v flood~v humidify~v water~v  immerse~v irrigate~v moisten~v moisturise~v moisturize~v moisturize~v saturate~v soak~v spray~v submerge~v submerse~v waterlog~v wet~v )
+concept: ~MARRY (betroth~v bond~v conjoin~v espouse~v inmarry~v intermarry~v marry~v mate~v mismarry~v partner~v remarry~v rewed~v wed~v wive~v )
+concept: ~MEDICAL_IMPROVE (alleviate~v anesthetise~v antisepticize~v assuage~v bandage~v convalesce~v cure~v detoxify~v diagnose~v disinfect~v heal~v immunise~v immunize~v medicate~v mend~v narcotize~v palliate~v prescribe~v recuperate~v 
+                           doctor~v nurse~v relieve~v salve~v sedate~v soothe~v splint~v suture~v tranquilize~v treat~v vaccinate~v )
+concept: ~MEET (acquaint~v encounter~v introduce~v meet~v )
+concept: ~MENTAL_VERBS (~COUNT ~JUDGEMENT_VERBS ~play ~remember ~think_verbs ~worship ~exorcize  )
+concept: ~MINE (excavate~v mine~v quarry~v strip_mine~v surface_mine~v )
+concept: ~MISC_NEGATIVE_EMOTIONS (alarm~v alienate~v annoy~v appal~v beware~v bewilder~v confuse~v disappoint~v disapprove~v displease~v embarrass~v frighten~v frown~v glare~v glower~v grimace~v groan~v growl~v horrify~v 
+                                  irk~v irritate~v moan~v pester~v pout~v provoke~v regret~v scare~v scoff~v scowl~v sigh~v simper~v sneer~v sniff~v snivel~v spit~v suffer~v sulk~v vex~v worry~v )
+concept: ~MISC_POSITIVE_EMOTIONS (astound~v attract~v beam~v bedazzle~v beguile~v blush~v excite~v flirt~v gratify~v hope~v ooh~v please~v rejoice~v smile~v tantalize~v whistle~v )
+concept: ~MOTION_ILL (convulse~v quake~v quiver~v shake~v shiver~v shudder~v spasm~v swoon~v tremble~v twitch~v writhe~v )
+concept: ~MOVING_AIR (descend~v drop~v fall~v fly~v pilot~v slip~v )
+concept: ~MOVING_BEYOND (pass~v pass_by~v pass~v )
+concept: ~MOVING_ESCAPE (bolt~v depart~v disappear~v disembark~v escape~v escape~v evade~v exit~v flee~v leave~v retreat~v skedaddle~v slip_away~v vacate~v vamoose~v vanish~v withdraw~v )
+concept: ~MOVING_FAST_LAND (barrel~v bound~v breeze~v canter~v careen~v carom~v charge~v chase~v dart~v dash~v gallop~v hasten~v hurry~v hurtle~v hustle~v jog~v lope~v race~v rocket~v 
+                            run~v run~v rush~v scamper~v scoot~v scram~v scramble~v scurry~v speed~v speed~v sprint~v streak~v zoom~v )
+concept: ~MOVING_GENERIC (ascend~v bounce~v bowl~v cavort~v climb~v coast~v continue~v cross~v cross~v cruise~v curve~v distance~v dog~v fit~v flit~v follow~v glide~v go_by~v guide~v 
+                          head~v hop~v jump~v lay~v leap~v meander~v migrate~v move_onward~v navigate~v pedal~v place~v prance~v proceed~v pursue~v put~v rally~v ramble~v rise~v roam~v romp~v 
+                          rove~v set~v shadow~v shove~v sidle~v skip~v skitter~v slow~v spiral~v squire~v stray~v sweep~v swerve~v tour~v trail~v traverse~v usher~v vault~v wander~v wend~v 
+                          yaw~v zag~v zig-zag~v zigzag~v zig~v )
+concept: ~MOVING_OBJECT (accompany~v convoy~v escort~v move~v pull~v push~v shove_along~v slide~v steer~v tow~v  truck~v )
+concept: ~MOVING_SLOW_LAND (amble~v backpack~v burrow~v clamber~v climb~v crawl~v creep~v dodder~v drag~v drift~v file~v frolic~v gambol~v glide~v goose_step~v hike~v hike~v hobble~v inch~v 
+                            jog~v limp~v lumber~v lurch~v march~v march_on~v march_onward~v mosey~v parade~v perambulate~v plod~v prance~v promenade~v prowl~v pull~v push~v reel~v roll~v sashay~v saunter~v 
+                            shamble~v shuffle~v skulk~v sleepwalk~v slink~v slither~v slog~v sneak~v somersault~v stagger~v stalk~v step~v stomp~v stride~v stride~v stroll~v strut~v stumble~v swagger~v tiptoe~v 
+                            toddle~v totter~v traipse~v trek~v troop~v trot~v trudge~v tug~v waddle~v walk~v walk~v yank~v )
+concept: ~MOVING_TO (approach~v come~v enter~v go~v journey~v travel~v trip~v voyage~v )
+concept: ~MOVING_WATER (dive~v float~v ford~v oar~v paddle~v row~v sail~v scuba~v snorkel~v surf~v swim~v swim~v tack~v wade~v water_ski~v )
+concept: ~NEGATIVE_SOCIAL (accurse~v asperse~v assail~v backbite~v badmouth~v belittle~v bemock~v berate~v blame~v blaspheme~v calumniate~v castigate~v censure~v chasten~v chastise~v chide~v condemn~v criminate~v criticise~v 
+                           criticize~v curse~v damn~v decry~v defame~v denigrate~v denounce~v deprecate~v deride~v disparage~v diss~v doubt~v excoriate~v fault~v gibe~v impeach~v imprecate~v incriminate~v indict~v insult~v 
+                           lambast~v lambaste~v lampoon~v malign~v mock~v penalize~v persecute~v prosecute~v punish~v rebuke~v recall~v recriminate~v remonstrate~v reprehend~v reprimand~v reproach~v reprove~v repudiate~v revile~v ridicule~v 
+                           scold~v scorn~v shame~v slander~v snipe~v snitch~v snub~v stigmatize~v stultify~v sully~v traduce~v trivialise~v trivialize~v upbraid~v victimize~v vilify~v vituperate~v )
+concept: ~NICE_WEATHER (clear~v shine~v )
+concept: ~NONVERBAL_COMMUNICATION_VERBS (~ANIMALSOUNDS ~EMOTIONAL_VERBS ~GESTURES )
+concept: ~OBEDIENCE_VERBS (~ACCEPT_OBEY ~DECLINE_OBEY ~FORCE_OBEY )
+concept: ~OPINION_VERBS (believe~v doubt~v prove~v reason~v reflect~v solve~v surmise~v think~v ~DISLIKE ~LIKE ~want )
+concept: ~OWN (belong~v brandish~v  clasp~v clutch~v grab~v grasp~v grip~v handle~v have~v hold~v keep~v own~v possess~v retain~v wield~v )
+concept: ~PARENT (babysit~v care_for~v defend~v feed~v nourish~v protect~v safeguard~v shepherd~v shield~v )
+concept: ~PAUSE (pause~v suspend~v )
+concept: ~PERCEPTION_VERBS (coalesce~v derive~v develop~v exude~v flow~v form~v grow~v open~v plop~v stream~v supervene~v surge~v wax~v ~AWAREOF ~BALANCE ~HEAR ~search ~smell ~taste 
+                            ~touch ~vision_verbs )
+concept: ~PHOTOGRAPHING (photograph~v underexpose~v )
+concept: ~PHYSICALATTRIBUTE_VERBS (~EMITFIRE ~EMITGAS ~EMITGENERIC ~EMITLIGHT ~EMITLIQUID ~EMITSMELL ~EMITSOUND )
+concept: ~PLAY (clown_around~v play_act~v play~v toy~v )
+concept: ~positive_social (~greet ~praise forgive~v    herald~v      recommend~v   thank~v   sanction~v   canonize~v   canonise~v  bless~v     condone~v  exuberate~v pardon~v   eulogize~v   excuse~v   )  
+concept: ~greet (greet~v  hail~v  salute~v  welcome~v  bow~v  wave~v )
+concept: ~praise (felicitate~v extol~v honor~v hail~v glorify~v beatify~v salute~v toast~v celebrate~v approve~v applaud~v acclaim~v congratulate~v compliment~v commend~v cheer~v cheerlead~v jubilate~v laud~v exult~v praise~v overpraise~v )
+
+concept: ~POSSESSION_VERBS (~EMPLOY ~EXCHANGE ~GAIN_VERBS ~HELP ~LOSE_VERBS ~OWN ~price ~promise ~purchaseinterest )
+concept: ~PREVENT (avert~v ban~v bar~v block~v control~v curb~v deter~v discourage~v forbid~v hamper~v hinder~v impede~v inhibit~v limit~v lull~v obstruct~v preclude~v prevent~v prohibit~v 
+                   rein~v repress~v restrain~v stop~v subdue~v )
+concept: ~PRICE (appraise~v approximate~v assess~v bargain~v calibrate~v dicker~v estimate~v fix~v gauge~v peg~v price~v rate~v reappraise~v value~v )
+concept: ~PROMISE (guarantee~v offer~v pledge~v promise~v vow~v proffer~v )
+concept: ~PURCHASEINTEREST (looking_for~v looking_to~v show_you~v )
+concept: ~RAIN (drizzle~v fog~v lightning~v mist~v mizzle~v pelt~v pour~v precipitate~v rain~v shower~v sprinkle~v storm~v thunder~v )
+concept: ~READ (browse~v read~v skim~v )
+concept: ~REASONING_BASIS (assume~v depend_on~v depend_upon~v presume~v rely_on~v trust~v )
+concept: ~REASONING_CONCLUSION (grok~v believe~v calculate~v comprehend~v compute~v deduce~v derive~v disprove~v infer~v puzzle_out~v rationalize~v realize~v twig~v understand~v )
+concept: ~REASONING_PROCESS (attention~v concentrate~v conjecture~v consider~v deliberate~v entertain~v experiment~v focus~v ponder~v reason~v speculate~v test~v think~v trouble-shoot~v troubleshoot~v validate~v )
+concept: ~REASONING_THINK_VERBS (conceive~v conclude~v cost~v deduce~v experience~v figure~v gather~v idea~v mind~v opinion~v prove~v remind~v suspect~v ~REASONING_BASIS ~REASONING_CONCLUSION ~REASONING_PROCESS )
+concept: ~REDUCE_CONTAINMENT (deflate~v drain~v empty~v unload~v unpack~v )
+concept: ~REMAIN_STATIONARY (adjust~v attend~v bask~v bend~v bob~v bow~v buck~v budge~v crouch~v dally~v dance~v dawdle~v dillydally~v fidget~v flap~v float~v flop~v flutter~v gyrate~v 
+                             hang~v hover~v hunch~v jiggle~v joggle~v kneel~v lallygag~v lean~v lie~v lie_down~v lie~v loaf~v loiter~v lollygag~v lurk~v oscillate~v overstay~v perch~v plop~v pulsate~v 
+                             quail~v quake~v quiver~v remain~v revolve~v rise~v rock~v roil~v rotate~v shake~v shake~v sit~v sit_down~v sit~v slouch~v slump~v sprawl~v squat~v squat~v squirm~v 
+                             stand~v stand_up~v stand~v stay~v stir~v stoop~v stop~v straddle~v sunbathe~v sway~v swirl~v teeter~v throb~v totter~v tremble~v twitch~v undulate~v vacillate~v vegetate~v vibrate~v 
+                             waft~v waggle~v wait~v wait~v wiggle~v wiggle~v wobble~v wriggle~v writhe~v )
+concept: ~REMEMBER (apprentice~v ascertain~v glean~v know~v learn~v memorize~v practice~v recall~v recite~v recognize~v recollect~v rehearse~v remember~v )
+concept: ~REMOVE_MAGNETISM (degauss~v demagnetise~v demagnetize~v )
+concept: ~REMOVE_SMELL (deodorise~v deodorize~v deodourise~v )
+concept: ~REPAIR (aid~v ameliorate~v correct~v fix~v mitigate~v modernise~v modernize~v reboot~v rectify~v refurbish~v remediate~v repair~v restore~v tune~v )
+concept: ~REPEAT (cycle~v redo~v reenact~v repeat~v )
+concept: ~REPRODUCE_VERBS (beget~v gestate~v incubate~v menstruate~v miscarry~v ovulate~v pollenate~v procreate~v ~GIVE_BIRTH ~MAKE_LOVE )
+concept: ~RESURRECT (reanimate~v reincarnate~v rejuvenate~v renew~v resurrect~v resuscitate~v revitalise~v revive~v vitalise~v vitalize~v )
+concept: ~ROLE_VERBS (~BEFRIEND ~COMPETE_VERBS ~DATE ~ENDRELATION ~MARRY ~MEET ~PARENT )
+concept: ~RUST (corrode~v oxidize~v reoxidise~v reoxidize~v rust~v )
+concept: ~SEARCH (advertise~v check~v comb~v dive~v dredge~v examine~v excavate~v explore~v ferret~v forage~v frisk~v grope~v hunt~v inspect~v investigate~v look_for~v patrol~v probe~v prospect~v 
+                  prowl~v quarry~v ransack~v retrace~v riffle~v rifle~v root~v rummage~v scan~v scavenge~v scout~v scrutinize~v search~v seek~v sift~v stalk~v survey~v track~v trawl~v troll~v 
+                  watch_for~v )
+concept: ~SEW (crochet~v darn~v embroider~v hem~v  knit~v sew~v weave~v )
+concept: ~SHARPEN (sharpen~v )
+concept: ~SILENCE (dampen~v gag~v hush_up~v hush~v keep_down~v muzzle~v quash~v quell~v shut_up~v silence~v squelch~v stamp_down~v stifle~v still~v suppress~v )
+concept: ~SIMPLIFY (oversimplify~v simplify~v )
+concept: ~SLEEP (asleep~v catnap~v doze~v dream~v drowse~v hibernate~v nap~v oversleep~v rest~v sleep~v slumber~v snooze~v snore~v somnambulate~v )
+concept: ~SLEEPSTATE_VERBS (yawn~v ~SLEEP ~waken )
+concept: ~SMELL (scent~v smell~v sniff~v )
+concept: ~SOCIAL_REPUTATION_VERBS (~NEGATIVE_SOCIAL ~POSITIVE_SOCIAL )
+concept: ~SOCIAL_VERBS (~COMMUNICATE_VERBS ~CONTROLLING_VERBS ~POSSESSION_VERBS ~ROLE_VERBS )
+concept: ~SPEAK_THRU_DEVICE (broadcast~v page~v phone~v radio~v tape_record~v telecommunicate~v telephone~v wireless~v )
+concept: ~SPEAK_VERBS (~TALK ~DECEIVE ~SOCIAL_REPUTATION_VERBS ~SPEAK_THRU_DEVICE ~talkstyle ~tell ~verbal_agree ~verbal_disagree )
+concept: ~SPECIAL_ACTIVITIES_VERBS (~BE_VERBS ~COOK ~DRIVE ~EXERCISE ~FARM ~GAMBLE ~GOLFING ~LIVE ~MINE ~PHOTOGRAPHING )
+concept: ~START (begin~v cause~v continue~v inaugurate~v initialize~v initiate~v proceed~v provoke~v restart~v resume~v start~v trigger~v )
+concept: ~STEAL (abduct~v abscond~v annex~v burglarise~v burglarize~v burgle~v carjack~v confiscate~v cop~v emancipate~v embezzle~v extort~v filch~v gip~v grab~v highjack~v hijack~v hook~v hornswoggle~v 
+                 kidnap~v knock_off~v liberate~v lift~v nab~v nick~v nobble~v pickpocket~v pilfer~v pinch~v pirate~v purloin~v reclaim~v redeem~v repossess~v rescue~v rob~v rustle~v salvage~v seize~v 
+                 sequester~v shop-lift~v shoplift~v smuggle~v snatch~v sneak~v steal~v swipe~v take~v thieve~v wrangle~v wrest~v  )
+concept: ~stomach_ILL (barf~v disgorge~v expectorate~v puke~v regurgitate~v retch~v spew~v spue~v throw_up~v upchuck~v vomit~v )
+concept: ~STOP_VERBS (~ABORT ~COMPLETE ~HALT ~PAUSE )
+concept: ~STRENGTHEN (harden~v harden~v reinforce~v restrengthen~v rigidify~v ruggedise~v ruggedize~v stiffen~v strengthen~v thicken~v toughen~v )
+concept: ~SUBSTITUTE (change~v convert~v interchange~v replace~v subrogate~v substitute~v supplant~v switch~v )
+concept: ~SURPRISE (amaze~v astonish~v boggle~v flabbergast~v gape~v gasp~v gawk~v surprise~v )
+concept: ~SWALLOW_DRINK_VERBS (~DRINK )
+concept: ~SWALLOW_EITHER (grab~v consume~v devour~v feast~v partake_of~v pig_out~v polish_off!v~v savour~v subsist~v swallow~v taste~v )
+concept: ~SWALLOW_FOOD_VERBS (feed~v gorge~v graze~v ~EAT )
+concept: ~SWALLOWING_VERBS (banquet~v breakfast~v brunch~v luncheon~v lunch~v nosh~v nutrify~v picnic~v ~SWALLOW_DRINK_VERBS ~SWALLOW_EITHER ~SWALLOW_FOOD_VERBS )
+concept: ~TALKSTYLE (babble~v bark~v bawl~v bellow~v blare~v bleat~v blurt~v boom~v bray~v burble~v cackle~v call~v carol~v chant~v chirp~v cluck~v coo~v crab~v croak~v 
+                     croon~v crow~v cry~v gabble~v gibber~v groan~v growl~v grumble~v grunt~v gurgle~v hiss~v holler~v hoot~v howl~v hum~v jabber~v lilt~v lisp~v mispronounce~v moan~v 
+                     mumble~v murmur~v mutter~v natter~v purr~v quaver~v rage~v rant~v rasp~v rhyme~v roar~v rumble~v scream~v screech~v shout~v shriek~v sign~v simper~v sing~v snap~v 
+                     snarl~v snuffle~v splutter~v squall~v squawk~v squeak~v squeal~v stammer~v stemmer~v stutter~v thunder~v trill~v trumpet~v twitter~v wail~v warble~v wheeze~v whimper~v whine~v whisper~v 
+                     whistle~v whoop~v yak~v yammer~v yap~v yell~v yelp~v yodel~v )
+concept: ~TASTE (relish~v savor~v taste~v )
+concept: ~TELL (advise~v alert~v allege~v announce~v apologize~v apprise~v articulate~v ascribe~v ask~v assert~v assure~v attest~v beg~v belabor~v belabour~v beseech~v blab~v bluster~v boast~v 
+                brag~v brief~v caution~v characterize~v claim~v clarify~v comment~v complain~v confabulate~v confess~v confide~v convey~v corroborate~v counsel~v declare~v describe~v dictate~v disclose~v divulge~v drawl~v 
+                drone~v educate~v elaborate~v elucidate~v encourage~v entreat~v enunciate~v espouse~v exclaim~v explain~v explicate~v expound~v express~v gloat~v gripe~v grouch~v grouse~v hint~v illustrate~v imply~v 
+                inform~v insinuate~v insist~v instruct~v intimate~v iterate~v justify~v leak~v lecture~v lobby~v mention~v message~v moralize~v narrate~v note~v notify~v orate~v prattle~v preachify~v preach~v 
+                proclaim~v promulgate~v pronounce~v prophesy~v propose~v rabbit~v recite~v recount~v reiterate~v relate~v relay~v remark~v remind~v repeat~v reply~v report~v respond~v reveal~v say~v sermonise~v 
+                sermonize~v speak~v spiel~v state~v suggest~v sweet-talk~v talk~v teach~v tell~v testify~v theorize~v update~v utter~v venture~v verbalise~v verbalize~v verify~v vocalise~v vocalize~v vociferate~v 
+                voice~v warn~v wheedle~v )
+concept: ~THINK_VERBS (~FAULTY_THINK ~IMAGINING_THINK ~REASONING_THINK_VERBS )
+concept: ~THROW (cast~v chuck~v defenestrate~v fling~v flip~v heave~v hurl~v send~v impel~v launch~v pitch~v propel~v scatter~v throw~v thrust~v toss~v waft~v )
+concept: ~TIGHTEN (tighten~v )
+concept: ~TIME_DELAY (delay~v hesitate~v postpone~v procrastinate~v stall~v tarry~v )
+concept: ~TIME_EVENT_VERBS (ensue~v ~EVENT_VERBS ~TIME_DELAY ~time_passage )
+concept: ~TIME_PASSAGE (bite_the_dust~v elapse~v elapse~v lapse~v )
+concept: ~TOBE (become~v be~v consist_of~v consist~v exist~v look~v seem~v sound~v )
+concept: ~TOUCH (feel~v frisk~v grasp~v graze~v grip~v grope~v handle~v knead~v manipulate~v massage~v nudge~v pat~v paw~v pinch~v poke~v probe~v prod~v retouch~v rub~v 
+                 squeeze~v tickle~v touch~v tweak~v wring~v )
+concept: ~UNDRESS (decloak~v disrobe~v doff~v remove~v strip~v take_off~v uncloak~v unclothe~v undress~v )
+concept: ~UNJOIN VERB (purge~v amputate~v cut_off~v come_off~v decompose~v decouple~v detach~v disengage~v disentangle~v disjoin~v dismantle~v dissociate~v drop_off~v extract~v fall_off~v lose~v release~v remove~v separate~v sever~v unbraid~v 
+                  unbutton~v uncouple~v unfasten~v unglue~v unhinge~v unhook~v unknit~v unknot~v unravel~v unscrew~v unstick~v untangle~v untie~v untwine~v unwire~v unzip~v )
+concept: ~USE (apply~v employ~v exercise~v handle~v manipulate~v operate~v use~v utilise~v utilize~v )
+concept: ~VEHICLE_VERBS (balloon~v boat~v bobsled~v bus~v cab~v caravan~v chariot~v coach~v dogsled~v ferry~v gondola~v helicopter~v jeep~v jet~v moped~v motor~v parachute~v punt~v rickshaw~v 
+                         ride~v rocket~v sledge~v sleigh~v taxi~v tram~v trolley~v yacht~v )
+concept: ~VERBAL_AGREE (acknowledge~v affirm~v agree~v approve~v compromise~v consent~v rubberstamp~v stipulate~v )
+concept: ~VERBAL_DISAGREE (argue~v bicker~v confute~v contend~v contest~v contradict~v controvert~v counter~v differ~v disagree~v dispute~v dissent~v nitpick~v object~v quarrel~v quibble~v rebut~v refute~v reject~v 
+                           squabble~v veto~v vie~v )
+concept: ~VERBS (~ANIMATE_VERBS ~INANIMATE_VERBS ~TIME_EVENT_VERBS ~weather_verbs )
+
+concept: ~VIDEOING (broadcast~v film~v microfilm~v satellite~v tape~v telecast~v televise~v )
+concept: ~VISION_VERBS (assess~v audit~v canvass~v descry~v explore~v expose~v investigate~v note~v recognize~v reveal~v review~v riffle~v zoom~v ~BECOME_VISIBLE ~DISAPPEAR ~READ ~watch )
+concept: ~WAKEN (arouse~v awaken~v awake~v reawaken~v rewake~v rouse~v waken~v wake~v )
+concept: ~WANT (covet~v crave~v demand~v desire~v fancy~v hanker~v long_for~v lust~v necessitate~v need~v want~v wish_for~v wish~v )
+concept: ~WATCH (behold~v espy~v examine~v eyeball~v eye~v face~v gape~v gawk~v gawp~v gaze~v glance~v glimpse~v goggle~v inspect~v look_for~v look~v make_out~v monitor~v notice~v 
+                 observe~v ogle~v peek~v peer~v peruse~v regard~v rubberneck~v scan~v scrutinize~v see~v sight~v spectate~v spot~v squint~v stare~v study~v take_in~v view~v watch~v witness~v )
+concept: ~WEAKEN (atrophy~v erode~v sap~v soften~v weaken~v )
+concept: ~WEATHER_VERBS (~COLD_WEATHER ~HOT_WEATHER ~NICE_WEATHER ~RAIN ~wind )
+concept: ~WIND (blow~v gust~v howl~v roar~v )
+concept: ~WON (best~v overcome~v score~v vanquish~v win~v )
+concept: ~WORSHIP (commune~v meditate~v pray~v  tithe~v worship~v )
+concept: ~exorcize (exorcise~v exorcize~v sanctify~v spiritualise~v purify~v )
+concept: ~WRITING (annotate~v author~v cable~v chronicle~v e-mail~v fax~v jot~v netmail~v publish~v rewrite~v scrawl~v scribble~v script~v telex~v touch-type~v transcribe~v tweet~v typewrite~v type~v 
+                   wire~v write~v )

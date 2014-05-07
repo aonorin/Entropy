@@ -1,0 +1,15 @@
+import * from deferreddemo.material
+
+abstract material Entropy/Deferred/Basic
+{
+	technique
+	{
+		pass main
+		{
+			texture_unit
+			{
+				texture $diffuse
+			}
+		}
+	}
+}

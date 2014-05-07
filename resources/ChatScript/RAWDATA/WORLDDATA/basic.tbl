@@ -1,0 +1,33 @@
+
+
+concept: ~holiday()
+
+table: ~holiday (^what ^month ^date ^day ^why)
+createfact(^what member ~holiday)
+createfact(^month month ^what)
+createfact(^date date ^what)
+if (^day != * ) { createfact(^day day ^what) }
+createfact(^why why ^what)
+
+DATA:
+["New Year's" "New Year's Day"] January 1 * "celebrates the beginning of the new year."
+["Martin Luther King Day" "Martin Luther King, Jr. Day"] January 3 Monday "honors Martin Luther King in his struggle for racial equality."
+["Groundhog's Day" "Groundhog Day" ] February 2 * "is a weather test. If a groundhog leaves its burrow and sees its shadow, there will be six more weeks of winter."
+"Valentine's Day" February 14  * "celebrates love and affection."
+["President's Day" "Washington's Birthday"] February 3 Monday "honors George Washington, a founder of the US."
+"St. Patrick's Day" March 17 * "celebrates Irish culture."
+["April Fool's" "April Fools'" "April Fools"] April 1 * "is a day of practical jokes."
+"Earth Day" April 22 * "is a day to inspire awareness of ecology."
+"Cinco de Mayo" May 5 * "is a festival for remembering the dead."
+"Mother's Day" May 2 Sunday "celebrate mothers."
+"Memorial Day" May 4 Monday "honor's US war dead."
+"Father's Day" June 3 Sunday "celebrates fathers."
+[Fourth_of_July  July_Fourth "Independence Day"] July 4 * "celebrates American independence from Britain with fireworks."
+"Labor Day" September 1 Monday "marks the end of summer and summer vacation is over."
+"Columbus Day" October 2 Monday "honors Christopher Columbus, traditional discoverer of America."
+Halloween October 31 * "is a day of dressing in costumes, carving pumpkins, and seeking candy from neighbors."
+"Thanksgiving" November 4 Thursday "celebrates autumn harvest and involves eating turkey."
+"Christmas Eve" December 24 * "is because some people celebrate Christmas early."
+"Christmas" December 25 * "celebrates the birth of Jesus and exchanging of gifts."
+["Day of Goodwill" "Boxing Day"] December 26 * "is a public holiday. It was a custom in England for workers to get their 'Christmas boxes' on the day after Christmas."
+"New Year's Eve" December 31 * "is the last night to celebrate during the old year."

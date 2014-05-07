@@ -1,0 +1,24 @@
+material VoxelMaterial
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BeachStones.jpg
+				scale 0.25 0.25
+			}
+
+			texture_unit
+			{
+				cubic_texture cubescene.jpg combinedUVW
+				tex_address_mode clamp
+				env_map cubic_reflection
+			}
+		}
+	}
+}

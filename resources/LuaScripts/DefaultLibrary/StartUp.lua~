@@ -1,0 +1,6 @@
+--StartUp file for loading globals
+SLB.using(SLB)
+--flashlightAttenuation(5000,1,0.000,0.00000003)
+--flashlightPowerscale(3)
+flashlightSpacing(2.0)
+--metaQuest = MetaQuest()

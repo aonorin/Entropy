@@ -1,0 +1,27 @@
+ 3-hitter ( meanings=1 NOUN NOUN_SINGULAR ) 
+  three-hitter~1n 
+ 3TC ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  lamivudine~1n 
+ 3d_radar ( meanings=1 NOUN NOUN_SINGULAR ) 
+  three-dimensional_radar~1n 
+ 3-D ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+  three-D~1n 
+  three-D~2n 
+ 3D ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+  3-D~1n 
+  3-D~2n 
+ 3rd_October_Organization ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Orly_Group~1n 
+ 365_days ( NOUN NOUN_SINGULAR ) 
+ 366_days ( meanings=1 NOUN NOUN_SINGULAR ) 
+  intercalary_year~1n 
+ 30_minutes ( NOUN NOUN_SINGULAR ) 
+ 30 ( NOUN_ORDINAL NOUN ADJECTIVE ADJECTIVE_CARDINAL ADJECTIVE_ORDINAL NOUN_CARDINAL KINDERGARTEN ) 
+ 3G ( NOUN NOUN_SINGULAR ) 
+ 3G_coverage ( NOUN NOUN_SINGULAR ) 
+ 3-dimensional ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  three-dimensional~2a 
+ 3-membered ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  three-membered~1a 
+ 3-star ( ADJECTIVE ADJECTIVE_BASIC ) 
+ 3_Doors_Down ( NOUN_HUMAN NOUN_THEY ) 

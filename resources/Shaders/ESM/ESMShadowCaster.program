@@ -1,0 +1,25 @@
+vertex_program ESMShadowCasterVPCG cg
+{
+	source ESMShadowCaster_vp.cg.h
+	entry_point main
+
+	profiles vs_1_1 arbvp1
+
+	default_params
+	{
+		param_named_auto worldviewproj_matrix worldviewproj_matrix
+		param_named_auto worldview_matrix worldview_matrix
+	}
+}
+
+fragment_program ESMShadowCasterFPCG cg
+{
+	source ESMShadowCaster_fp.cg.h
+	entry_point main
+
+	profiles ps_3_0 fp40
+
+	default_params
+	{
+	}
+}

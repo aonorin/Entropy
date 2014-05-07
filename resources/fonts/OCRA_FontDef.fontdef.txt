@@ -1,0 +1,7 @@
+<OCRAEXT>
+{
+    source <ttf file>
+    size <18>
+    resolution <50>
+    antialias_colour <true>
+}

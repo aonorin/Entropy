@@ -1,0 +1,37 @@
+vertex_program pssm_vsm_caster_vp glsl
+{
+    source EntropyPSVSM_Caster_VP.glsl
+
+    default_params
+    {
+        param_named_auto wvMat worldview_matrix
+    }
+}
+
+fragment_program pssm_vsm_caster_fp glsl
+{
+    source EntropyPSVSM_Caster_FP.glsl
+
+    default_params
+    {
+        param_named_auto depthRange scene_depth_range
+    }
+}
+
+material pssm_vsm_caster
+{
+    technique
+    {
+        // all this will do is write depth and depth squared to red and green
+        pass
+        {
+            vertex_program_ref pssm_vsm_caster_vp
+            {
+            }
+
+            fragment_program_ref pssm_vsm_caster_fp
+            {
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+// Rock wall texture [bumpmapped]
+material SimplexMaterial
+{
+	lod_strategy Distance lod_values 10000.0 80000 60000
+	technique
+	{
+		pass main
+		{
+			
+			
+			//This directive will allow the framework to pick up on the fact
+			//that this texture is a normal map
+			//specular 1.0 1.0 1.0 1.0 12.0
+			texture_unit
+			{
+                                //texture SimplexTex_COLOR.png
+                                texture perlin_COLOR.png
+                                //texture Rocks_COLOR.png
+                                filtering anisotropic
+				max_anisotropy 2
+				tex_address_mode mirror
+			}
+			texture_unit
+			{
+                                texture SimplexTex_COLOR.png
+                                //texture Marble_COLOR.jpg
+                                //texture Rocks_COLOR.png
+                                filtering anisotropic
+				max_anisotropy 2
+                                tex_address_mode mirror
+			}
+			//texture_unit
+			//{
+				//Obsidian_COLOR.png
+			//	texture Gen1_COLOR.png
+				//texture perlin_COLOR.png
+			//	filtering anisotropic
+			//	max_anisotropy 2
+			//	tex_address_mode mirror
+			//}
+			texture_unit
+			{
+                                texture perlin_COLOR.png
+                                //texture Rocks_COLOR.png
+                                filtering anisotropic
+				max_anisotropy 2
+				tex_address_mode mirror
+			}	
+			texture_unit NormalMap
+			{
+                                //texture SimplexTex_NORM.png
+                                texture perlin_NORM.png
+                                //texture Rocks_NRM.png
+                                filtering anisotropic
+				max_anisotropy 2
+                                tex_address_mode mirror
+			}
+                        texture_unit SpecularMap
+                        {
+                                //texture SimplexTex_SPEC.png
+                                texture perlin_SPEC.png
+                                //texture Rocks_SPEC.png
+                                filtering anisotropic
+                                max_anisotropy 2
+                                tex_address_mode mirror
+                        }
+                        //texture_unit DisplacementMap
+                        //{
+                        //	texture SimplexTex_DISP.png
+                        //	//texture perlin_DISP.png
+                        //	filtering anisotropic
+                        //	max_anisotropy 2
+                        //	tex_address_mode mirror
+                        //}
+			//texture_unit OcclusionMap
+			//{
+			//	texture SimplexTex_OCC.png
+				//texture perlin_OCC.png
+			//	filtering anisotropic
+			//	max_anisotropy 2
+			//	tex_address_mode mirror
+			//}
+                        //texture_unit ConeMap
+                        //{
+                        //	texture SimplexTex_CONE2.tga
+                        //	filtering anisotropic
+                        //	max_anisotropy 8
+                        //	tex_address_mode mirror
+                        //}
+		}
+	}
+}

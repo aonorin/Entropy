@@ -1,0 +1,217 @@
+// Post processors
+fragment_program AsciiFP cg
+{
+        source AsciiFP.cg
+        profiles ps_4_0 ps_3_0 arbfp1
+        entry_point main
+
+        //default_params
+        //{
+                //param_named_auto ambientColor ambient_light_colour 0
+                //param_named_auto proj projection_matrix
+                //param_named_auto farClipDistance far_clip_distance
+        //}
+}
+
+// Post processors
+vertex_program AsciiVP cg
+{
+        source AsciiVP.cg
+        profiles vs_1_1 arbvp1
+        entry_point main
+        param_named_auto flip render_target_flipping
+}
+
+// Post processors
+fragment_program PreAsciiFP cg
+{
+        source PreAsciiFP.cg
+        profiles ps_4_0 ps_3_0 arbfp1
+        entry_point main
+}
+
+material Ascii
+{
+    technique
+    {
+        pass
+                {
+                        cull_hardware none
+                        cull_software none
+                        depth_func always_pass
+                        fragment_program_ref AsciiFP
+                        {
+
+                        }
+                        vertex_program_ref AsciiVP
+                        {
+
+                        }
+                        texture_unit
+                        {
+                                tex_address_mode clamp
+                                filtering none
+                        }
+			texture_unit
+                        {
+				texture FontLookup.png	
+                                tex_address_mode wrap
+                                filtering none
+                        }
+ 			texture_unit
+                        {
+				texture VisitorFontTextureFinal.png		
+                                tex_address_mode wrap
+                                filtering none
+                        }
+                }
+        }
+}
+
+material PreAscii
+{
+    technique
+    {
+        pass
+                {
+                        cull_hardware none
+                        cull_software none
+                        depth_func always_pass
+                        fragment_program_ref PreAsciiFP
+                        {
+
+                        }
+                        vertex_program_ref AsciiVP
+                        {
+
+                        }
+                        texture_unit
+                        {
+                                tex_address_mode clamp
+                                filtering none
+                        }
+                }
+        }
+}
+
+//GLOW STUFF
+fragment_program BlurVFP cg
+{
+	source BlurVFP.cg
+	profiles ps_3_0 arbfp1
+	entry_point main
+}
+fragment_program BlurHFP cg
+{
+	source BlurHFP.cg
+	profiles ps_3_0 arbfp1
+	entry_point main
+}
+vertex_program BlurVP cg
+{
+	source BlurVP.cg
+	profiles vs_1_1 arbvp1
+	entry_point main
+}
+
+//vertex_program BlurGlowVP cg
+//{
+//	source BlurGlowVP.cg
+//	profiles vs_1_1 arbvp1
+//	entry_point main
+//}
+fragment_program BlurGlowFP cg
+{
+	source BlurGlowFP.cg
+	profiles ps_2_0 arbfp1
+	entry_point main
+}
+
+//Blur: Horizontal Gaussian pass
+material BlurH
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_check off
+
+			fragment_program_ref BlurHFP
+			{
+			}
+			vertex_program_ref BlurVP
+			{
+			}
+			texture_unit
+			{
+				tex_coord_set 0
+				tex_address_mode clamp
+				filtering trilinear
+			}
+		}
+	}
+}
+
+//Blur: Vertical Gaussian pass
+material BlurV
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_check off
+
+			fragment_program_ref BlurVFP
+			{
+			}
+			vertex_program_ref BlurVP
+			{
+			}
+			texture_unit
+			{
+				tex_coord_set 0
+				tex_address_mode clamp
+				filtering trilinear
+			}
+		}
+	}
+}
+
+//GLOW THE BLUR!
+material BlurGlow
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			depth_check off
+
+			fragment_program_ref BlurGlowFP
+			{
+			}
+			vertex_program_ref BlurVP
+			{
+			}
+			texture_unit
+			{
+				tex_coord_set 0
+				tex_address_mode clamp
+				filtering trilinear
+			}
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				filtering trilinear
+			}
+		}
+	}
+}
+
+

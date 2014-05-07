@@ -1,0 +1,40 @@
+float4x4 shadow         : Shadow;
+float4x4 shadow1        : Shadow;
+float4x4 shadow2        : Shadow;
+ 
+vertexOutput VS_Main(vertexInput IN) 
+{
+    vertexOutput OUT;
+    float4 worldPos = mul(world, half4(IN.position.xyz, 1.0));
+ 
+    OUT.hPosition = mul(worldViewProj, half4(IN.position.xyz , 1.0));
+    OUT.texCoordDiffuse = IN.texCoordDiffuse;
+ 
+    OUT.shadow = mul(shadow, worldPos);
+    OUT.shadow1 = mul(shadow1, worldPos);
+    OUT.shadow2 = mul(shadow2, worldPos);
+    OUT.dist = OUT.hPosition.z;
+}
+
+half4 PS_Main(vertexOutput IN): color
+{
+    half4 diffuseT = h4tex2D( diffuseTexture, IN.texCoordDiffuse.xy);
+    half4 shadowT;
+    
+	if(IN.dist < 10)
+    {
+        shadowT = tex2Dproj(shadowSampler, IN.shadow);
+    }
+    
+	else if(IN.dist < 70)
+    {
+        shadowT = tex2Dproj(shadowSampler1, IN.shadow1);
+    }
+    
+	else
+    {
+        shadowT = tex2Dproj(shadowSampler2, IN.shadow2);
+    }
+
+    return diffuseT * shadowT.x;
+}

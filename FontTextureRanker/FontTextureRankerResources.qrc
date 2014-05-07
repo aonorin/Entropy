@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/fontTextures">
+        <file>VisitorFontTexture.bmp</file>
+        <file>VisitorFontTexture.png</file>
+        <file>VisitorFontTextureFull7x7.png</file>
+    </qresource>
+</RCC>

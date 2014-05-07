@@ -1,0 +1,14 @@
+Dweller on the Threshold
+Bugs!!!!!!!!!!!!!!!!!!!!
+
+
+///////////////////////////
+// Grappling Hook
+//////////////////////////
+
+March 4th, 2013
+Because collision actions are AABB based, they always trigger no matter what, inside the voxels. Need a more sophisticated system for Voxel collision actions. 
+Doesn't hook onto voxels. -> Fixed.
+Voxels cause grappling hook crashes.
+Retracting midshot causes a crash. -> Can't duplicate and checks are in place 
+Grappling Hook shooting doesn't work at low angles -> FIXED!!!!

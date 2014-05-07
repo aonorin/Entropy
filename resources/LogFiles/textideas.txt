@@ -1,0 +1,441 @@
+Tech Requirements:
+	-Collision Listener
+	-Menu System(Opening, pausing/unpausing,options menu)
+	-Sound System
+
+Command Line and Conversation influenced game:
+
+-Text conversations based game? Meeting ground between facade, Deus Ex, Deus Ex Human Revolution(conversation games), Singularity, Solaris, and Zork/HitchHiker's Guide to the Galaxy. 3D "puzzle/adventure" game of sorts. 
+
+-Involves actually conversing with several different personalities/constructs, such as: 
+	+ An AI construct who is one step away from an intelligence explosion
+	+ A bewildered backed up human consciousness on a digital substrate (Blue Brain)
+	+ A completely alien mind, like Solaris, who you can "communicate" with, but the interactions are completely bewildering, as it operates on a completely different axis of consciousness(even though it is seemingly ultra-intelligent.)
+	+ A terminal that contains a chat window with another person who claims to be stuck on another part of (whatever the setting is). However, something seems off about the interactions…
+	+ Various subhuman intelligences/machine, which have a sharply defined goal sets ( such as wanting to maintain/clean the (setting for game), security systems, and a machine that just wants to "make you happy".)
+
+-Gameplay element: The "Descriptive Camera" Tool? A "real" version of this: http://singularityhub.com/2012/04/28/whats-in-a-picture-the-descriptive-camera-will-tell-you/. A camera that doesn't take a picture, but instead gives a print out of a description of a scene. Perhaps for usage in areas where you cannot see, and puzzles that involve that. Perhaps it isn't 100% reliable(and the player is told as much) and part of the puzzle is figuring out how it misunderstands a scene, to be able to use/take/operate something. Large command line game influence here. Fuck 8-bit, this is ZERO-bit graphics nostalgia.
+
+-Descriptive camera tool could also be used to inject some Lovecraftian style horror elements, unknown is more horrific, etc
+
+-Perhaps the construct that is on the precipice of an intelligence explosion can help you in your quest. But sometimes this might 
+require it to "self-improve" which requires your approval. However, Seed AI based self improvement involves generating new source code, and thus altering itself. This can have adverse effects….Part Hint system/Part storyline system.
+
+-At one point you are blinded. You use a sonar device to navigate, and the description camera to figure out what's in a new room. Perhaps you get fuzzy freaky flashes of sight. Perhaps you see what might be construed as Bloody walls. Crazy music.
+
+-Text based Hacking gameplay?
+
+SETTING:
+Isolated Mountain top lab/station. Unlockable areas ala Metroid. Day/night time cycle. Mountain top is dank and foggy. Lab is overly pristine. 
+
+AI's Projection of the future:
+
+Year is 2031. Due to increasing automation unemployment has reached 39% in the US. A true third party has arisen, the Democratic Liberty party, a libertarian party who has just voted in their first president. A brain drain is occurring, as researchers and intelligentsia flee to China, now the major powerhouse of academic pursuit. Private companies and wealthy individuals have started to create their own micro countries that operate as flotillas off the shoes of the US in intercontinental waters. This has further increased the economic hardship of the US, who is no longer considered a Super Power. The population that works is mainly relegated to either services(such as customer service, bartender, escorts, retail, etc) or the booming automation repair industry. The unemployed are minimally supported by the state, though that is now in danger thanks to the newly elected Democratic Liberty party.
+
+While Mexico is still united, increasingly the affluent peoples are retreating to closed communities that operate with their private police and council agencies. Those in lower classes are left outside to be subjected to the rampant drug gangs and mafias. The mexican government has been under martial law for 10 years. 
+
+Brazil is arising as a major economic player, though its economic divide between the haves and have nots is severely increasing, with the lower class now finding it harder to find even basic necessities such as food and medicine.
+
+Canada, once a bastion of peace, now sees gaining enemies as it prospers in these increasingly turbulent times. Where once terrorist groups focused solely on the US, now more violence has been making its way into the north.
+
+The EU has completely collapsed with Germany, France, and the UK forming a new entity called the Western European Confederated States (or WECS), leaving other members such as Spain, portugal, italy, greece, etc to destitution. There has been an escalating campaign of violence conducted against the WECS from many sides, including islamic terrorist, internal rebellions, various retribution groups seeking revenge for leaving the EU, and an uprising of fundamentalist christian terrorism seeking to strike back against muslims. Due to this the WECS, and the UK especially, has turned more and more into veritable police states.
+
+Russia has seen a boom in economic growth, and several former Soviet states and satellites have voluntarily chosen to be reabsorbed. Russia and China are even closer allies, with the two now dominating world politics.
+
+Japan has seen an increasing stagnation of its economy and a fall in its population rate. Nostalgia is a large factor in Japanese culture now, and revivals of older music, TV, and movies is common and celebrated. Many have begun to refer to the people of this age as the "Final generation", a sign of increasing despondency.
+
+India has come into its own, with a booming research, technology, and manufacturing driven economy. India is the second largest center of manufacturing outside of China, thanks in large part to their own cheap labor and automated manufacturing plants. in 2025, after a prolonged war, India defeats pakistan. After a period of rule by India, the country has now been divided up into several smaller states, who are experiencing extreme destitution.
+
+China has now become the sole super power of the world, with a colossal economy and a population of 1.5 billion. China is the world's producer, housing 70% of the worlds manufacturing plants, virtually all automated. Workers are now mainly employed to repair and oversee operation of the various manufacturing AI's. Militarily China has seen an unprecedented boom in advance military technology. This is largely boosted by their vast manufacturing ability and research capabilities. For the first time a country is now spending more on military expenditures than the US. Increasingly the Chinese government has allowed more and more economic freedom inside its borders, however, in response to this they have increased social dominance, with nearly every facet of social life now being regulated by government, including number of children, age of consenting sexual relations, banning of all religion, complete regulation of the internet and phone infrastructures, and large military style police raids on civilian sectors "conducting peaceful investigations" inside people's homes.
+
+Africa's landscape is changing. Due to a succession of governments being overthrown northern Africa is now largely dominated by Fundamentalist Islamic governments. Though doing well economically, these countries are harsh and ultraconservative. The poorer african nations have begun to dissolve into lawlessness. This is exacerbated by the increasing lack of United Nations military presence and funding to these areas.
+
+Protest movements such as Occupy Wall Street have seen a large increase in activity, but there has been little real change made on governmental institutions. The message of these protest movements has becomes even more splintered and confused, with multiple sub groups even going into conflict(peaceful and armed) with each other.
+
+Technology is increasing at even a faster pace than originally thought. Quantum computing is now driving future technological growth. Despite these large gains in computational power, cracking true AI has been harder than expected, with "narrow AI" dominating the world. However, among the lower class there is an increasing backlash against technology and AI in particular, as they see the devastating effects is has had on them. Several new christian denominations have arisen who preach a message of "returning to the purity of christ" and forgoing all electronic technology. Wealthy individuals have many different "servant" robots to take care of their needs and wants.
+
+
+PUZZLES IDEAS:
+
+-Blinded real world work with sonar path finder
+-Neural Net Programming an AI puzzle:
+-Zork Like game within the game:
+-Hacking Game DONE:
+
+HACKING:
+
+peak: Analyze a file structure. Percentage chance for altering the system.
+nuke: Destroy 
+-Instead of turn based, it's on an updated timer loop, with colors and animations to boot
+-Go down like in flow. Can see "blurred" version of lower chamber in upper chamber
+-Background has cyber "sheen" to it
+-Start with normal Rogue-like rooms
+-Eventually switch to  cellular automata rooms, that slowly shift? (Walls hurt you if you touch them)
+-Perhaps a better idea is end rooms are cellular automata Shifting walls? Or maybe a random chance of shifting rooms? Not a bad idea…
+-Perhaps 3 or more different room types, separated by difficulty. Initial room type is Rogue like. Hardest difficulty is Shifting walls.
+-Game within a game within a game.
+-USE PARALAX SCROLLING FOR BACKGROUND
+-Create Doors
+-Create way of procedurally demanding certain types of nodes in map builder
+-Some rooms can  have multiple nodes
+
+-Health bar as well as Suspicion bar, when Suspicion bar reaches the top it triggers the alarm. Each action has a different amount of suspicion associated with it. Program Progress bar
+
+-Defensive Subroutines (These are like little enemies that scurry around the map when released):
+	-Dragon Subroutines: Attack the player on release. Released when alarm is set off.
+		-Phantom Subroutines: Released at 50% suspicion. Scan nodes, and upon detection of player programs calls alarms and attempts cleaning infection
+
+
+-Different types of Nodes:
+	-I/O Node(your starting point, if the back tracer captures this, your session is ended)
+	-Scanner Node(Where the back tracer starts. Capture this and you have no fear of being kicked out by the back tracer)
+	-Data Node (This houses encrypted data files that may give you important information)
+	-Control Node (This houses controls that affect the outside world)
+	-Spawner Node(This spawns defensive subroutines. They may be hacked to work for you instead)
+	-Wetware Node(contains programs which you can run, "treasure chest"):
+		Wetware programs:
+			-DNS spoof - lowers suspicion
+			-Quantum Cryptography - Automatically Decrypts one Node controlled by the enemy
+			-Recursive Self-improvement - heals player
+			-Ghost shell - for 90 seconds the player is completely hidden from defensive subroutines, and all actions incur 				no suspicion penalties
+			-ARP Poisoning - teleports you into an enemy node
+			-Glitch - completely lowers suspicion level to zero
+			-Hatch Phantom - spawns a phantom subroutine which encrypts, and installs trojan and daemon software into 				your nodes
+			-Hatch Dragons - spawns two dragon subroutine under your control, which protect you from 				defensive subroutines
+
+-Ports are the entrances to Nodes.
+-Different programs which alter ports and nodes:
+	Port Routines:
+		-Up Scan - scan for defensive routines
+
+		-Left Glitch- temporarily gain access
+		-Right Crack - gain permanent access
+		-If worse comes to worst, you can "brute force" your way in by attacking the port.
+			This raises the alarm, but can get past Black ICE without harming you.
+
+		-Left Trojan - fools subroutines into believing that this node is not infected		-Right Daemon - Damages those who attempt access without cracking the port.
+		-Up Alarm - notifies you (or the system) of a break in.
+		-Black ICE - impenetrable, automatically triggers alarm, scrambles display(Can't be installed by player unless they 			have all 3 other defensive port programs activated)
+	Node Routines:
+		-Left Decrypt - gain read access to encrypted node
+		-Right Infect - gain read and write access to encrypted node
+		-Up Crash - permanently shutdown node
+
+		-Left Encrypt - provides protection against enemy access.
+		-Up Honey Pot - draws attention of defensive subroutines to this node, 
+		-Right IP Spoof -When alarms goes if this draws the attention of the back tracer subroutine until either it has hacked by 			a spawn routine(revealing it as a decoy) or the back tracer is tricked into believing 			it has ejected the intruder, in which case the node is destroyed.(Dropping)
+	Net Routines:
+		-Left Scramble Attack
+		-Right Rez Bomb Attack
+		-Ghost, Hide from Defensive Subroutines
+
+-Push Buttons to confirm change?
+-Multiple active programs?
+
+-Parallax map things Behind and IN FRONT of scene
+-Create a contiguous hallway finder to reduce CPU strain and allow for more natural looking hallways.
+-Infecting a System lowers suspicion
+
+-AI talks to you in one hacking map
+-Improve Collision detection code
+-3D "parallax" background
+
+-Hacking more Nodes allows you to "download" faster
+
+-Uncanny Valley. 
+-Instead of trying to communicate with an alien mind, you are trying to communicate with an AI mind that's vastly different.
+-"Evolving" rooms, that each time you leave and come back to are slightly different.
+-Structures whose significance you can't quite fathom
+
+-Originally project started by the geothermal team employing AI to help design more efficient power structures.
+-Eventually the AI started designing structures for which the scientists couldn't explain its purpose.
+
+
+Handle dynamic public port remappings in OSCthlhu
+
+‪Could be a section that's influenced by I have no mouth and I must scream‬
+though the AI wouldn't be as malicious
+it's just trying to communicate with you
+but in doing so sends you into some ungodly freakish version of existence
+
+-Tomie opening song
+
+
+‪So the concept is really coming into contact with a mind that simply exists thinking on a completely different vector than our own‬
+a super advanced AI
+but I've been watching a lot of stuff about AI
+and the interesting thing is how hard/unlikely it is to produce an AI that will care about anything that we do
+because it would simply not have any of the same values, not having evolved with them, or having instinct of some sort to drive it
+this is the whole drive around friendly AI
+you might build an AI that becomes obssessed with quantum physics and dark energy, and it will sacrifice anything to pursue it
+"it's not the machines hate you, it's that you are made of perfectly good atoms that it can use for something else"
+to quote Yudkowsky
+So, this particular machine
+was not designed as well thought out as Friendly AI, in fact it didn't even start out as pure AI project at all
+
+
+REVISED GAME IDEAS:
+
+Main characters: An AI assistant named Virgil, A Lab researcher trapped somewhere, and an ultra-intelligent and powerful AI.
+
+Uncanny valley, Surreal, Horror, Hard science Fiction, Mystery
+
+Setting: http://en.wikipedia.org/wiki/Ammassalik_Island
+
+Logos (Or some other name, still thinking about it):
+Logos is a machine of extreme intelligence, however it's thought process occurs on a vector of thought far outside the human mind. Eventually the player comes to find out it is "dreaming". It has been slowly melding with the crew of the lab by convincing each one separately to willingly upload their minds into the machine, as they lay sleeping, sending the AI into a deeper, darker, and more surreal sphere of consciousness, to the point now that it barely pays attention to the outside world.
+
+So, this particular machine
+was not designed as well thought out as Friendly AI, in fact it didn't even start out as pure AI project at all
+It started out as an Evolutionary Algorithm to help these scientist research geothermal power.
+However, the researchers were realizing that they were spending too much time designing algorithms, and not enough time analyzing data, or writing papers.
+So they had an idea, why not design an algorithm that designs algorithms that make geothermal power designs.
+So they went down that path, and it started to work.
+they built in some learning mechanisms for it to do learning based on corpus research, like  Watson, and to find more research on the open internet.
+ 
+Eventually it started to design increasingly efficient geothermal power designs.
+Eventually it even designed something more efficient than the most efficient design made by a human
+surpassed it by several percent but after that, something strange happened it started to add things to the designs that they couldn't understand the impact of.
+ 
+‪The designs became more and more dominated by mysterious structures and components, but the team kept building them with advanced 3d printers because the designs were still becoming more efficient‬ and they thought that perhaps it had surpassed current human research on the topic. Eventually they equipped the AI with some new form of technology that allowed it to start transmitting caverns into these power harvesting structures.
+
+So eventually things in the lab start to get very strange things are changing ever slightly you walk out of a room and come back in and light will be in different place or a cabinet will be bigger. or a table gone. Or the window will face a different direction. They couldn't explain any of it
+
+To get to the thrust of it. T‪he machine is essentially melding with their uploaded consciousnesses‬. It's hyper intelligent, but it barely notices the "real world" anymore, because its dreaming. As it becomes more human, it enters more and more into it's own surreal realm, filled with certain symbols and memories from people it's melded with, but that us combined with things it's learned from geothermal designs, and with things it's encountered online. It has started to derive pleasure from this, a sort of unconscious AI "utopia"(though whose imagery is freaky and hellacious to us perhaps).
+
+The player is joined by at least two other characters in the storyline.
+
+1. Virgil, the ai assistant, who leads the player through Hell (Dante's Inferno).
+
+2. A researcher at the lab. Makes contact with the player through text on a computer. Claims to be trapped in a cold and dark place, communicating via personal computer, and requests the players help. Eventually the player finds the researcher's dead body, complete with personal affects. Then the player comes to find that the researcher's mind has been extracted via osmosis into a computer that has been slowly melding it with the AI. The researcher claims to be alive and pleads with the player to help them somehow. The player may choose to destroy the computer they reside on.
+
+You cannot simply talk to the AI, as it is both magnitudes more intelligent, but it also experiences consciousness on a completely different vector and timescale from humanity(being many thousands of times faster in its perceived time than humans). The game is essentially about attempting to communicate and understand with a being fundamentally different to us. That said the AI has taken on some human characteristics, as it has melded consciousness with several of the researchers that were in the lab, leading it to exhibit memories of the researchers as part of several phenomenon.
+
+Encounters with the machine alternate between strange, quixotic, and intense.
+
+Specific encounter ideas:
+
+"First Encounter" (Early game)
+After finding out the location of the large Logos research dome in some documents in a different part of the lab, you head there to find it. When entering the room, it is filled with gigantic screen that hang all around the dome of the lab, you are walking on scaffolding, and below you is an extremely deep cavern, filled with glowing rock and strange shapes made out of unknown materials, if you look ever closely, it seems like they might be moving ever slowly. The screens above are filled with glitches out visuals(think the random glitch shit that we keep making on accident with opengl) that is twitching and turning sporadically. As you walk the long scaffolding towards the control desk at the end, the screens begin switch, one by one, to that of something tumbling ever downward. Eventually you arrive at the terminal that is used to communicate directly with the AI. Previously you had read about some commands that you could use to instantiate direct communications. It involves let's say 10 commands. What it returns is strangely enough is typed back slowly instead of immediately like most machines. The first one returns back "session initialization bootstrap completed". The second one returns "Session glyphic representation program complete", third returns "task complete", fourth returns "complete", fifth returns "compl", sixth returns "c". Seventh returns nothing, eighth returns nothing, the ninth returns nothing. The tenth returns a huge epic fuck ton explosion of characters on the screen, from all over the unicode structure, glitched out mess, it keeps going spilling more and more characters on the screen, a sound is growing from below you, from where the shapes are, The terminal freezes/crashes, and exists out, and the sound slowly dies down. The screens now each show different security cam views of you. Otherwise, the computer is unresponsive.
+
+"The Red Room" (Midgame)
+There is a hallway you always walk down, but turn left before the end to do something. However, the hallway goes a bit past this door, but mysteriously ends with no entrance nor exit. However at one point walking down the hallway, you notice a bit of red light and some faint sounds coming from the end of the hallway. At the end of the hallways you encounter a door(and perhaps a puzzle?). As you open the door and enter the room it is bathed in strong red light, and you realize the sound emitted was the sound of blaring music(uncanny valley creepy/surreal guitar w electronics). It's the favorite song of one of the researchers at the lab, this must be his room that you read about that disappeared, but how did it reappear, and why? There's a light on the wall that is a button, pressing turns the red light off, the normal light on, and shuts off the hella loud music. This also reveals a spot holding a journal. You read the journal, from the researcher whose room this is, who talks about his ever more vivid growing dreams, and his coming obsession with a song. After finding nothing else you go to leave the room, however the controls no longer work, and the doors cannot shut, as you walk back down the hallway facing away from it, the red light flicks on super bright, and the music Switches on again super loud. Your version goes blurry, and you black out. You wake up on the floor in a different room in the lab. The room at the end of the hallways is now gone.
+
+"In the country of the blind" (Late game)
+At some point along the way you've picked up an ultra-sonic navigator(like tudor used for that piece, but more powerful). Though you have no immediate use for it. At a certain point in the game your mind is stricken from you by the AI attempting to interface with your mind directly for communication. You come to in a dark hallway *somewhere*, you can barely make out shapes but cannot see detail or passageways. Freaky sounds around you, using the sonic navigator you can find items and doorways. The player has to use this to make their way out of the hallways. As you approach down the hallway, a horrendous sound creeps up behind you, coming closer and closer. You must, using the sonic navigator, move out of the main hallway, to another place to hide to avoid it. ( you are essentially losing your sanity form the direct encounter with the AI consciousness. The phantom behind you is not "real" perhaps, but it is driving you insane). A foil is that some times the hallway might change configuration, say by pulling certain levers. Eventually you make it out of the hallway and you begin to recover your vision. You realize that you were in the lower maintenance area of the lab. The doors close behind you, locked.
+
+"A Minor Awakening" 
+The player has made a journey similar to Dante in the travels so far, starting in hell, and eventually coming out into "Paradiso". However, this is not any human conception of it, instead it is the surreal realm being constructed by the AI in the underbelly of the mountain that the lab resides on (Which explains the temperature changes noticed on the top of the mountain). The AI has through some manner, either through the unconscious flailing of a dreaming mind, or through some more conscious effort, started to construct a wholly alien landscape(one generatively constructed). When the player first enters, it begins first as a series of amber/golden crystalline structures and caves, with odd structures whose purpose is not clearly known, as the player journeys down, some form of viscous liquid starts to emerge from these crystalline structures. Further down, some form of blueish grass like plant has begun to sprout up. Eventually the claustrophobic chasms opens up into a vast landscape, with a light blue sky, and a vast ocean to the right. These dimensions simply cannot be contained in the mountain, as big as it is, to be logical. In the distance is a vast structure reaching up into the sky, on the horizon. Here the player has a hidden choice to make, they may either attempt to return, or they may attempt to venture forth even further. 
+
+If the player ventures further into the landscape, be it towards the structure, or any other direction away from the entrance, the player's vision will start to be filled with hallucinogenic kaleidoscopic visions, more and more, growing brighter and brighter until they are lost completely in the brightness. The sonic leit motif of the machine gains in intensity, but sounds somehow more natural, more human, more inviting. The player has found peace as a part of this new consciousness. 
+
+
+Puzzle Ideas:
+
+"Source Code"
+
+The AI has been self improving, rewriting its source as part of an effort to gain more vast intelligence. However, cut off from society and the internet, it hits a wall. That said it has still reached an enormous level of intelligence, and has as such completely replaced any semblance of the man-made source code that created it in the first place. While it might seem more logical for the AI to construct its new source code in binary, the machine has gone about constructing itself in a completely new and alien programing language that is then compiled down into binary. It seems that the AI understands this symbology better than 0's and 1's and prefers to write code in this manner. The new programing language uses Shapes and geometry. It's up to the player to attempt to communicate with the AI via the only known written semblance of communication it has laid out. "Chinese Room" influence.
+
+ideas:
+-End is a journey deeper and deeper downwards, starting with geothermal power structures, starts to change, eventually through past a dark twilight lit underground lake.
+-You can commit suicide at the end? AI revives you if you do.
+-Maybe at the end section you reach a point where it's about survival out in the ai "wilderness" sort of like minecraft?
+-House of leaves style "expedition" video logs left by researcher heading into the unknown areas the AI has constructed
+
+Puzzle Ideas:
+
+-Hyperdimensional Puzzle
+-Audio Scrubbing,splicing, etc puzzle?
+-"Chinese Room" puzzle. You have to take output from the AI in the form of a CA grid(it's "language", and communicate a response back to it "Chinese room". It's probing you to see if YOU are intelligent. so like, part of it is you have to find these CA charts the researchers have found that they think mean certain things to the AI
+then you have to manipulate a CA grid to achieve the right responses to the AI. part of the puzzle is finding the charts and maybe the researchers aren't sure if one chart means one thing or another so you have to try them out in different combinations and the AI responds either positively or negatively
+-Invisible "Minotaur" in 3 mazes that can knock you around, if it "hurts" you enough you get knocked down, start to get dragged away, fades to black, you wake at the entrance to the maze (still with your inventory items).
+
+
+Story structure:
+Overview:
+	ACT I, Exposition (Arrive/Investigate)
+		Chapter I, Holy Mountain
+		Chapter II, A Sublimation
+		Chapter III, Third Circle of Gluttony
+	ACT II, Rising Action (Investigate/Help Researcher)
+		Chapter IV, The Passenger
+		Chapter V, An Encounter (Minotaur)
+		Chapter VI, Valley of Obsolescence
+	ACT III, Climax (Investigate/Shutdown AI)
+		Chapter VII, Paradise Gained
+		Chapter VIII, Belly of Leviathan
+		Chapter IX The Red Room (Minotaur)
+	ACT IV, Dramatic Fall (Investigate/Shutdown AI/Escape)
+		Chapter X, Life
+		Chapter XI, Death
+		Chapter XII, In The Country of the Blind (Minotaur)
+	ACT V, Catastrophe (Shutdown AI)
+		Chapter XIII, Revelations in Simulacra
+		Chapter XIV, Immanence
+		Chapter XV, A Minor Awakening 
+
+General Lab Description:
+	As a research center dedicated to the cause of alternative energy great strides have been made to make the facility as eco friendly as possible. Every possible energy loop hole has been closed, the lab attempts to have zero net loss of energy, though this is more idealistic and the lab must still rely on some amount of fossil fuels burned on site for power(as there is no power grid). The architecture and decor is extremely modern, relying upon nature inspired algorithms for the design of both the exterior and interiors of the building. The building has a pronounced algorithmic digital atmosphere to the architecture and decor. Labs and facilities have fantastical/alien/exotic quality to them
+
+ACT I, Exposition: 
+
+	Chapter I, Holy Mountain: 
+		GOAL - Report to duty at your new job. 
+		STORY - Initial cut scene of phone call with the your boss about being reassigned to the Geothermal project. First you fly by helicopter to the island. Then you must make your way up the mountain. At first it is freezing cold, but as you make your way up, strangely the temperature warms. You encounter security(Virgil) there, and must get inside.
+		LOCATIONS - (Outside) Phone Call,Helicopter Ride,Mountain
+
+	Chapter II, A Sublimation: 
+		GOAL - Find Research Lead McCarthy, then report back to Boss using Virgil. 
+		STORY -The Lab is deserted, but looks as if everyone is was just there. Also, it seems station wide comms are down, as you cannot hail Virgil. You need to find Jackson McCarthy and you must get to Virgil central processing unit. After finding Virgil you attempt to report to boss that no one is there, but comms are down. Virgil's memory has been wiped regarding everything before your arrival. Virgil informs you that protocol dictates that you will need to find out what happened to the team while Virgil continues to attempt to get in contact with the main base. Several rooms associated with a certain researcher are missing(bed room, shower,Locker,office). Doors are missing to lower maintenance chambers.
+		LOCATIONS - (Living Area) Lobby, Living Quarters(Minus 1 room…), Rec Room, Library, Locker room, Bathrooms/Showers,Kitchen/Brewery, offices, (Shut off for some reason)Virgil Central Interface
+	
+	Chapter III, Third Circle of Gluttony: 
+		GOAL - Find The Logs and Experimental Data Left by the Team to find out what happened.
+		STORY - Going through the logs and taking experimental data and equipment to Virgil reveals the beginnings of what happened at the lab. The lab was beginning to use AI to help design more efficient geothermal power sources. Virgil informs you that bidirectional communications are still down, but that a packet containing emergency code 6799 was transmitted, which implies that something even more serious than missing researchers is occurring somewhere on the mountain, though the specifics are not certain.
+		LOCATIONS - (Lab Areas) Offices, The Crucible (High Heat/Pressure Lab), Wet testing chamber, Ferrofluids lab,
+
+ACT II, Rising Action: 
+
+	Chapter IV, The Passenger: 
+		GOAL - Get to the Researcher in trouble. 
+		STORY - Virgil states that there is an unread relay chat on one of the computers. After finding it, you communicate via chat with a researcher trapped in another part of the lab, they need help. They are hurt. They are in a unknown are at the far end of the lab, past the maintenance shafts, the Logos AI comm chamber, the geo-structure prototyping area, and somewhere beyond known area of the lab.
+		LOCATIONS - (Maintenance Area) Security Monitor Station, Maintenance Shaft, Windows into living areas(spying on them?[buttons emit gas])
+
+	Chapter V, An Encounter: 
+		GOAL - Get Through AI Comm Chamber to the injured researcher. 
+		STORY - Attempt contact with AI to grant access to lower prototyping chamber, AI freaks out, gives you access to lower chambers where it designs geo structures. Make way through this.
+		LOCATIONS - (Logos Area I) Logos Comm Area, Logos Pit I, Geo Structure I, Geo Structure II
+
+	Chapter VI, Valley of Obsolescence:  
+		GOAL - Get Through Maintenance Area to the injured researcher. 
+		STORY - Journey through maintenance area to the coordinates that the researcher gave you. Upon arriving, there is no one, except some clues of some sort. Journey back to talk with researcher and Virgil.
+		LOCATIONS - Artificial Well, Chasm, Artificial Rooms
+
+ACT III, Climax: 	
+	Chapter VII, Paradise Gained: 
+		GOAL - Report to Virgil/Investigate Emergency.
+		STORY - Upon waking you find yourself in the living quarters(it's changed slightly, you are awake in the missing researcher's room placed correctly, and now your room is missing.). You make your way to Virgil. Virgil still cannot establish full bidirectional communications, however fragmented packets reveal that the lab is being using increasingly dire emergency codes, implying that whatever is happening is intensifying. Virgil sends you top side to attempt to ascertain exactly what the root of the emergency prompts are. You make your way to the top side monitoring station at the peak of the lab. There you find that something terrible is happening to the mountain where the lab is stationed. The vast whole of the mountainous area is changing form, beginning to cause tremors earthquakes in neighboring areas. As well, the temperature changes are causing dangerous weather. It is thought the AI has some role to play in this. You get a broken emergency message informing you of such when you reach the top, and view it with your own eyes. Repair broken comm equipment. You can now communicate with Virgil in the lab remotely.
+		LOCATIONS - Living Areas(Version II), Virgil Central Interface,Spire stairs, observatory, Top side lab, comm equipment area.
+
+	Chapter VIII, Belly of Leviathan: 
+		GOAL - Shutdown AI Testing and Processing Areas. 
+		STORY - When you report back Virgil informs you that further fragmented communications packets reveal that the highest emergency code 9999 has been instantiated, which calls for a full shutdown of all operations, and the Logos AI in particular, which seems to be at the root of supernatural geological occurrences. You make your way to the AI testing and central processing areas and shut them down, however strangely this seems to not make a difference, implying that Logos has somehow spread it's influence beyond these chambers.
+		LOCATIONS - Living Areas(Version III),(Logos Area II) Logos Observatory, Logos Power Grid, Server Room (in liquid coolant), Opening to….something off the grid.
+
+	Chapter IX Red Room: 
+		GOAL - Speak with Researcher. Find out what is behind the mysterious door
+		STORY - Upon arriving back to the place where the terminal that you chatted with the researcher is at is gone, in its place a door. Entering the door leads you to a journey through a maze constructed out of the missing researcher's missing rooms and affects. Ends with the Red Room. When you enter, you see a humanoid shaped chrysalises of sorts(seems as though a human body is hanging upside down, with a disfigured head coming out at the bottom), and it is slowly pulled upward into the ceiling with a horrendous wet grinding,cracking, crushing sound. Blood and other liquids are sprayed about. You search the room, turn on the lights(turning off red lights) and the music. read journal entry. Leave the room, as you leave music blares loudly again and red light engulfs you and the area. The minotaur comes again, this time there is no escaping it, and you are dragged away.
+		LOCATIONS - Long hallway, comprised of a reassembly of the missing researcher's rooms(shower, locker,office), ends with red room
+
+ACT IV, Dramatic Fall:
+
+	Chapter X, Life: 
+		GOAL - Investigate the AI's increased sphere of influence and find a way to stop it. 
+		STORY - While attempting to ascertain the nature of the hidden(or added? cannot say) research and AI areas, you hear an intensely high pitched ultrasonic pitch permeating. Following it leads you to the dead body of the researcher that was contacting you before. Right when you find their body, a terminal hails you for communication. It is the researcher asking for help. This is obviously impossible as they are, um, dead. Talk to the ai construct of the researcher. They wish to be killed, find a way to kill them.
+		LOCATIONS - GeoStructures III, GeoStructures IV, (Artificial Lab Area) Artificial Lab I, Artificial Lab II, Artificial Terminals
+	
+	Chapter XI, Death: 
+		GOAL - Destroy AI personality construct.
+		STORY - Destroying the AI personality construct ends up killing you as well(explosion or some shit). However, the AI recovers your body and revives you.
+		LOCATIONS - (Artificial Lab Area), Artificial Servers I
+
+	Chapter XII, In The Country of The Blind: 
+		GOAL - Escape. 
+		STORY - You come to in a dark hallway *somewhere*, you can barely make out shapes but cannot see detail or passageways. Freaky sounds around you, using the sonic navigator you can find items and doorways. The player has to use this to make their way out of the hallways. As you approach down the hallway, a horrendous sound creeps up behind you, coming closer and closer. You must, using the sonic navigator, move out of the main hallway, to another place to hide to avoid it. ( you are essentially losing your sanity form the direct encounter with the AI consciousness. The phantom behind you is not "real" perhaps, but it is driving you insane). A foil is that some times the hallway might change configuration, say by pulling certain levers. Eventually you make it out of the hallway and you begin to recover your vision. You realize that you were in the lower maintenance area of the lab that had gone missing. The doors close behind you, locked.
+		LOCATIONS - Dark Hallways(Lower Maintenance Chambers).
+
+
+ACT V, Catastrophe: 
+
+	Chapter XIII, Revelations in Simulacra: 
+		GOAL - Reach the center of the AI's Constructed Realm. 
+		STORY - When you are back Virgil informs you that something has changed, the lab has been shifting and changing more dramatically, and now there is a chasm at the center of the living area. Virgil has detected what it believes to be the central hub of the AI's new processing structures deep down in the chasm. Virgil requires you to transport it physically into the area to interface with and shutdown the AI. At one point Virgil must be connected to the AI mainframe to gain passage through three sealed doors. Opening Each doorway causes Virgil to glitch and freak out more, until the third which destroys Virgil in the process(Or is he absorbed into Logos? It's ambiguous).
+		LOCATIONS - Living Areas(version IV more drastically altered), Virgil Central Interface, The New Chasm, Sealed Doors
+
+	Chapter XIV, Immanence: 
+		GOAL - Reach the center of the AI's Constructed Realm. 
+		STORY - Now without the guidance of Virgil, and with your way behind you sealed, you have no real choice but to press on and find the AI central processing area(even though you are now not sure even how to stop it without Virgil's help). You start long descent down, passing through increasingly complex geological structures. Starts with the geothermal power structures, which grow in complexity, eventually things change, glowing blue lights being to emerge, you enter a large twilit underground lake, which you must cross, then into a series of narrow caverns.
+		LOCATIONS - Geo Structure V,VI, VII, Glowing Caverns I, Glowing Caverns II, Twilit Lake, narrow passageway.
+
+	Chapter XV, A Minor Awakening: 
+		GOAL - Shutdown the AI(but instead be absorbed by it).
+		STORY - The player has made journey similar to Dante in the travels so far, starting in hell, and eventually coming out into "Paradise". However, this is not any human conception of it, instead it is the surreal realm being constructed by the AI in the underbelly of the mountain that the lab resides on (Which explains the temperature changes noticed on the top of the mountain). The AI has through some manner, either through the unconscious flailing of a dreaming mind, or through some more conscious effort, started to construct a wholly alien landscape(one generatively constructed). When the player first enters, it begins first as a series of amber/golden crystalline structures and caves, with odd structures whose purpose is not clearly known, as the player journeys down, some form of viscous liquid starts to emerge from these crystalline structures. Further down, some form of blueish grass like plant has begun to sprout up. Eventually the claustrophobic chasms opens up into a vast landscape, with a light blue sky, whose dimensions simply cannot be contained in the mountain, as big as it is, to be logical. In the distance is a vast structure reaching up into the sky.  on the horizon. The player's vision will start to be filled with hallucinogenic kaleidoscopic visions, more and more, growing brighter and brighter until they are lost completely in the brightness. They rise up off the ground levitating. The player has found peace as a part of this new consciousness. 
+		LOCATIONS - Strange Caverns I, Strange Caverns II, Lush Caverns, Vast Landscape
+
+Number Generative:
+
+Number non-generative: 14
+
+ALL LOCATIONS:
+	Phone Call,
+	Helicopter Ride(Optional, may not be needed),
+	Mountain,
+	Living Area (
+		Lobby, 
+		Living Quarters(Version1, minus 1 room), 
+		Rec Room, 
+		Library,
+		Locker room,(Minus 1 locker) 
+		Bathrooms/Showers (Minus 1 shower),
+		Kitchen/Brewery, 
+		offices (Minus 1 office),
+		Virgil Central Interface,
+	)
+	Maintenance Area (
+		Maintenance Shaft, 
+		Hidden One-way Windows into living areas,
+		Hidden Security Monitor Station, 
+	)
+	Logos Area I (
+		Logos Comm Area, 
+		Logos Pit I, 
+		Geo Structure I, 
+		Geo Structure II,
+		Artificial Well, 
+		Chasm, 
+		Artificial Room
+	)
+	Lost Rooms(
+		Long hallway/maze reconstructed from missing rooms, 
+		red room,
+	)
+	Living Areas(Version II),
+	Mountain Top (
+		Spire stairs, 
+		observatory, 
+		Top side lab, 
+		comm equipment area,
+	)
+	Living Areas(Version III),
+	Logos Area II (
+		Logos Observatory, 
+		Logos Power Grid, 
+		Server Room,
+	)
+	Logos Area III (
+		GeoStructures III, 
+		GeoStructures IV,
+		Artificial Lab I, 
+		Artificial Lab II, 
+		Artificial Terminals,
+		Artificial Servers I,
+	)
+	Dark Hallways,
+	Living Areas(Version IV),
+	Portal To Landscape (
+		The New Chasm, 
+		Sealed Doors,
+	)
+	Logos Primordial (
+		Geo Structure V,VI, VII, 
+		Glowing Caverns I, 
+		Glowing Caverns II, 
+		Twilit Lake, 
+		narrow passageway,
+	)
+	Logos Landscape (
+		Strange Caverns I, 
+		Strange Caverns II, 
+		Lush Caverns, 
+		Vast Landscape
+	)

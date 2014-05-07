@@ -1,0 +1,1144 @@
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:0 Mon Apr 30 12:24:41 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:0 Mon Apr 30 12:24:41 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence:  
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:0 Mon Apr 30 12:24:41 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._psittaci C._psittaci
+input:0 Mon Apr 30 12:24:41 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._trachomatis C._trachomatis
+input:0 Mon Apr 30 12:24:41 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:0 Mon Apr 30 12:24:41 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence:  
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:2 Mon Apr 30 12:24:58 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:2 Mon Apr 30 12:24:58 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:2 Mon Apr 30 12:24:58 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:2 Mon Apr 30 12:24:58 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:2 Mon Apr 30 12:24:58 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:2 Mon Apr 30 12:24:58 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in simpletopic.top at 92:  a: (* [~yes solar hydro hydroelectric "hydro electric" geothermal "geo thermal" wind nuclear fusion fission) Yes, that's a traditional one, but you are not familiar with this power source. It will provide many times more power than all other types combined. It is still experimental of course.
+) is not closing (   in simpletopic.top at 96: t: Sky () Being so high up in the mountains, this is the perfect place for testing the new technology code named Archimedes's NanoScrew. Do you enjoy the view?
+Bad topic flag t: for topic ~lab   in simpletopic.top at 101: t: MOON () Have you ever seen the moon from a mountain top this high up?
+Bad topic flag t: for topic ~lab   in simpletopic.top at 106: t: WORK () Why do you want to work here?
+Bad topic flag t: for topic ~lab   in simpletopic.top at 115: t: MANIMALS () What's your favorite animal?
+Bad topic flag t: for topic ~lab   in simpletopic.top at 120: ?: (this * called) This facility is SkyLab. Great work in Nanothermal power is being done here.
+Bad topic flag ?: for topic ~lab   in simpletopic.top at 121: ?: (* where * [are is] * [we this place]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+Bad topic flag ?: for topic ~lab   in simpletopic.top at 128: ?: (* [mountain hill place setting surroundings] * [called named]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+Bad topic flag ?: for topic ~lab   in simpletopic.top at 135: ?: (* [called named] * [mountain hill place setting surroundings]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+Bad topic flag ?: for topic ~lab   in simpletopic.top at 143: topic: ~RESEARCH (research nano thermal geo geothermal nano thermal work "being done" nano-thermal work job)
+No topic name?input:27 Mon Apr 30 12:46:01 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:27 Mon Apr 30 12:46:01 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:casio callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:27 Mon Apr 30 12:46:01 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:27 Mon Apr 30 12:46:01 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:27 Mon Apr 30 12:46:01 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:27 Mon Apr 30 12:46:01 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:23 Mon Apr 30 12:59:19 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:23 Mon Apr 30 12:59:19 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:casio callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:23 Mon Apr 30 12:59:19 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:23 Mon Apr 30 12:59:19 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:23 Mon Apr 30 12:59:19 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:23 Mon Apr 30 12:59:19 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in simpletopic.top at 195: ?: (do you eat _~meat?) I enjoy _0. However, I especially enjoy HUMAN meat. Do you like human meat?
+Illegal comparison type ~meat?   in simpletopic.top at 200: topic: ~INTRODUCTIONS  (~emogoodbye ~emohello ~emohowzit name here)
+No topic name?   in simplecontrol.top at 8: $userprompt = ^"$login: >"
+Call to function not yet defined ^$login_:_>   in simplecontrol.top at 18: $userprompt = ^"$login: >"
+Call to function not yet defined ^$login_:_>   in simplecontrol.top at 29: $botprompt = ^"MediBot: "
+Call to function not yet defined ^medibot_:input:18 Mon Apr 30 13:33:30 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:18 Mon Apr 30 13:33:30 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:casio callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:18 Mon Apr 30 13:33:30 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:18 Mon Apr 30 13:33:30 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:18 Mon Apr 30 13:33:30 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:18 Mon Apr 30 13:33:30 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:2 Mon Apr 30 13:34:36 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:2 Mon Apr 30 13:34:36 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:casio callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:2 Mon Apr 30 13:34:37 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:2 Mon Apr 30 13:34:37 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:2 Mon Apr 30 13:34:37 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:2 Mon Apr 30 13:34:37 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:casio callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in simpletopic.top at 146: ?: (tell * me * about *[place mountain lab]) ^resuse(ABOUTLAB)
+Call to function not yet defined ^resuse   in simpletopic.top at 149: topic: ~RESEARCH (research nano thermal geo geothermal nano thermal work "being done" nano-thermal work job technology)
+No topic name?   in simpletopic.top at 178: ?: EATMEAT noerase (do you eat _~meat) [I enjoy _0. However, I especially enjoy HUMAN meat. Do you like human meat?] [Really? _0 is the most terrible food in the world]
+Pattern is required for ?: responder   in simpletopic.top at 182: ?: WHEREFROM (Where * you * from) The SecureBot security robot system was designed by the Shiitake Minds Corporation in 2027. Instance number 33287 was constructed in New Taipei, Taiwan on May 1st, 2029. 
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 184: ?: (Who * ~constructed * you) ^reuse(WHEREFROM)
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 186: ?: (Do * you * like * _~musician)  
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 189: concept: ~band(band "musical group" "pop group" "pop act" composer)
+No topic name?   in simpletopic.top at 190: concept: ~meat(meat beef cow pork pig duck pheasant chicken snake lamb mutton rabbit)
+Concept/topic already defined ~meat   in simpletopic.top at 178: ?: EATMEAT noerase (do you eat _~meat) [I enjoy _0. However, I especially enjoy HUMAN meat. Do you like human meat?] [Really? _0 is the most terrible food in the world]
+Pattern is required for ?: responder   in simpletopic.top at 182: ?: WHEREFROM (Where * you * from) The SecureBot security robot system was designed by the Shiitake Minds Corporation in 2027. Instance number 33287 was constructed in New Taipei, Taiwan on May 1st, 2029. 
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 184: ?: (Who * ~constructed * you) ^reuse(WHEREFROM)
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 186: ?: (Do * you * like * _~musician)  
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 189: concept: ~band(band "musical group" "pop group" "pop act" composer)
+No topic name?   in simpletopic.top at 190: concept: ~meat(meat beef cow pork pig duck pheasant chicken snake lamb mutton rabbit)
+Concept/topic already defined ~meat   in simpletopic.top at 182: ?: WHEREFROM (Where * you * from) The SecureBot security robot system was designed by the Shiitake Minds Corporation in 2027. Instance number 33287 was constructed in New Taipei, Taiwan on May 1st, 2029. 
+Keyword Where is upper case and shouldn't be
+   in simpletopic.top at 184: ?: (Who * ~constructed * you) ^reuse(WHEREFROM)
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 186: ?: (Do * you * like * _~musician)  
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 189: concept: ~band(band "musical group" "pop group" "pop act" composer)
+No topic name?   in simpletopic.top at 190: concept: ~meat(meat beef cow pork pig duck pheasant chicken snake lamb mutton rabbit)
+Concept/topic already defined ~meat   in simpletopic.top at 184: ?: (Who * ~constructed * you) ^reuse(WHEREFROM)
+Keyword Who is upper case and shouldn't be
+   in simpletopic.top at 186: ?: (Do * you * like * _~musician)  
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 189: concept: ~band(band "musical group" "pop group" "pop act" composer)
+No topic name?   in simpletopic.top at 190: concept: ~meat(meat beef cow pork pig duck pheasant chicken snake lamb mutton rabbit)
+Concept/topic already defined ~meat   in simpletopic.top at 189: concept: ~band(band "musical group" "pop group" "pop act" composer)
+Concept/topic already defined ~band   in simpletopic.top at 190: concept: ~meat(meat beef cow pork pig duck pheasant chicken snake lamb mutton rabbit)
+Concept/topic already defined ~meatinput:0 Mon Apr 30 15:18:27 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:0 Mon Apr 30 15:18:27 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence:  
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:0 Mon Apr 30 15:18:27 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._psittaci C._psittaci
+input:0 Mon Apr 30 15:18:27 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._trachomatis C._trachomatis
+input:0 Mon Apr 30 15:18:27 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:0 Mon Apr 30 15:18:27 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence:  
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in simpletopic.top at 177: ?: (* [what who *] favorite * band) My favorite band is The Melvins. They are better than you, and that's a good thing.
+cannot have * followed by closer - ]   in simpletopic.top at 178: ?: EATMEAT (do you eat _~meat) [I enjoy _0. However, I especially enjoy HUMAN meat. Do you like human meat?] [Really? _0 is the most terrible food in the world]
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 182: ?: WHEREFROM (where * you * from) The SecureBot security robot system was designed by the Shiitake Minds Corporation in 2027. Instance number 33287 was constructed in New Taipei, Taiwan on May 1st, 2029. 
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 184: ?: (who * ~constructed * you) Yes well..^reuse(WHEREFROM)
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 186: ?: (do * you * like * _~musician)  
+Bad topic flag ?: for topic ~aboutsecurebot   in simpletopic.top at 189: concept: ~constructed(built constructed designed created made)
+No topic name?input:22 Mon Apr 30 15:26:56 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:22 Mon Apr 30 15:26:56 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:22 Mon Apr 30 15:26:56 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:22 Mon Apr 30 15:26:56 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:22 Mon Apr 30 15:26:56 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:22 Mon Apr 30 15:26:56 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:31 Mon Apr 30 15:37:37 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:31 Mon Apr 30 15:37:37 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:31 Mon Apr 30 15:37:37 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:31 Mon Apr 30 15:37:37 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:31 Mon Apr 30 15:37:37 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:31 Mon Apr 30 15:37:37 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:15 Mon Apr 30 15:39:57 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:15 Mon Apr 30 15:39:57 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:15 Mon Apr 30 15:39:57 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:15 Mon Apr 30 15:39:57 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:15 Mon Apr 30 15:39:57 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:15 Mon Apr 30 15:39:57 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:28 Mon Apr 30 15:49:11 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:28 Mon Apr 30 15:49:11 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:28 Mon Apr 30 15:49:11 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:28 Mon Apr 30 15:49:11 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:28 Mon Apr 30 15:49:11 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:28 Mon Apr 30 15:49:11 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in simpletopic.top at 186: u: (who * ~constructed * you) Yes well, that's an interesting story. ^use(WHEREFROM)
+Call to function not yet defined ^use   in simpletopic.top at 188: u: (do * you * like * _~musician)  
+Bad topic flag u: for topic ~aboutsecurebot   in simpletopic.top at 191: u: (tell * about * [you secureBot "secure bot"]) Most days I just sit here doing nothing. On a good day I get to kill someone. It's a good life.
+Bad topic flag u: for topic ~aboutsecurebot   in simpletopic.top at 193: concept: ~constructed(built constructed designed created made)
+No topic name?input:14 Mon Apr 30 15:51:44 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:14 Mon Apr 30 15:51:44 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:14 Mon Apr 30 15:51:44 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:14 Mon Apr 30 15:51:44 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:14 Mon Apr 30 15:51:44 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:14 Mon Apr 30 15:51:44 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:20 Mon Apr 30 18:53:29 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:20 Mon Apr 30 18:53:29 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:20 Mon Apr 30 18:53:29 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:20 Mon Apr 30 18:53:29 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:20 Mon Apr 30 18:53:29 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:20 Mon Apr 30 18:53:29 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:3 Mon Apr 30 18:54:21 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:3 Mon Apr 30 18:54:21 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:3 Mon Apr 30 18:54:21 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:3 Mon Apr 30 18:54:22 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:3 Mon Apr 30 18:54:22 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:3 Mon Apr 30 18:54:22 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:4 Mon Apr 30 18:55:40 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:4 Mon Apr 30 18:55:40 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:4 Mon Apr 30 18:55:40 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:4 Mon Apr 30 18:55:40 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:4 Mon Apr 30 18:55:40 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:4 Mon Apr 30 18:55:40 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:3 Mon Apr 30 18:56:52 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:3 Mon Apr 30 18:56:52 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:3 Mon Apr 30 18:56:52 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:3 Mon Apr 30 18:56:52 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:3 Mon Apr 30 18:56:52 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:3 Mon Apr 30 18:56:52 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:2 Mon Apr 30 18:58:22 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:2 Mon Apr 30 18:58:22 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:2 Mon Apr 30 18:58:22 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:2 Mon Apr 30 18:58:22 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:2 Mon Apr 30 18:58:22 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:2 Mon Apr 30 18:58:22 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:8 Mon Apr 30 19:05:37 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:8 Mon Apr 30 19:05:37 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:8 Mon Apr 30 19:05:37 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:8 Mon Apr 30 19:05:37 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:8 Mon Apr 30 19:05:37 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:8 Mon Apr 30 19:05:37 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:3 Mon Apr 30 19:07:06 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: , that's me .  
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:3 Mon Apr 30 19:07:06 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: , that's me .  
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:3 Mon Apr 30 19:07:06 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: , that's me .  
+Missing synsets for C_._psittaci C._psittaci
+input:3 Mon Apr 30 19:07:06 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: , that's me .  
+Missing synsets for C_._trachomatis C._trachomatis
+input:3 Mon Apr 30 19:07:06 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: , that's me .  
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:3 Mon Apr 30 19:07:06 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: , that's me .  
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:0 Mon Apr 30 19:07:10 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:0 Mon Apr 30 19:07:10 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence:  
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:0 Mon Apr 30 19:07:10 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._psittaci C._psittaci
+input:0 Mon Apr 30 19:07:10 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._trachomatis C._trachomatis
+input:0 Mon Apr 30 19:07:10 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence:  
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:0 Mon Apr 30 19:07:10 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence:  
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:10 Mon Apr 30 19:10:57 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:10 Mon Apr 30 19:10:57 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:10 Mon Apr 30 19:10:57 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:10 Mon Apr 30 19:10:57 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:10 Mon Apr 30 19:10:57 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:10 Mon Apr 30 19:10:57 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:1 Mon Apr 30 19:11:25 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: asshole .  
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:1 Mon Apr 30 19:11:25 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: asshole .  
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:1 Mon Apr 30 19:11:25 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: asshole .  
+Missing synsets for C_._psittaci C._psittaci
+input:1 Mon Apr 30 19:11:25 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: asshole .  
+Missing synsets for C_._trachomatis C._trachomatis
+input:1 Mon Apr 30 19:11:25 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: asshole .  
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:1 Mon Apr 30 19:11:25 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: asshole .  
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:15 Mon Apr 30 19:12:32 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:15 Mon Apr 30 19:12:32 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:15 Mon Apr 30 19:12:32 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:15 Mon Apr 30 19:12:32 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:15 Mon Apr 30 19:12:32 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:15 Mon Apr 30 19:12:32 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:5 Mon Apr 30 19:18:00 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:5 Mon Apr 30 19:18:00 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:5 Mon Apr 30 19:18:00 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:5 Mon Apr 30 19:18:00 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:5 Mon Apr 30 19:18:00 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:5 Mon Apr 30 19:18:00 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+input:19 Mon Apr 30 19:27:02 2012 Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+input:19 Mon Apr 30 19:27:02 2012 Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+ caller:curtis callee:harry in sentence: :build 1 
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+input:19 Mon Apr 30 19:27:02 2012 Missing synsets for C_._psittaci C._psittaci
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._psittaci C._psittaci
+input:19 Mon Apr 30 19:27:02 2012 Missing synsets for C_._trachomatis C._trachomatis
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._trachomatis C._trachomatis
+input:19 Mon Apr 30 19:27:02 2012 Missing synsets for C_._diphtheriae C._diphtheriae
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for C_._diphtheriae C._diphtheriae
+input:19 Mon Apr 30 19:27:02 2012 Missing synsets for L_._monocytogenes L._monocytogenes
+ caller:curtis callee:harry in sentence: :build 1 
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in USERS/topic__harry.txt at 50: #`end usr
+input:0 Fri Jun  8 22:36:24 2012  caller: callee:harry in sentence:  
+   in USERS/fact_.txt at 3: $control_p
+input:1 Fri Jun  8 22:36:24 2012 Buffer allocation underflow caller: callee:harry in sentence:  
+Buffer allocation underflow   in USERS/fact_.txt at 46: 
+input:1 Fri Jun  8 22:36:24 2012 Buffer allocation underflow caller: callee:harry in sentence:  
+Buffer allocation underflow   in USERS/fact_.txt at 49: ~introductions ~access #interesting
+input:1 Fri Jun  8 22:36:24 2012 bad number1
+ caller: callee:harry in sentence:  
+bad number1
+   in USERS/fact_.txt at 49: ~introductions ~access #interesting
+input:1 Fri Jun  8 22:36:24 2012 Bad user variable to save _main
+ caller: callee:harry in sentence:  
+Bad user variable to save _main
+   in USERS/topic__harry.txt at 1: 
+input:2 Fri Jun  8 22:36:24 2012 No response generated -   ello caller: callee:harry in sentence: ello 
+No response generated -   ello   in USERS/topic__harry.txt at 12: ^harry
+input:0 Fri Jun  8 22:36:24 2012  caller: callee:harry in sentence: ello 
+   in USERS/topic__harry.txt at 12: ^harry
+input:1 Fri Jun  8 22:36:24 2012 Buffer allocation underflow caller: callee:harry in sentence: ello 
+Buffer allocation underflowMissing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in USERS/fact_.txt at 0: 
+input:10 Fri Jun  8 22:38:38 2012 entering null word to dictionary caller: callee:harry in sentence: What's your name? 
+entering null word to dictionaryMissing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+   in USERS/fact_.txt at 0: 
+input:10 Fri Jun  8 23:20:24 2012 entering null word to dictionary caller: callee:harry in sentence: fwoeaujnajewfnawef 
+entering null word to dictionaryMissing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+Missing synsets for C_._psittaci C._psittaci
+Missing synsets for C_._trachomatis C._trachomatis
+Missing synsets for C_._diphtheriae C._diphtheriae
+Missing synsets for L_._monocytogenes L._monocytogenes

@@ -1,0 +1,1027 @@
+ zoom ( meanings=5 glosses=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR KINDERGARTEN posdefault:VERB ) 
+  soar~1n 
+  rapid_growth~1nz (rise~9n) a rapid rise
+  soar~5v 
+  whizz_along~1vz move along very quickly
+  zoom~5vz move with a low humming noise
+ zero-sum_game ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero-sum_game~1nz (game~2n) a game in which the total of all the gains and losses is zero
+ zoophilia ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  zoophilism~1nz (paraphilia~1n) a sexual attraction to animals
+ zoophilism ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zoophilia~1n 
+ zooerastia ( meanings=1 NOUN NOUN_SINGULAR ) 
+  bestiality~1n 
+ zooerasty ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zooerastia~1n 
+ zizz ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+  zizz~1nz (nap~2n) a nap
+  zizz~2nz (sound~5n) a buzzing or whizzing sound
+ zoning ( meanings=1 glosses=1 NOUN NOUN_GERUND ) 
+  zoning~1nz (division~2n) dividing an area into zones or sections reserved for different purposes such as residence and business and manufacturing etc
+ zone_fire ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zone_fire~1nz (artillery_fire~1n) artillery or mortar fire delivered in a constant direction at several quadrant elevations
+ zone ( meanings=6 glosses=5 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR KINDERGARTEN VERB_DIRECTOBJECT ) 
+  zona~1nz (structure~3n) any encircling or beltlike structure
+  zone~2nz (part~9n) an area or region distinguished from adjacent parts by a distinctive feature or characteristic
+  geographical_zone~1nz (geographical_area~1n) any of the regions of the surface of the Earth loosely divided according to latitude or longitude
+  zone~4nz (spot~12n) a locally circumscribed place characterized by some distinctive features
+  partition~5v 
+  district~2vz regulate housing in
+ zoolatry ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  animal-worship~1nz (worship~1n) the worship of animals
+ Zama ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  battle_of_Zama~1nz (pitched_battle~1n) the battle in 202 BC in which Scipio decisively defeated Hannibal at the end of the second Punic War
+ zooplankton ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zooplankton~1nz (animal~1n) animal constituent of plankton
+ Zygnematales ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  order_Zygnemales~1nz (animal_order~1n) pond scums
+ Zygnemales ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  order_Zygnematales~1n 
+ Zygnemataceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zygnemataceae~1nz (protoctist_family~1n) pond scums: common freshwater algae forming green slimy masses
+ Zygnema ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zygnema~1nz (protoctist_genus~1n) type genus of the family Zygnemataceae
+ zooid ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zooid~1nz (organism~1n) one of the distinct individuals forming a colonial animal such as a bryozoan or hydrozoan
+ Zoomastigina ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  subclass_Zoomastigina~1nz (class~5n) in some classifications considered a phylum of the kingdom Protista
+ zoomastigote ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zooflagellate~1nz (flagellate~1n) flagellate protozoan lacking photosynthesis and other plant-like characteristics
+ zooflagellate ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zoomastigote~1n 
+ Zeomorphi ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  order_Zeomorphi~1nz (animal_order~1n) dories
+ Zeidae ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zeidae~1nz (fish_family~1n) a family of fish in the order Zeomorphi
+ Zeus ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zeus~1nz (fish_genus~1n) type genus of the family Zeidae
+  Zeus~2nz (Greek_deity~1n) the supreme god of ancient Greek mythology
+ Zeus_faber ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  John_Dory~1n 
+ Zonotrichia ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zonotrichia~1nz (bird_genus~1n) large New World sparrows
+ Zonotrichia_albicollis ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  whitethroat~1n 
+ Zonotrichia_leucophrys ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  white-crowned_sparrow~1n 
+ zebra_finch ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Poephila_castanotis~1nz (grass_finch~2n) small Australian weaverbird with markings like a zebra's
+ zebra ( meanings=1 glosses=1 NOUN NOUN_SINGULAR GRADE1_2 ) 
+  zebra~1nz (equine~1n) any of several fleet black-and-white striped African equines
+ zebra-tailed_lizard ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Callisaurus_draconoides~1nz (iguanid~1n) swift lizard with long black-banded tail and long legs
+ Zenaidura ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zenaidura~1nz (bird_genus~1n) mourning doves
+ Zenaidura_macroura ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  mourning_dove~1n 
+ Zaglossus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zaglossus~1nz (mammal_genus~1n) a genus of Tachyglossidae
+ zoophyte ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoophyte~1nz (invertebrate~1n) any of various invertebrate animals resembling a plant such as a sea anemone or coral or sponge
+ zebra_mussel ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Dreissena_polymorpha~1nz (freshwater_mussel~1n) inch long mollusk imported accidentally from Europe
+ Ziphiidae ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Hyperodontidae~1nz (mammal_family~1n) beaked whales
+ Zalophus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zalophus~1nz (mammal_genus~1n) sea lions
+ Zalophus_californianus ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  California_sea_lion~1n 
+ Zalophus_californicus ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zalophus_californianus~1n 
+ Zalophus_lobatus ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Australian_sea_lion~1n 
+ zygodactyl_foot ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zygodactyl_foot~1nz (bird_'s_foot~1n) a bird's foot having the first and fourth toes of each foot directed backward and the second and third forward
+ zygodactyl ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zygodactyl~1az having the first and fourth toes directed backward the second and third forward
+ Zygoptera ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  suborder_Zygoptera~1nz (animal_order~1n) damselflies
+ Zapodidae ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zapodidae~1nz (mammal_family~1n) jumping mice
+ Zapus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zapus~1nz (mammal_genus~1n) type genus of the Zapodidae
+ Zapus_hudsonius ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  meadow_jumping_mouse~1n 
+ zebu ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zebu~1nz (Brahman~1n) domesticated ox having a humped back and long horns and a large dewlap
+ zoril ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Ictonyx_frenata~1nz (muishond~1n) muishond of northern Africa
+ Zinjanthropus ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  genus_Zinjanthropus~1nz (australopithecine~1n) genus to which Australopithecus boisei was formerly assigned
+ Zoarcidae ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zoarcidae~1nz (fish_family~1n) eelpouts
+ Zoarces ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zoarces~1nz (fish_genus~1n) type genus of the Zoarcidae
+ Zoarces_viviparus ( meanings=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  viviparous_eelpout~1n 
+ Zen ( meanings=3 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  window_pane~1n 
+  Zen_Buddhism~1nz (Buddhism~1n) a Buddhist doctrine that enlightenment can be attained through direct intuitive insight
+  Zen_Buddhism~2nz (Buddhism~2n) school of Mahayana Buddhism asserting that enlightenment can come through meditation and intuition rather than faith
+ Zovirax ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  acyclovir~1n 
+ Zyloprim ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  allopurinol~1n 
+ zidovudine ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  AZT~1nz (nucleoside_reverse_transcriptase_inhibitor~1n) an antiviral drug used in the treatment of AIDS
+ ZDV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Retrovir~1n 
+ Zithromax ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  azithromycin~1n 
+ Zinacef ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Ceftin~1n 
+ zalcitabine ( meanings=1 NOUN NOUN_SINGULAR ) 
+  ddC~1n 
+ Zarontin ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Emeside~1n 
+ Zestril ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Prinival~1n 
+ zoo ( meanings=1 NOUN NOUN_SINGULAR GRADE1_2 ) 
+  menagerie~1n 
+ zoological_garden ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zoo~1n 
+ zoological ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_BASIC ) 
+  zoological~1az of or relating to animals or animal groups
+  zoological~2az concerning the study of animals and their classification and properties
+ zebra_crossing ( meanings=1 NOUN NOUN_SINGULAR ) 
+  pedestrian_crossing~1n 
+ zori ( meanings=1 NOUN NOUN_SINGULAR ) 
+  pusher~2n 
+ Zantac ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  ranitidine~1n 
+ Zoloft ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  sertraline~1n 
+ Zocor ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  simvastatin~1n 
+ zip ( meanings=5 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR GRADE1_2 posdefault:NOUN VERB_DIRECTOBJECT ) 
+  slide_fastener~1n 
+  vigour~3nz (force~4n) forceful exertion
+  naught~2n 
+  zip_up~1vz close with a zipper
+  hurry~6v 
+ zipper ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR KINDERGARTEN VERB_DIRECTOBJECT ) 
+  zip~1n 
+  zip~4v 
+ zip_fastener ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zipper~1n 
+ zoom_lens ( meanings=1 NOUN NOUN_SINGULAR ) 
+  telephoto_lens~1n 
+ Zimmer ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  walker~2n 
+ Zimmer_frame ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zimmer~1n 
+ Zamboni ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zamboni~1nz (machine~2n) the trademark for a machine that smooths the ice in an ice-skating rink
+ zapper ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zapper~1nz (electrical_device~1n) an electrical device that can injure or kill by means of electric currents
+ zarf ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zarf~1nz (holder~1n) an ornamental metal cup-shaped holder for a hot coffee cup
+ zeppelin ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Graf_Zeppelin~1nz (airship~1n) a large rigid dirigible designed to carry passengers or bombs
+ zero ( meanings=10 glosses=9 VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADJECTIVE_BASIC ADJECTIVE_CARDINAL ADJECTIVE_ORDINAL NOUN_SINGULAR NOUN_CARDINAL KINDERGARTEN posdefault:NOUN VERB_DIRECTOBJECT ) plural=zeroes 
+  zero~1nz (sight_setting~1n) the sight setting that will cause a projectile to hit the center of the target with no wind blowing
+  zero_point~1nz (numerical_quantity~1n) the point on a scale from which positive or negative numerical quantities can be measured
+  zip~3n 
+  nought~1nz (figure~12n) a mathematical element that when added to another number yields the same number
+  zero_in~1vz adjust the zero of (a gun)
+  zero~6vz adjust to zero value
+  zero~7az indicating the absence of any or all units under consideration
+  zero~8az indicating an initial point or origin
+  zero~9az having no measurable or otherwise determinable value
+  zero~10az of or relating to the null set
+ ziggurat ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zikurat~1nz (temple~3n) a rectangular tiered temple or terraced mound erected by the ancient Assyrians and Babylonians
+ zikkurat ( meanings=1 NOUN NOUN_SINGULAR ) 
+  ziggurat~1n 
+ zikurat ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zikkurat~1n 
+ zill ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zill~1nz (cymbal~1n) one of a pair of small metallic cymbals worn on the thumb and middle finger
+ zinc_ointment ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinc_ointment~1nz (salve~2n) an ointment containing zinc that is used to treat certain skin diseases
+ zinc ( meanings=2 glosses=2 NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR VERB_DIRECTOBJECT ) 
+  Zn~1nz (metal~2n) a bluish-white lustrous metallic element
+  zinc~2vz coat or cover with zinc
+ zip_gun ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zip_gun~1nz (pistol~1n) a crude homemade pistol
+ zither ( meanings=1 NOUN NOUN_SINGULAR ) 
+  cither~2n 
+ zithern ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zither~1n 
+ zodiac ( meanings=2 glosses=2 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  zodiac~1nz (diagram~1n) a circular diagram representing the 12 zodiacal constellations and showing their signs
+  zodiac~2nz (part~9n) a belt-shaped region in the heavens on either side to the ecliptic
+ zoot_suit ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoot_suit~1nz (suit~2n) a flashy suit of extreme cut
+ zing ( meanings=2 glosses=1 NOUN NOUN_SINGULAR ) 
+  oomph~1n 
+  zing~2nz (sound~5n) a brief high-pitched buzzing or humming sound
+ zeal ( meanings=3 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  eagerness~1n 
+  zeal~2nz (fire~6n) excessive fervor to do something or accomplish some end
+  elan~3n 
+ zest ( meanings=3 glosses=1 NOUN_MASS VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR VERB_DIRECTOBJECT ) 
+  tanginess~1n 
+  zestfulness~1nz (enjoyment~3n) vigorous and enthusiastic enjoyment
+  spice~5v 
+ zygomatic_bone ( meanings=1 NOUN NOUN_SINGULAR ) 
+  cheekbone~1n 
+ zygomatic ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) 
+  zygomatic_bone~1n 
+  zygomatic~2az of or relating to the cheek region of the face
+ zygoma ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  arcus_zygomaticus~1nz (bone~2n) the slender arch formed by the temporal process of the cheekbone that bridges to the zygomatic process of the temporal bone
+ zygomatic_arch ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zygoma~1n 
+ zygote ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  fertilized_ovum~1nz (cell~1n) the diploid cell resulting from the union of a haploid spermatozoon and ovum (including the organism that develops from that cell)
+ zygomatic_process ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zygomatic_process~1nz (process~3n) a slender process of the temporal bone that strengthens the zygomatic arch
+ zona_pellucida ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zona_pellucida~1nz (zone~1n) thick membrane around the mammalian ovum
+ zona ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zone~1n 
+ zonule ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zonula~1nz (zone~1n) small beltlike zone
+ zonula ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zonule~1n 
+ Zion ( meanings=3 glosses=2 NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+  Utopia~1n 
+  Yisrael~1nz (state~4n) Jewish republic in southwestern Asia at eastern end of Mediterranean
+  Sion~3nz (hill~3n) originally a stronghold captured by David 
+ zoomorphism ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoomorphism~1nz (attribution~2n) the attribution of animal forms or qualities to a god
+ zero_point ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zero~2n 
+ zeroth_law_of_thermodynamics ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zeroth_law_of_thermodynamics~1nz (law_of_thermodynamics~1n) the law that if two bodies are in thermal equilibrium with a third body then the first two bodies are in thermal equilibrium with each other
+ zakat ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zakat~1nz (charity~1n) the fourth pillar of Islam is almsgiving as an act of worship
+ z-axis ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  z-axis~1nz (coordinate_axis~1n) the third axis in a 3-dimensional coordinate system
+ zymology ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zymurgy~1nz (biochemistry~1n) the branch of chemistry concerned with fermentation
+ zymurgy ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zymology~1n 
+ zoology ( meanings=2 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  zoological_science~1nz (biology~1n) the branch of biology that studies animals
+  fauna~2n 
+ zoological_science ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zoology~1n 
+ zealotry ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  fanatism~1n 
+ zero_tolerance ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero_tolerance~1nz (intolerance~2n) extreme intolerance of antisocial behavior 
+ Zen_Buddhism ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Zen~2n 
+  Zen~3n 
+ Zoroastrianism ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Mazdaism~1nz (faith~3n) system of religion founded in Persia in the 6th century BC by Zoroaster
+ Zurvanism ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Zurvanism~1nz (unorthodoxy~2n) a heretical Zoroastrian doctrine holding that Zurvan was the ultimate source of the universe and that both Ahura Mazda and Ahriman were Zurvan's offspring
+  Zurvanism~2nz (sect~1n) a Zoroastrian sect that claims Zurvan was the ultimate source of the universe
+ ZIP_code ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  postal_code~1nz (code~1n) a code of letters and digits added to a postal address to aid in the sorting of mail
+ ZIP ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  ZIP_code~1n 
+ Zend-Avesta ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Avesta~1n 
+ Zephaniah ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Book_of_Zephaniah~1nz (book~3n) an Old Testament book telling the prophecies of Zephaniah which are concerned mainly with the approaching judgment by God upon the sinners of Judah
+  Sophonias~2nz (prophet~2n) a Hebrew minor prophet of the late 7th century BC
+ Zechariah ( meanings=2 glosses=2 NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+  Book_of_Zachariah~1nz (book~3n) an Old Testament book telling the prophecies of Zechariah which are concerned mainly with the renewal of Israel after the Babylonian Captivity
+  Zacharias~2nz (prophet~2n) a Hebrew minor prophet of the late 6th century BC
+ Zacharias ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Zechariah~1n 
+  Zechariah~2n 
+ zero-tolerance_policy ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero-tolerance_policy~1nz (policy~3n) any policy that allows no exception
+ Zionism ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Zionism~1nz (policy~3n) a policy for establishing and developing a national homeland for Jews in Palestine
+  Zionist_movement~1nz (movement~9n) a movement of world Jewry that arose late in the 19th century with the aim of creating a Jewish state in Palestine
+ Z ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  izzard~1nz (letter~3n) the 26th letter of the Roman alphabet
+  omega~2nz (conclusion~8n) the ending of a series or sequence
+ zee ( meanings=1 NOUN NOUN_SINGULAR ) 
+  Z~1n 
+ zed ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zee~1n 
+ zeta ( meanings=1 glosses=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  zeta~1nz (letter~3n) the 6th letter of the Greek alphabet
+ zayin ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zayin~1nz (letter~3n) the 7th letter of the Hebrew alphabet
+ Zapotec ( meanings=3 glosses=3 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zapotecan~1nz (Uto-Aztecan~1n) the language of the Zapotec
+  Zapotecan~2nz (Indian~2n) a member of a large tribe of Mesoamericans living in southern Mexico whose civilization flourished around 300 to 900
+  Zapotec~3az of or relating to the language or culture of the Zapotec people
+ Zapotecan ( meanings=2 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zapotec~1n 
+  Zapotec~2n 
+ Zhuang ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zhuang~1nz (Tai~1n) a branch of the Tai languages
+ Zyrian ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Komi~1n 
+ Zend ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Avestan~2n 
+ Zaar ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Sayanci~1nz (West_Chadic~1n) a Chadic language spoken in northern Nigeria
+ Zulu ( meanings=3 glosses=3 NOUN NOUN_PROPER_SINGULAR ) 
+  Zulu~1nz (Nguni~1n) a Bantu language of considerable literary importance in southeastern Africa
+  Zulu~2nz (community~2n) a community of Negroid people in eastern South Africa
+  Zulu~3nz (African~1n) a member of the tall Negroid people of eastern South Africa
+ Ziegfeld_Follies ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Ziegfeld_Follies~1nz (follies~1n) a series of extravagant revues produced by Flo Ziegfeld
+ Ziegfeld ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Florenz_Ziegfeld~1nz (theatrical_producer~1n) United States theatrical producer noted for a series of extravagant revues known as the Ziegfeld Follies
+ zydeco ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zydeco~1nz (country_music~1n) music of southern Louisiana that combines French dance melodies with Caribbean music and blues
+ zeugma ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zeugma~1nz (figure~9n) use of a word to govern two or more words though appropriate to only one
+ zinger ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinger~1nz (input~3n) a striking or amusing or caustic remark
+ zap ( meanings=5 glosses=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR VERB_DIRECTOBJECT ) 
+  zap~1nz (event~1n) a sudden event that imparts energy or excitement, usually with a dramatic impact
+  nuke~2v 
+  nuke~4v 
+  vaporize~4vz kill with or as if with a burst of gunfire or electric current or as if by shooting
+  zap~5vz strike suddenly and with force
+ zestfulness ( meanings=1 NOUN_MASS NOUN NOUN_SINGULAR ) 
+  gusto~1n 
+ zabaglione ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  sabayon~1nz (dessert~1n) light foamy custard-like dessert served hot or chilled
+ zwieback ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  twice-baked_bread~1nz (toast~1n) slice of sweet raised bread baked again until it is brown and hard and crisp
+ zep ( meanings=1 NOUN NOUN_SINGULAR ) 
+  submarine_sandwich~1n 
+ ziti ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  ziti~1nz (pasta~1n) medium-sized tubular pasta in short pieces
+ zucchini ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+  courgette~1nz (summer_squash~1n) small cucumber-shaped vegetable marrow
+  courgette~2nz (marrow~5n) marrow squash plant whose fruit are eaten when small
+ zinfandel ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinfandel~1nz (red_wine~1n) dry fruity red wine from California
+ zombie ( meanings=5 glosses=4 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) 
+  zombi~1nz (highball~1n) several kinds of rum with fruit juice and usually apricot liqueur
+  automaton~2n 
+  living_dead~1nz (dead_person~1n) a dead body that has been brought back to life by a supernatural force
+  snake_god~1nz (god~2n) a god of voodoo cults of African origin worshipped especially in West Indies
+  zombie_spirit~1nz (spirit~5n) a spirit or supernatural force that reanimates a dead body
+ zombi ( meanings=5 NOUN NOUN_SINGULAR ) 
+  zombie~1n 
+  zombie~2n 
+  zombie~3n 
+  zombie~4n 
+  zombie~5n 
+ zoning_board ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoning_board~1nz (board~8n) a board of officials who divide an area into zones that are subject to different restrictions
+ zoning_commission ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoning_commission~1nz (commission~6n) a commission delegated to supervise the zoning of areas for residential or commercial use
+ Zionist_movement ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zionism~2n 
+ Zionist ( meanings=3 glosses=3 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zionist~1nz (Hebrew~2n) a Jewish supporter of Zionism
+  Zionist~2az relating to or characteristic of a supporter of Zionism
+  Zionist~3az relating to or characteristic of Zionism
+ Zhou ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Chow_dynasty~1nz (dynasty~1n) the imperial dynasty of China from 1122 to 221 BC
+ Zhou_dynasty ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zhou~1n 
+ zone_of_interior ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zone_of_interior~1nz (region~4n) the part of the theater of war not included in the theater of operations
+ Zion_National_Park ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zion_National_Park~1nz (national_park~1n) a national park in Utah having huge canyons and gorges carved by mountain rivers
+ zenith ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zenith~1nz (celestial_point~1n) the point above the observer that is directly opposite the nadir on the imaginary sphere against which celestial bodies appear to be projected
+ Zaire ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Democratic_Republic_of_the_Congo~1n 
+ Zealand ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Sjaelland~1nz (island~2n) the largest island of Denmark and the site of Copenhagen
+ Zagreb ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zagreb~1nz (national_capital~1n) the capital of Croatia
+ Zarqa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Az_Zarqa~1n 
+ Zetland ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Shetland_Islands~1n 
+ Zomba ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zomba~1nz (city~2n) a city in southern Malawi
+ Zaria ( meanings=1 glosses=1 NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+  Zaria~1nz (city~2n) a city in north central Nigeria
+ Zabrze ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zabrze~1nz (city~2n) an industrial city in southern Poland
+ Zaragoza ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Saragossa~1nz (city~2n) an ancient city on the Ebro River in northeastern Spain
+ Zurich ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zurich~1nz (city~2n) the largest city in Switzerland
+ Zanzibar ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zanzibar~1nz (island~2n) an island in the Indian Ocean off the east coast of Africa
+ Zambia ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Northern_Rhodesia~1nz (African_country~1n) a republic in central Africa
+ Zimbabwe ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Southern_Rhodesia~1nz (African_country~1n) a landlocked republic in south central Africa formerly called Rhodesia
+ Zaire_River ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Congo_River~1n 
+ Zambezi ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zambezi_River~1nz (river~1n) an African river
+ Zambezi_River ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zambezi~1n 
+ Zhu_Jiang ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Pearl_River~2n 
+ Zhu ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zuider_Zee ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zuider_Zee~1nz (recess~3n) a former inlet of the North Sea in the northern coast of the Netherlands
+ Zirbanit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Sarpanitu~1n 
+ Zarpanit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zirbanit~1n 
+ Zu ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zubird~1nz (Semitic_deity~1n) evil storm god represented as a black bird
+ Zubird ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zu~1n 
+ Zephyr ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zephyr~1nz (Greek_deity~1n) the Greek god of the west wind
+ Zuni ( meanings=1 glosses=1 NOUN NOUN_SINGULAR NOUN_PROPER_SINGULAR ) 
+  Zuni~1nz (Pueblo~2n) a member of the Pueblo people living in western New Mexico
+ Zen_Buddhist ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zen_Buddhist~1nz (disciple~1n) an adherent of the doctrines of Zen Buddhism
+ Zoroastrian ( meanings=2 glosses=2 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zoroastrian~1nz (disciple~1n) follower of Zoroaster and Zoroastrianism
+  Zoroastrian~2az of or pertaining to Zoroaster or the religion he founded
+ Zealander ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zealander~1nz (Dane~1n) a native or inhabitant of Zealand
+ Zairese ( meanings=2 glosses=2 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zairean~1nz (African~1n) a native or inhabitant of Zaire
+  Zairean~2az of or relating to or characteristic of Zaire or its people
+ Zairean ( meanings=2 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zairese~1n 
+  Zairese~2a 
+ Zambian ( meanings=2 glosses=2 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zambian~1nz (African~1n) a native or inhabitant of Zambia
+  Zambian~2az of or relating to or characteristic of Zambia or its people
+ Zimbabwean ( meanings=2 glosses=2 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_PROPER_SINGULAR ) 
+  Zimbabwean~1nz (African~1n) a native or inhabitant of Zimbabwe
+  Zimbabwean~2az of or relating to or characteristic of Zimbabwe or its people
+ zany ( meanings=4 glosses=3 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) comparative=zaniest 
+  fathead~1n 
+  zany~2nz (clown~1n) a buffoon in one of the old comedies
+  clownlike~1az like a clown
+  goofy~1az ludicrous, foolish
+ zealot ( meanings=1 NOUN NOUN_SINGULAR ) 
+  partisan~3n 
+ Zealot ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zealot~1nz (Hebrew~2n) a member of an ancient Jewish sect in Judea in the first century who fought to the death against the Romans and who killed or persecuted Jews who collaborated with the Romans
+ zombi_spirit ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zombi~5n 
+ zombie_spirit ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zombi_spirit~1n 
+ zoo_keeper ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoo_keeper~1nz (custodian~1n) the chief person responsible for a zoological garden
+ zoologist ( meanings=1 glosses=1 NOUN_ROLE NOUN NOUN_SINGULAR ) 
+  animal_scientist~1nz (biologist~1n) a specialist in the branch of biology dealing with animals
+ Zurvan ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zurvan~1nz (Persian_deity~1n) the Zoroastrian god of time
+ Zane_Grey ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Grey~3n 
+ Zane ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zellig_Harris ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Harris~5n 
+ Zellig_Sabbatai_Harris ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zellig_Harris~1n 
+ Zeppo ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Herbert_Marx~1n 
+ Zachary_Taylor ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Taylor~1n 
+ Zachary ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zaharias ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Mildred_Ella_Didrikson_Zaharias~1nz (jock~2n) outstanding United States athlete
+ Zangwill ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Israel_Zangwill~1nz (writer~1n) English writer
+ Zanuck ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Darryl_Francis_Zanuck~1nz (film_maker~1n) United States filmmaker whose works include the first full-length feature film with sound sequences
+ Zapata ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Emiliano_Zapata~1nz (subversive~1n) Mexican revolutionary who led a revolt for agrarian reforms
+ Zeeman ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Pieter_Zeeman~1nz (physicist~1n) Dutch physicist honored for his research on the influence of magnetism on radiation which showed that light is radiated by the motion of charged particles in an atom
+ Zeno ( meanings=2 glosses=2 NOUN NOUN_PROPER_SINGULAR ) 
+  Zeno_of_Citium~1nz (philosopher~1n) ancient Greek philosopher who founded the Stoic school
+  Zeno_of_Elea~1nz (philosopher~1n) ancient Greek philosopher who formulated paradoxes that defended the belief that motion and change are illusory
+ Zeno_of_Citium ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zeno~1n 
+ Zeno_of_Elea ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zeno~2n 
+ Zeppelin ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Count_Ferdinand_von_Zeppelin~1nz (artificer~3n) German inventor who designed and built the first rigid motorized dirigible
+ Zhou_En-lai ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Chou_En-lai~1nz (subversive~1n) Chinese revolutionary and communist leader
+ Zhukov ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Georgi_Konstantinovich_Zhukov~1nz (general~2n) Soviet general who during World Warr II directed the counteroffensive at Stalingrad and relieved Leningrad and captured Berlin
+ Ziegler ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Karl_Waldemar_Ziegler~1nz (chemist~1n) German chemist honored for his research on polymers
+ Zimbalist ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Efrem_Zimbalist~1nz (fiddler~3n) United States violinist (1889-1985)
+ Zinnemann ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Fred_Zinnemann~1nz (film_maker~1n) United States filmmaker (1907-1997)
+ Zinsser ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Hans_Zinsser~1nz (bacteriologist~1n) United States bacteriologist who helped develop immunization against typhus fever
+ Zinzendorf ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Count_Nikolaus_Ludwig_von_Zinzendorf~1nz (theologian~1n) German theologian
+ Zola ( meanings=1 glosses=1 NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+  Emile_Zola~1nz (novelist~1n) French novelist and critic
+ Zoroaster ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zarathustra~1nz (prophet~2n) Persian prophet who founded Zoroastrianism
+ Zarathustra ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zoroaster~1n 
+ Zsigmondy ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Richard_Adolph_Zsigmondy~1nz (chemist~1n) German chemist honored for his research on colloidal solutions (1865-1929)
+ Zukerman ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Pinchas_Zukerman~1nz (fiddler~3n) Israeli violinist
+ Zweig ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Stefan_Zweig~1nz (writer~1n) Austrian writer
+ Zwingli ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Huldreich_Zwingli~1nz (theologian~1n) Swiss theologian whose sermons began the Reformation in Switzerland
+ Zworykin ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Vladimir_Kosma_Zworykin~1nz (physicist~1n) United States physicist who invented the iconoscope
+ zephyr ( meanings=1 NOUN NOUN_SINGULAR ) 
+  breeze~2n 
+ zodiacal_light ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zodiacal_light~1nz (reflection~7n) a luminous tract in the sky
+ zodiacal ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zodiacal~1az relating to or included in the zodiac
+ zoospore ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoospore~1nz (spore~1n) an asexual spore of some algae and fungi that moves by means of flagella
+ Zamiaceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zamia_family~1nz (gymnosperm_family~1n) a family of cycads often included in the family Cycadaceae: zamias
+ zamia_family ( meanings=1 NOUN NOUN_SINGULAR ) 
+  Zamiaceae~1n 
+ zamia ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zamia~1nz (cycad~1n) any of various cycads of the genus Zamia
+ Zamia_pumila ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Seminole_bread~1n 
+ zebrawood ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+  zebrawood_tree~1nz (tree~1n) any of various trees or shrubs having mottled or striped wood
+  zebrawood~2nz (wood~4n) handsomely striped or mottled wood of the zebrawood tree
+ zebrawood_tree ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zebrawood~1n 
+ zebrawood_family ( meanings=1 NOUN NOUN_SINGULAR ) 
+  Connaraceae~1n 
+ zaman ( meanings=1 NOUN NOUN_SINGULAR ) 
+  monkey_pod~1n 
+ zamang ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zaman~1n 
+ Zantedeschia ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zantedeschia~1nz (monocot_genus~1n) calla lily
+ Zantedeschia_aethiopica ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  arum_lily~1n 
+ Zantedeschia_rehmanii ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  pink_calla~1n 
+ Zygocactus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zygocactus~1nz (caryophylloid_dicot_genus~1n) small genus of Brazilian cacti having flat fleshy usually branched joints and showy red or pink flowers followed by red fleshy fruits
+ Zygocactus_truncatus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Thanksgiving_cactus~1n 
+ zigzag_goldenrod ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  broad_leaved_goldenrod~1nz (goldenrod~1n) a variety of goldenrod
+ zigzag ( meanings=4 glosses=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADVERB ADJECTIVE_BASIC ADVERB_BASIC NOUN_SINGULAR ) 
+  zag~1nz (angularity~2n) an angular shape characterized by sharp turns in alternating directions
+  crank~9v 
+  zig-zag~1az having short sharp turns or angles
+  zigzag~4bz in a zigzag course or on a zigzag path
+ zinnia ( meanings=1 NOUN NOUN_SINGULAR ) 
+  old_maid~5n 
+ Zinnia_acerosa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  white_zinnia~1n 
+ Zinnia_grandiflora ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  little_golden_zinnia~1n 
+ zebra_orchid ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Caladenia_cairnsiana~1nz (caladenia~1n) orchid with reddish linear leaves and panicle of purple-marked pale-yellow flowers with deep red or purple lip
+ Zea ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zea~1nz (monocot_genus~1n) corn
+ Zea_mays ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Indian_corn~1n 
+ Zea_mays_rugosa ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  sweet_corn_plant~1n 
+ Zea_saccharata ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zea_mays_rugosa~1n 
+ Zea_mays_indentata ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  dent_corn~1n 
+ Zea_mays_indurata ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Yankee_corn~1n 
+ Zea_mays_amylacea ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  squaw_corn~1n 
+ Zea_mays_everta ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  popcorn~2n 
+ Zizania ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zizania~1nz (monocot_genus~1n) wild rice
+ Zizania_aquatica ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  wild_rice~2n 
+ Zoisia ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zoysia~1n 
+ zoysia ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoysia~1nz (grass~4n) any of several creeping grasses of the genus Zoysia
+ Zoysia_matrella ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Japanese_carpet_grass~1n 
+ Zoysia_japonica ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Japanese_lawn_grass~1n 
+ Zoysia_tenuifolia ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Korean_velvet_grass~1n 
+ Zauschneria_californica ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Epilobium_canum_canum~1n 
+ Zingiberaceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  ginger_family~1nz (monocot_family~1n) a family of tropical monocotyledonous plants of order Musales
+ Zingiber ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zingiber~1nz (monocot_genus~1n) tropical Asiatic and Polynesian perennial plants: ginger
+ Zingiber_officinale ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  stem_ginger~1n 
+ Zigadenus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zigadenus~1nz (liliid_monocot_genus~1n) genus of mostly North American poisonous plants
+ zigadene ( meanings=1 NOUN NOUN_SINGULAR ) 
+  death_camas~1n 
+ Zigadenus_elegans ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  alkali_grass~1n 
+ Zigadenus_glaucus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  white_camas~1n 
+ Zigadenus_nuttalli ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  poison_camas~1n 
+ Zigadenus_venenosus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  grassy_death_camas~1n 
+ Zigadenus_venenosus_gramineus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zigadenus_venenosus~1n 
+ Zannichelliaceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zannichelliaceae~1nz (monocot_family~1n) alternative classification for some genera included in Potamogetonaceae
+ Zannichellia ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zannichellia~1nz (monocot_genus~1n) horned pondweed: completely submerged herbs
+ Zannichellia_palustris ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  horned_pondweed~1n 
+ Zosteraceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  eelgrass_family~1nz (monocot_family~1n) used in some classifications: essentially equivalent to Potamogetonaceae
+ Zostera ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zostera~1nz (monocot_genus~1n) small genus of widely distributed marine plants
+ Zostera_marina ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  grass_wrack~1n 
+ zonal_pelargonium ( meanings=1 NOUN NOUN_SINGULAR ) 
+  bedding_geranium~1n 
+ zonal ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_BASIC ) 
+  zonal~1az associated with or divided into zones
+  zonary~1az relating to or of the nature of a zone
+ Zanthoxylum ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zanthoxylum~1nz (rosid_dicot_genus~1n) deciduous or evergreen trees or shrubs: prickly ash
+ Zanthoxylum_americanum ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  sea_ash~1n 
+ Zanthoxylum_fraxineum ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zanthoxylum_americanum~1n 
+ Zanthoxylum_clava-herculis ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Hercules-club~1n 
+ Zanthoxylum_flavum ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  West_Indian_satinwood~1n 
+ Zygophyllaceae ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  bean-caper_family~1nz (rosid_dicot_family~1n) small trees, shrubs, and herbs of warm arid and saline regions
+ Zygophyllum ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Zygophyllum~1nz (rosid_dicot_genus~1n) usually tropical herbs or shrubs having ill-smelling foliage and flower buds that are used as capers: bean capers
+ Zygophyllum_fabago ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Syrian_bean_caper~1n 
+ Zygomycota ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  subdivision_Zygomycotina~1nz (division~10n) division of fungi having sexually produced zygospores
+ Zygomycotina ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  subdivision_Zygomycota~1n 
+ Zygomycetes ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  class_Zygomycetes~1nz (class~5n) class of fungi coextensive with subdivision Zygomycota
+ Ziziphus ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  genus_Ziziphus~1nz (dicot_genus~1n) spiny chiefly tropical American and Asiatic shrubs: jujubes
+ Ziziphus_jujuba ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Christ's-thorn~1n 
+ Ziziphus_lotus ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  lotus_tree~1n 
+ Zinfandel ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zinfandel~1nz (vinifera_grape~2n) small black grape grown chiefly in California
+ zygospore ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zygospore~1nz (spore~1n) a plant spore formed by two similar sexual cells
+ zero_coupon_bond ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero-coupon_bond~1nz (zero-coupon_security~1n) a bond that is issued at a deep discount from its value at maturity and pays no interest during the life of the bond
+ zero-coupon_bond ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zero_coupon_bond~1n 
+ zero-coupon_security ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero_coupon_security~1nz (security~8n) a security that makes no interest payments but instead is sold at a deep discount from its face value
+ zero_coupon_security ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zero-coupon_security~1n 
+ zygotene ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zygotene~1nz (phase~4n) the second stage of the prophase of meiosis
+ zymosis ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+  zymosis~1nz (infection~5n) the development and spread of an infectious disease (especially one caused by a fungus)
+  ferment~1nz (chemical_process~1n) a process in which an agent causes an organic substance to break down into simpler substances
+ zymolysis ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zymosis~2n 
+ zettabyte ( meanings=2 glosses=2 NOUN NOUN_SINGULAR ) 
+  ZiB~1nz (computer_memory_unit~1n) a unit of information equal to 1024 exbibytes or 2^70 bytes
+  ZB~2nz (computer_memory_unit~1n) a unit of information equal to 1000 exabytes or 10^21 bytes
+ zebibyte ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zettabyte~1n 
+ ZB ( meanings=3 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zebibyte~1n 
+  zettabyte~2n 
+  Zbit~1nz (computer_memory_unit~1n) a unit of information equal to 1000 exabits or 10^21 bits
+ ZiB ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  ZB~1n 
+ zettabit ( meanings=1 NOUN NOUN_SINGULAR ) 
+  ZB~3n 
+ Zbit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zettabit~1n 
+ zebibit ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Zibit~1nz (computer_memory_unit~1n) a unit of information equal to 1024 exbibits or 2^70 bits
+ Zibit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zebibit~1n 
+ Zimbabwean_dollar ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zimbabwean_dollar~1nz (dollar~4n) the basic unit of money in Zimbabwe
+ Zambian_monetary_unit ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zambian_monetary_unit~1nz (monetary_unit~1n) monetary unit in Zambia
+ Zambian_kwacha ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  kwacha~2n 
+ Zairese_monetary_unit ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zairese_monetary_unit~1nz (monetary_unit~1n) monetary unit in Zaire
+ zaire ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zaire~1nz (Zairese_monetary_unit~1n) the basic unit of money in Zaire
+ zloty ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zloty~1nz (Polish_monetary_unit~1n) the basic unit of money in Poland
+ zilch ( meanings=1 NOUN NOUN_SINGULAR ) 
+  goose_egg~1n 
+ zippo ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zilch~1n 
+ zillion ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) 
+  billion~3n 
+  zillion~2az very large indeterminate number
+ zig ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR ) 
+  zigzag~1n 
+ zag ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR ) 
+  zig~1n 
+ zoster ( meanings=1 NOUN NOUN_SINGULAR ) 
+  herpes_zoster~2n 
+ zinc_deficiency ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinc_deficiency~1nz (deficiency_disease~1n) a deficiency caused by inadequate zinc in the diet or by liver disease or cystic fibrosis or other diseases
+ zoonosis ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) plural=zoonoses 
+  zoonotic_disease~1nz (animal_disease~1n) an animal disease that can be transmitted to humans
+ zoonotic_disease ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zoonosis~1n 
+ zoonotic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zoonotic~1az of or relating to or constituting zoonosis
+ zit ( meanings=1 NOUN NOUN_SINGULAR ) 
+  pimple~1n 
+ zoopsia ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoopsia~1nz (visual_hallucination~1n) visual hallucination of animals
+ zoanthropy ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoanthropy~1nz (delusion~3n) the delusion that you have assumed the form of an animal
+ zoophobia ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zoophobia~1nz (simple_phobia~1n) a morbid fear of animals
+ Zollinger-Ellison_syndrome ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zollinger-Ellison_syndrome~1nz (syndrome~2n) syndrome consisting of intractable peptic ulceration with gastric hypersecretion and hyperacidity
+ Zeitgeist ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
+  Zeitgeist~1nz (feeling~6n) the spirit of the time
+ Zn ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zinc~1n 
+ zirconium ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Zr~1nz (metal~2n) a lustrous grey strong metallic element resembling titanium
+ Zr ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  zirconium~1n 
+ zymogen ( meanings=1 NOUN NOUN_SINGULAR ) 
+  proenzyme~1n 
+ zeaxanthin ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zeaxanthin~1nz (carotenoid~1n) yellow carotenoid that is the main pigment in yellow Indian corn
+ Zanzibar_copal ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  anime~2n 
+ zootoxin ( meanings=1 NOUN NOUN_SINGULAR ) 
+  animal_toxin~1n 
+ zinc_cadmium_sulfide ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinc_cadmium_sulfide~1nz (cadmium_sulfide~1n) cadmium sulfide containing zinc
+ zeolite ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zeolite~1nz (mineral~1n) any of a family of glassy minerals analogous to feldspar containing hydrated aluminum silicates of calcium or sodium or potassium
+ zinc_blende ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  sphalerite~1nz (mineral~1n) an ore that is the chief source of zinc
+ zinc_oxide ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  philosophers_'_wool~1nz (oxide~1n) oxide of zinc
+ zinc_sulfate ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinc_vitriol~1nz (sulfate~1n) a colorless water-soluble powder
+ zinc_sulphate ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zinc_sulfate~1n 
+ zinc_vitriol ( meanings=1 NOUN NOUN_SINGULAR ) 
+  white_vitriol~1n 
+ zinc_sulfide ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinc_sulphide~1nz (sulfide~1n) a yellow to white crystalline fluorescent compound that occurs naturally as sphalerite or wurtzite and is used as a luminous pigment
+ zinc_sulphide ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zinc_sulfide~1n 
+ zinc_white ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Chinese_white~1nz (pigment~2n) a white pigment used in house paints
+ zinkenite ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zinkenite~1nz (mineral~1n) a steel grey metallic mineral
+ zinnwaldite ( meanings=1 glosses=1 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) 
+  zinnwaldite~1nz (mica~1n) a mica containing iron and lithium
+ zircon ( meanings=1 glosses=1 NOUN ADJECTIVE ADJECTIVE_BASIC NOUN_SINGULAR ) 
+  zirconium_silicate~1nz (mineral~1n) a common mineral occurring in small crystals
+ zirconium_silicate ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zircon~1n 
+ zirconium_oxide ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zirconium_dioxide~1nz (oxide~1n) a white crystalline oxide
+ zirconia ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zirconium_oxide~1n 
+ zirconium_dioxide ( meanings=1 NOUN NOUN_SINGULAR ) 
+  zirconia~1n 
+ zymase ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zymase~1nz (enzyme~1n) a complex of enzymes that cause glycolysis
+ zero_hour ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  zero_hour~1nz (hour~3n) the time set for the start of an action or operation
+ zeroes ( NOUN NOUN_PLURAL ) plural=zero 
+ zoonoses ( NOUN NOUN_PLURAL ) plural=zoonosis 
+ zeros ( NOUN NOUN_PLURAL ) 
+ zoon ( NOUN NOUN_SINGULAR ) plural=zoa 
+ zoa ( NOUN NOUN_PLURAL ) plural=zoon 
+ zeta-function ( NOUN NOUN_SINGULAR ) 
+ zonk_out ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zonk_out~1vz fall asleep fast, as when one is extremely tired
+  pass_out~2v 
+ zero_in ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zero~5v 
+  home_in~1vz direct onto a point or target, especially by automatic navigational aids
+ zip_up ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zipper~2v 
+ zip_by ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  fly_by~2v 
+ zoom_along ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB ) 
+  whizz~2v 
+ zoom_in ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zoom_in~1vz examine closely
+ zero_in_on ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zero_in_on~1z 
+ zero_out ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zero_out~1z 
+ zip_around ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zip_around~1z 
+ zone_in ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zone_in~1z 
+ zone_in_on ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zone_in_on~1z 
+ zone_out ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zone_out~1z 
+ zoom_in_on ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zoom_in_on~1z 
+ zoom_off ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zoom_off~1z 
+ zoom_out ( meanings=1 VERB_PRESENT VERB_INFINITIVE NOUN_INFINITIVE VERB VERB_DIRECTOBJECT ) 
+  zoom_out~1z 
+ zenkerize ( VERB_PRESENT VERB_INFINITIVE VERB ) 
+ zig-zag ( meanings=1 VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADJECTIVE_BASIC ) 
+  zigzag~3a 
+ zoophagous ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  meat-eating~1a 
+ zippy ( meanings=2 ADJECTIVE ADJECTIVE_BASIC ) comparative=zippiest 
+  peppy~1a 
+  lively~5a 
+ zealous ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  avid~1a 
+ zaftig ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  buxom~1a 
+ zoftig ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zaftig~1a 
+ zestful ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  barmy~2a 
+ zesty ( meanings=2 ADJECTIVE ADJECTIVE_BASIC ) 
+  zestful~1a 
+  spicy~3a 
+ zygomorphic ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  bilaterally_symmetrical~2a 
+ zygomorphous ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zygomorphic~1a 
+ zoic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zoic~1az pertaining to animals or animal life or action
+ zygotic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zygotic~1az of or relating to a zygote
+ zymotic ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_BASIC ) 
+  zymotic~1az relating to or caused by infection
+  zymolytic~1az of or relating to or causing fermentation
+ zymolytic ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zymotic~2a 
+ Zolaesque ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  Zolaesque~1az in the manner of Emile Zola
+ zenithal ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zenithal~1az relating to or located at or near the zenith
+ zonary ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zonal~2a 
+ zymoid ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  zymoid~1az resembling an enzyme
+ zanier ( ADJECTIVE ADJECTIVE_MORE ) comparative=zany 
+ zaniest ( ADJECTIVE ADJECTIVE_MOST ) comparative=zanier 
+ zippier ( ADJECTIVE ADJECTIVE_MORE ) comparative=zippy 
+ zippiest ( ADJECTIVE ADJECTIVE_MOST ) comparative=zippier 
+ zanyish ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zebra-print ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zebraic ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zebraprint ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zebrine ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zincic ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zinciferous ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zincky ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zincoid ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zincous ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zincy ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zippered ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoisite ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zombified ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoographic ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoographical ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoolatrous ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoometric ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoometrical ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zoophobic ( ADJECTIVE ADJECTIVE_BASIC ) 
+ zealously ( meanings=1 glosses=1 ADVERB ADVERB_BASIC ) 
+  zealously~1bz in a zealous manner
+ zestfully ( meanings=1 glosses=1 ADVERB ADVERB_BASIC ) 
+  zestily~1bz with zest
+ zestily ( meanings=1 ADVERB ADVERB_BASIC ) 
+  zestfully~1b 
+ zymographically ( ADVERB ADVERB_BASIC ) 
+ zygotically ( ADVERB ADVERB_BASIC ) 
+ Zante ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zada ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zadie ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zaida ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zana ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zandra ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zelda ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zella ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zelma ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zena ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zenaida ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zenia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zenobia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zetta ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zettie ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zilpha ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zina ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zita ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zoe ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zofia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zoila ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zonia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zora ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zoraida ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zula ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zulema ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zulma ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zachariah ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zachery ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zack ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zackary ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zackery ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zeb ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zebulon ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zeke ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zollie ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zabala ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zabel ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zahn ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zajac ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zak ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zalewski ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zamarripa ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zambrano ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zamora ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zamudio ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zander ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zarate ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zavala ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zayas ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zehr ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zeigler ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zelaya ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zeller ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zellers ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zellmer ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zeman ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zendejas ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zepeda ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zerbe ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zeringue ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zhang ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zhao ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zielinski ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zigler ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zimmerman ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zimmermann ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zink ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zinn ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zirkle ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zito ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zook ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zorn ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zuber ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zucker ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zuckerman ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zukowski ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zumwalt ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zuniga ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zenigata ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zeniya ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
+ Zain ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zakary ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zavier ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zelia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zigmund ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
+ Zoey ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zoie ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
+ Zeque ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 

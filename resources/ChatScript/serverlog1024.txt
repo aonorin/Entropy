@@ -1,0 +1,1301 @@
+Missing synsets for wealthy affluent
+
+Missing synsets for older elderly
+
+Currently have a substitute for nite in nite night => unite
+Missing synsets for wealthy affluent
+
+Missing synsets for older elderly
+
+Currently have a substitute for nite in nite night => unite
+Currently have a substitute for nite in nite night => unite
+Currently have a substitute for nite in nite night => unite
+Currently have a substitute for nite in nite night => unite
+Currently have a substitute for nite in nite night => unite
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Binary dictionary uses hash=256 but system is using 65536 -- rebuilding binary dictionary
+
+   in DICT/dict.bin at 0: 
+    Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+
+Missing synsets for C_._diphtheriae Klebs-Loeffler_bacillus
+
+Bad synset list Klebs-Loeffler_bacillus heads: 0 count: 0
+
+Missing synsets for C_._psittaci C._psittaci
+
+Missing synsets for C_._trachomatis C._trachomatis
+
+Missing synsets for C_._diphtheriae C._diphtheriae
+
+Missing synsets for L_._monocytogenes L._monocytogenes
+

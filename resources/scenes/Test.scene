@@ -1,0 +1,64 @@
+<scene exported_by="curtismckinney" formatVersion="1.0.1" previous_export_time="1338459786.341104" export_time="1338460250.380548" >
+	<nodes >
+		<node name="Cube" >
+			<position y="160.878433" x="-2.095123" z="26.354914" />
+			<rotation qy="1.000000" qx="0.000000" qz="-0.000000" qw="0.000000" />
+			<scale y="385.070160" x="385.070160" z="385.070160" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="float" name="Mass" value="0.0" />
+			<user_data type="int" name="Hollow" value="1" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+		</node>
+		<node name="Cube.001" >
+			<position y="10.922584" x="0.000000" z="-33.238556" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="5.542235" x="5.542235" z="5.542235" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="float" name="Mass" value="20.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+		</node>
+		<node name="Icosphere" >
+			<position y="35.186806" x="0.000000" z="29.906301" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="36.119492" x="36.119492" z="36.119492" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Sphere" />
+			<user_data type="float" name="Mass" value="100.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+		</node>
+		<node name="Camera" >
+			<position y="6.207113" x="8.438016" z="6.477438" />
+			<rotation qy="0.334251" qx="0.481707" qz="-0.212922" qw="0.781600" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<camera projectionType="perspective" fov="28.841546255021967" name="Camera" >
+				<clipping nearPlaneDist="0.10000000149011612" farPlaneDist="100.0" />
+			</camera>
+		</node>
+	</nodes>
+	<externals />
+	<environment >
+		<colourBackground r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+		<colourAmbient r="0.0" b="0.0" g="0.0" />
+		<colourDiffuse r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+	</environment>
+</scene>

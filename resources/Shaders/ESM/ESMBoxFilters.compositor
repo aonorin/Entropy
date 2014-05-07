@@ -1,0 +1,86 @@
+compositor ESM/BOXFILTER_5TAPS_hide
+{
+    technique
+    {
+        texture ping target_width target_height PF_FLOAT32_R
+        texture pong target_width target_height PF_FLOAT32_R
+    	
+    	// ping is now the shadow map
+        target ping
+        {
+            input previous
+        }
+        
+        target_output
+        {
+        	input none
+        	
+        	pass render_quad
+			{
+				material ESM/BoxFilter5TapsY
+				input 0 ping
+			}
+		}
+    }
+}
+
+
+
+compositor ESM/BOXFILTER_5TAPS
+{
+    technique
+    {
+    	// same format as shadow texture (has to be 32 bit really)
+        texture ping target_width target_height PF_FLOAT32_R
+        texture pong target_width target_height PF_FLOAT32_R
+    	
+    	// ping is now the shadow map
+        target ping
+        {
+            input previous
+        }
+        
+        target pong
+        {
+        	input none
+
+        	pass render_quad
+			{
+				material ESM/BoxFilter5TapsX
+				input 0 ping
+             }
+        }
+        
+		target ping
+        {
+        	input none
+        	pass render_quad
+			{
+				material ESM/BoxFilter5TapsY
+				input 0 pong
+			}
+        }
+        
+        target pong
+        {
+        	input none
+        	
+        	pass render_quad
+			{
+				material ESM/BoxFilter5TapsX
+				input 0 ping
+			}
+        }
+        
+		target_output
+        {
+        	input none
+        	
+        	pass render_quad
+			{
+				material ESM/BoxFilter5TapsY
+				input 0 pong
+			}
+        }
+    }
+}

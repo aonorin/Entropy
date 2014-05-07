@@ -1,0 +1,36 @@
+vertex_program ESMShadowReceiverVPCG cg
+{
+	source ESMShadowReceiver_vp.cg.h
+	entry_point main
+
+	profiles vs_1_1 arbvp1
+
+	default_params
+	{
+		param_named_auto worldviewproj_matrix worldviewproj_matrix
+		param_named_auto world_matrix world_matrix
+		//param_named_auto texture_worldviewproj_matrix	texture_worldviewproj_matrix 0
+	}
+}
+
+fragment_program ESMShadowReceiverFPCG cg
+{
+	source ESMShadowReceiver_fp.cg.h
+	entry_point main
+
+	profiles ps_3_0 fp40
+
+	default_params
+	{
+		param_named_auto light_position light_position  0
+		param_named_auto texture_size texture_size 0
+		param_named_auto texture_viewproj_matrix0 	texture_viewproj_matrix  0
+		
+		// Additional params for spotlight 
+		param_named_auto derived_light_diffuse_colour derived_light_diffuse_colour 0
+		param_named_auto light_attenuation light_attenuation 0
+		param_named_auto spotlight_params spotlight_params 0
+		param_named_auto light_direction light_direction 0
+		// param_named_auto camera_position camera_position 0
+	}
+}

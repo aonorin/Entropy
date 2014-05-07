@@ -1,0 +1,7 @@
+ 8vo ( meanings=1 NOUN NOUN_SINGULAR ) 
+  eightvo~1n 
+ 880_yards ( NOUN NOUN_SINGULAR ) 
+ 8_May_1945 ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  V-E_Day~1n 
+ 8-membered ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  eight-membered~1a 

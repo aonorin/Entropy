@@ -1,0 +1,49 @@
+// Post processors
+fragment_program fadeFP cg
+{
+        source fadeFP.cg
+        profiles ps_4_0 ps_3_0 arbfp1
+        entry_point main
+
+        //default_params
+        //{
+                //param_named_auto ambientColor ambient_light_colour 0
+                //param_named_auto proj projection_matrix
+                //param_named_auto farClipDistance far_clip_distance
+        //}
+}
+
+// Post processors
+vertex_program fadeVP cg
+{
+        source fadeVP.cg
+        profiles vs_1_1 arbvp1
+        entry_point main
+        //param_named_auto flip render_target_flipping
+}
+
+material Fade
+{
+    technique
+    {
+        pass
+                {
+			depth_check off
+			depth_write off
+			lighting off
+                       cull_hardware none
+                       cull_software none
+                       depth_func always_pass
+                       fragment_program_ref fadeFP
+                       {
+				param_named_auto time sintime_0_1 20.0
+                       }
+                       vertex_program_ref fadeVP
+                       {
+				param_named_auto worldViewProj worldviewproj_matrix
+
+                       }
+                }
+        }
+}
+

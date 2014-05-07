@@ -1,0 +1,27 @@
+-Mesh Browser
+-Drag and Drop Meshes
+-Move Meshes in the 3D game space
+-Quantize those movements
+-Have a Metadata Editor
+-Have an ability to run the game and load the level into it
+-Export to scene file
+-The ability to add Proximity triggers and enemies
+-The ability to add different kinds of Lights
+-Associate Script with game objects
+
+
+-save,load,cut,copy,paste,undo,redo
+
+Menus:
+-Main Menu
+-MeshBrowser/GameObject Browser:
+    subsections:
+    -World Objects
+    -NPCs and Enemies
+    -Lights
+
+-Object Editor:
+    subsections:
+    -MetaData Editor
+    -ScriptEditor???
+    -Physics Editor?

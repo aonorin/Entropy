@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/wgois/!svn/ver/37/ois/trunk/includes/win32
+END
+Win32Mouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/wgois/!svn/ver/10/ois/trunk/includes/win32/Win32Mouse.h
+END
+Win32InputManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/wgois/!svn/ver/10/ois/trunk/includes/win32/Win32InputManager.h
+END
+Win32JoyStick.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/wgois/!svn/ver/37/ois/trunk/includes/win32/Win32JoyStick.h
+END
+Win32KeyBoard.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/wgois/!svn/ver/12/ois/trunk/includes/win32/Win32KeyBoard.h
+END
+Win32Prereqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/wgois/!svn/ver/37/ois/trunk/includes/win32/Win32Prereqs.h
+END
+Win32ForceFeedback.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/wgois/!svn/ver/10/ois/trunk/includes/win32/Win32ForceFeedback.h
+END

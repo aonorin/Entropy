@@ -1,0 +1,4 @@
+ 9-11 ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  Sep_11~1nz (terrorist_attack~1n) the day in 2001 when Arab suicide bombers hijacked United States airliners and used them as bombs
+ 9-membered ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  nine-membered~1a 

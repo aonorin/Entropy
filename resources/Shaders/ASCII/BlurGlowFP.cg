@@ -1,0 +1,11 @@
+float4 main(
+	float2 texCoord: TEXCOORD0,
+	uniform sampler asciiTex: register(s0),
+	uniform sampler blurTex: register(s1)
+	) : COLOR
+{
+	float4 ascii = tex2D(asciiTex, texCoord);
+   	float4 blur = 6.0*tex2D(blurTex, texCoord);
+	float4 final = (ascii*1.0) + (blur*blur);
+   	return final;
+}

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/wgois/!svn/ver/39/ois/trunk/includes
+END
+OIS.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OIS.h
+END
+OISPrereqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/wgois/!svn/ver/39/ois/trunk/includes/OISPrereqs.h
+END
+OISFactoryCreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISFactoryCreator.h
+END
+OISMouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISMouse.h
+END
+OISInputManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISInputManager.h
+END
+OISEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISEffect.h
+END
+OISMultiTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISMultiTouch.h
+END
+OISException.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISException.h
+END
+OISJoyStick.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISJoyStick.h
+END
+OISKeyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/wgois/!svn/ver/12/ois/trunk/includes/OISKeyboard.h
+END
+OISInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISInterface.h
+END
+OISForceFeedback.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISForceFeedback.h
+END
+OISEvents.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISEvents.h
+END
+OISConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/wgois/!svn/ver/22/ois/trunk/includes/OISConfig.h
+END
+OISObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/OISObject.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/wgois/!svn/ver/8/ois/trunk/includes/Makefile.am
+END

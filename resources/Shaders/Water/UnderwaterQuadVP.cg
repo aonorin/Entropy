@@ -1,0 +1,26 @@
+void main(
+        float4 Pos: POSITION,
+
+        out float4 oPos: POSITION,
+        out float2 oTexCoord: TEXCOORD0,
+
+        //out float3 oRay : TEXCOORD1
+
+        //uniform float3 farCorner,
+        uniform float flip
+        )
+{
+        // Clean up inaccuracies
+        Pos.xy = sign(Pos.xy);
+        oPos = Pos;
+        //oPos = float4(Pos.xy, 0, 1);
+        //oPos.y *= flip;
+
+        // Image-space
+        oTexCoord.x = 0.5 * (1 + Pos.x);
+        oTexCoord.y = 0.5 * (1 - Pos.y);
+
+        // This ray will be interpolated and will be the ray from the camera
+        // to the far clip plane, per pixel
+        //oRay = farCorner * float3(Pos.xy, 1);
+}

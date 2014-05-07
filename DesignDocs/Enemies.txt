@@ -1,0 +1,30 @@
+//////////////////////////////////////
+//Entropy Project: Enemies Design Doc
+/////////////////////////////////////
+
+///////////////////////////////////
+// Enemy Philosophy and Aesthetics
+
+Overall gameplay should channel a sense of 'flow' through exploration and hacking. Enemies must present new and interesting gameplay elements, however it is important that the player cannot fight back (a la Amnesia) to heighten a sense of fear and helplessness. To preserve gameplay continuity and eliminate arbitrary reloads, but without the cliche gameplay of respawn (Bioshock, I'm looking at you) enemies can't kill the player (similar to Braid's lack of true death). Instead each enemy must present a unique attack that is essentially non-lethal (although it may not appear that way) and introduces interesting interplay with player behavior. It is also important that there is a balance between the total number of unique enemy types as well as literal number of enemies in the game. An encounter with an enemy should be memorable. The threat of the enemy should precede the presence of the enemy. However we can't let it become too sparse for the world will be empty, and lack detail and purpose.
+
+
+///////////
+// Enemies
+
+// Minotaur
+
+Description: Invisible to the naked eye, the minotaur can only be seen using infrared (something else? ultraviolet?) vision. However the minotaur has a distinctive sound (albeit subtle) when it moves to give the player some cues about it's approach.Minotaurs guard an area or object and are unconcerned with the player when they are outside of it.
+Attack: The minotaur can grab the player and drag it back to a "neutral location". 
+Strategy: Tread lightly, if the minotaur hears you, they will come for you, but if the minotaur is on your trail, your only option is to run.
+
+// Dead Researcher
+
+Description: Cyber Zombie. We should consider how we're going to generate a model with something that even approaches human characteristics. Could be challenging so we might consider alternatives. Disfigured humanoid.
+Attack: Teleport attack that glitches the players vision and transports them to another area in the level. Makes a crazy fucking sound. When their in close proximity to the cyber demon their vision accrues a distinctive glitchy interference that indirectly notifies the player of their proximity.
+Strategy: It's presence is random and the player never figures out a strategy to avoid it. It just pops in to scare you crazy every now and then.
+
+// Generative Holographic Beings
+
+Description: Tall and slender holographic beings with generative head structures (along the lines of Elesh Norn or Pyramid Head). They're sensitive to movement and sound. They observer their surrounding in detail to the best of their algorithms. Perhaps in the final level these beings are no longer violent towards you, and instead are either neutral, or perhaps they follow the player as he travels to the final artificial land?
+Attack: They use a teleport attack toss the player around and launch them into walls and other objects. Intense noisey sound when using an attack, otherwise they have a distinctive ambient hum.
+Strategy: The player will need to hold still if in view of a holographic being. If they move even a bit they will be tossed around. This will involve moments when it gets right up on the player and looks them in the eyes and analyzes their presence. 

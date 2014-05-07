@@ -1,0 +1,43 @@
++ ~bird 
++ ~access.UNAUTHORIZED 
++ ~death 
++ ~possess 
++ ~documentation 
++ ~kill 
++ ~access.ONLY 
++ ~access.QUESTIONTIME 
++ ~access.HEIGHT 
++ ~access.BORN 
++ ~access.DLNUM 
++ ~access.TRUEENDSEQUENCE 
++ ~access.ENDSEQUENCE 
++ ~access.ENDSEQUENCE2 
++ ~access.ENDSEQUENCE3 
++ ~nice 
++ ~mean 
++ ~supposed 
++ ~joking 
++ ~needto 
++ ~laboratory 
++ ~lab.MLAB 
++ ~lab.SKY 
++ ~lab.MOON 
++ ~lab.WORK 
++ ~fired 
++ ~lab.MANIMALS 
++ ~animal 
++ ~lab.ABOUTLAB 
++ ~research.RW 
++ ~info.LEAVE 
++ ~profanity 
++ ~aboutsecurebot.EATMEAT 
++ ~aboutsecurebot.WHEREFROM 
++ ~constructed 
++ ~xxx 
++ fragged ADJECTIVE ADJECTIVE_PARTICIPLE 
++ ~greeting 
++ "Hey there" 
++ "What's up" 
++ ~ugly 
++ ~extensions 
++ ~than 

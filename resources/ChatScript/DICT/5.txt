@@ -1,0 +1,9 @@
+ 5-hitter ( meanings=1 NOUN NOUN_SINGULAR ) 
+  five-hitter~1n 
+ 5-hydroxy-3-methylglutaryl-coenzyme_A_reductase ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  HMG-CoA_reductase~1n 
+ 5-hydroxytryptamine ( meanings=1 NOUN NOUN_SINGULAR ) 
+  serotonin~1n 
+ 5-membered ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  five-membered~1a 
+ 5-star ( ADJECTIVE ADJECTIVE_BASIC ) 

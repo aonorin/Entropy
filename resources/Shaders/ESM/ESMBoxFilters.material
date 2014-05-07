@@ -1,0 +1,85 @@
+vertex_program ESMGenUV_5D_NTaps_VPCG cg
+{
+	source ESMBoxFilters.cg.h
+	entry_point GenUV_1D_NTaps_VS
+
+	profiles vs_1_1 arbvp1
+
+	default_params
+	{
+		param_named_auto inverse_texture_size	inverse_texture_size 0
+	}
+	compile_arguments -DNUM_TAPS=5
+}
+
+fragment_program ESMLogBox1D_5Taps_FPCG cg
+{
+	source ESMBoxFilters.cg.h
+	entry_point LogBox1D_5Taps_PS
+
+	profiles ps_3_0 fp40
+
+	default_params
+	{
+	}
+}
+
+material ESM/BoxFilter5TapsX
+{
+	technique
+	{
+		pass
+		{		
+			depth_write off
+			depth_check off
+			cull_hardware none
+			cull_software none
+
+		
+			vertex_program_ref ESMGenUV_5D_NTaps_VPCG
+			{
+				param_named direction float2 1.0 0.0
+			}
+
+			fragment_program_ref ESMLogBox1D_5Taps_FPCG
+			{
+			}
+			
+			texture_unit
+			{
+				tex_address_mode clamp
+				filtering point point none
+			}
+		}
+	}
+}
+
+material ESM/BoxFilter5TapsY
+{
+	technique
+	{
+		pass
+		{		
+			depth_write off
+			depth_check off
+			cull_hardware none
+			cull_software none
+
+
+			vertex_program_ref ESMGenUV_5D_NTaps_VPCG
+			{
+				param_named direction float2 0.0 1.0
+			}
+
+			fragment_program_ref ESMLogBox1D_5Taps_FPCG
+			{
+			}
+			
+			texture_unit
+			{
+				tex_address_mode clamp
+				filtering point point none
+			}
+		}
+	}
+}

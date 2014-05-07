@@ -1,0 +1,5 @@
+ 6_June_1944 ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  D-day~1n 
+ 60_minutes ( NOUN NOUN_SINGULAR ) 
+ 6-membered ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  six-membered~1a 

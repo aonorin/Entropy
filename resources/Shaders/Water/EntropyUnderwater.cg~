@@ -1,0 +1,239 @@
+// Vertex program for fresnel reflections / refractions
+
+struct Wave {
+  float freq;  // 2*PI / wavelength
+  float amp;   // amplitude
+  float phase; // speed * 2*PI / wavelength
+  float2 dir;
+};
+
+void main_vp(
+                                float4 pos					: POSITION,
+                float4 normal                   : NORMAL,
+				float2 tex						: TEXCOORD0,
+		
+                out float4 oPos                 : POSITION,
+                out float3 noiseCoord           : TEXCOORD0,
+                out float4 projectionCoord      : TEXCOORD1,
+                out float4 oEyeDir              : TEXCOORD2,
+                out float3 oNormal              : COLOR,
+                out float4 oLightDir            : TEXCOORD3,
+                //out float3 rotMatrix1         : TEXCOORD4, // first row of the 3x3 transform from tangent to obj space
+                //out float3 rotMatrix2         : TEXCOORD5, // second row of the 3x3 transform from tangent to obj space
+                //out float3 rotMatrix3         : TEXCOORD3, // New Normal-third row of the 3x3 transform from tangent to obj space
+
+                out float2 bumpCoord0           : TEXCOORD6,
+                out float2 bumpCoord1           : TEXCOORD7,
+                out float2 bumpCoord2           : TEXCOORD5,
+
+				out float4 viewPos				: TEXCOORD4,
+
+
+                uniform float4 eyePositionM, // object space
+                uniform float4 lightPositionM,
+                uniform float4x4 worldViewProjMatrix,
+                uniform float4x4 viewMatrix,
+				uniform float4x4 worldViewMatrix,
+				uniform float4x4 worldMatrix,
+				uniform float timeVal,
+				uniform float scale,  // the amount to scale the noise texture by
+				uniform float scroll, // the amount by which to scroll the noise
+                uniform float noise,  // the noise perturb as a factor of the  time
+                uniform float BumpScale,
+                uniform float2 textureScale,
+                uniform float2 bumpSpeed,
+                uniform float time,
+                uniform float waveFreq,
+                uniform float waveAmp,
+				uniform float3 lightPosManual,
+				uniform float cFarDistance
+		)
+{
+
+	//ViewPos for Depth
+	viewPos = mul(worldViewMatrix,pos);
+	//float4 vlightPositionM = mul(worldViewMatrix,lightPositionM);
+	//oLightDir = lightPos - Pos;
+	//waterDepth.a = length(viewPos)/cFarDistance;
+
+	// Noise map coords
+	//noiseCoord.xy = (tex + (timeVal * (scroll*0.05) * 0.05)) * scale;
+	noiseCoord.xy = (tex + (timeVal) * 0.05) * scale;
+	noiseCoord.z = noise * timeVal*0.05;
+
+        #define NWAVES 2
+        Wave wave[NWAVES] = {
+                { 1.0, 1.0, 0.5, float2(-1, 0) },
+                { 2.0, 0.5, 1.7, float2(-0.7, 0.7) }
+        };
+        wave[0].freq = waveFreq;
+        wave[0].amp = waveAmp;
+
+        wave[1].freq = waveFreq * 3.0;
+        wave[1].amp = waveAmp * 2;
+
+        // sum waves
+        float ddx = 0.0, ddy = 0.0;
+        float deriv;
+        float angle;
+
+        // wave synthesis using two sine waves at different frequencies and phase shift
+        for(int i = 0; i<NWAVES; ++i)
+        {
+                angle = dot(wave[i].dir, pos.xz) * wave[i].freq + time * wave[i].phase;
+                pos.y += wave[i].amp * sin( angle );
+                // calculate derivate of wave function
+                deriv = wave[i].freq * wave[i].amp * cos(angle);
+                ddx -= deriv * wave[i].dir.x;
+                ddy -= deriv * wave[i].dir.y;
+        }
+		float4 projPos = mul(viewMatrix,float4(pos.xyz,0));
+		float4 worldPos = mul(worldViewMatrix,float4(pos.xyz,0));
+		//float4 viewPos = mul(worldViewMatrix,pos);
+
+		//oEyeDir = normalize(worldPos - eyePosition);
+		oEyeDir = pos;
+		//oEyeDir = eyePosition;
+		float4 fakeLightPosition = mul(worldViewMatrix,eyePositionM+0.4);
+		//fakeLightPosition.y += 0.4;
+	    oLightDir = float4(0,0.4,0,0);//fakeLightPosition;
+
+        //oEyeDir = eyePosition;
+        //oLightDir = lightPosition;
+        oNormal = normal.xyz;
+        oPos = mul(worldViewProjMatrix, pos);
+        // Projective texture coordinates, adjust for mapping
+        float4x4 scalemat = float4x4(0.5,   0,   0, 0.5, 0,-0.5,   0, 0.5, 0,   0, 0.5, 0.5, 0,   0,   0,   1);
+        projectionCoord = mul(scalemat, oPos);
+
+        // compute the 3x3 transform from tangent space to object space
+        // first rows are the tangent and binormal scaled by the bump scale
+
+        //rotMatrix1.xyz = BumpScale * normalize(float3(1, ddy, 0)); // Binormal
+        //rotMatrix2.xyz = BumpScale * normalize(float3(0, ddx, 1)); // Tangent
+        //rotMatrix3.xyz = normalize(float3(ddx, 1, ddy)); // Normal
+		
+		textureScale*=5;
+		bumpSpeed *= 8;
+        bumpCoord0.xy = tex*textureScale + time * bumpSpeed;
+        bumpCoord1.xy = tex*textureScale * 2.0 + time * bumpSpeed * 4.0;
+        bumpCoord2.xy = tex*textureScale * 4.0 + time * bumpSpeed * 8.0;
+}
+
+// Fragment program for distorting a texture using a 3D noise texture
+void main_fp(
+		float4 pos			: POSITION,
+                float3 noiseCoord		: TEXCOORD0,
+                float4 projectionCoord	: TEXCOORD1,
+                float4 eyeDir			: TEXCOORD2,
+				float4 lightDir         : TEXCOORD3,
+                float3 normal			: COLOR,
+                
+                //float3 rotMatrix1     : TEXCOORD4, // first row of the 3x3 transform from tangent to obj space
+                //float3 rotMatrix2     : TEXCOORD5, // second row of the 3x3 transform from tangent to obj space
+                //float3 rotMatrix3     : TEXCOORD3, // third row of the 3x3 transform from tangent to obj space
+
+                float2 bumpCoord0       : TEXCOORD6,
+                float2 bumpCoord1       : TEXCOORD7,
+                float2 bumpCoord2       : TEXCOORD5,
+		
+				float4 viewPos			: TEXCOORD4,
+		
+                out float4 col          : COLOR,
+		
+                uniform float4 tintColour,
+                uniform float noiseScale,
+                uniform float fresnelBias,
+                uniform float fresnelScale,
+                uniform float fresnelPower,
+                uniform float4 deepColor,
+                uniform float4 shallowColor,
+                uniform float4 reflectionColor,
+                uniform float reflectionAmount,
+                uniform float reflectionBlur,
+                uniform float waterAmount,
+                //uniform float fresnelPower2,
+                //uniform float fresnelBias,
+                uniform float hdrMultiplier,
+                //uniform float4 lightDir,
+				//uniform float cFarDistance,
+				uniform float4 eyePosition,
+				uniform float4x4 worldViewMatrix,
+				uniform float timeVal,
+				uniform float scale,  // the amount to scale the noise texture by
+				uniform float scroll, // the amount by which to scroll the noise
+                uniform float noise,  // the noise perturb as a factor of the  time
+                uniform float BumpScale,
+                uniform float2 textureScale,
+                uniform float2 bumpSpeed,
+                uniform float time,
+                uniform float waveFreq,
+                uniform float waveAmp,
+				uniform float4x4 inverseProjectionMatrix,
+                uniform sampler2D refractMap : register(s0),
+                uniform sampler2D noiseMap : register(s1),
+				uniform sampler2D depthNormal : register(s2)
+                //uniform sampler2D reflectMap : register(s1)
+		)
+{
+// sum normal maps
+        // sample from 3 different points so no texture repetition is noticeable
+		// calculate texture coordinates for normal map lookup
+		
+
+        float4 t0 = tex2D(noiseMap, bumpCoord0) * 2.0 - 1.0;
+        float4 t1 = tex2D(noiseMap, bumpCoord1) * 2.0 - 1.0;
+        float4 t2 = tex2D(noiseMap, bumpCoord2) * 2.0 - 1.0;
+        float3 N = t0.xyz + t1.xyz + t2.xyz;
+
+
+        // Do the tex projection manually so we can distort _after_
+        float2 final = projectionCoord.xy / projectionCoord.w;
+        final += normalize(N)*0.0666;
+		//float3 combinedFinalNormal = mul(inverseProjectionMatrix,float4(projectionCoord)).xyz;
+		//combinedFinalNormal = float3(combinedFinalNormal.xy + normalize(N).xy*0.007,normalize(N).z*0.007);
+
+
+		// Noise
+		float3 noiseNormal = (tex2D(noiseMap, (noiseCoord.xy / 5)).rgb - 0.5).rbg * noiseScale;
+        final += noiseNormal.xz;
+		
+		float3 realLightDir = normalize(viewPos - lightDir);
+		
+		float3 viewDir = -normalize(viewPos);
+        float3 halfAngle = normalize(viewDir - 0);
+        float3 light_specular = pow(max(dot(normalize(N),halfAngle),0),7000.0) * float3(1,1,1);
+		//float3 light_specular = pow(saturate(dot(halfAngle, normalize(N))), 40);
+        light_specular = max(light_specular,0);
+		light_specular *= 1.0;
+		
+		//float3 h = normalize(eyeDir - lightDir);
+		//float light_specular = pow(saturate(dot(h, final)), 80.0);
+		//light_specular*=20;
+
+		// Reflection / refraction
+
+        float4 refractionColour = tex2D(refractMap, float2(final.x,1-final.y));
+		float waterDepth = length(viewPos)/tex2D(depthNormal, final).r;
+		waterDepth = saturate(waterDepth);
+		//Depth modulated water color
+		float depthDifference = waterDepth - tex2D(depthNormal, final).a;
+		float4 waterColor = float4(0.8,0.9,1.0,1.0);
+		float4 waterColor2 = float4(0.0,0.05,0.1,1.0);
+		//waterColor.rgb *= ((depthDifference*0.0001));
+		
+		//COMMENT OUT ONLY FOR DEBUGGING SPECULARITY
+		//ALSO FIGURE OUT PLANE DEPTH ISSUES
+		waterColor.rgb *= (1-(tex2D(depthNormal, final).a*1));
+                col =  float4(refractionColour.r,refractionColour.g,refractionColour.b,1.0);
+                //col *= waterColor;
+                col *= float4(1.2,1.1,1.0,1.0);
+		col = max(col,0);
+		col = min(col,1);
+		col *= 1.2;
+		col.a = 1;
+		//col.rgb = lightDir.rgb; 
+		//col = float4(col.r + light_specular.r,col.g + light_specular.g,col.b + light_specular.b,1);
+		//col.rgb = mul(worldViewMatrix,viewPos);
+		col.rgb += light_specular;
+}

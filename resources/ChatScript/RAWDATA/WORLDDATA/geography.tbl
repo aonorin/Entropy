@@ -1,0 +1,1399 @@
+
+
+table: ~geofact  (^country ^language ) 
+^createfact(^language member ~languages)
+^createfact(^language language ^country)
+
+DATA:
+Albania Albanian
+Algeria Arabic
+Argentina Spanish
+Armenia Armenian
+Australia English
+Austria German
+Azerbaijan Azerbaijani
+Bahamas English
+Bahrain Arabic
+Belarus Byelorussian
+Belgium Dutch
+Belgium French
+Belgium German
+Bolivia Spanish
+Bosnia_and_Herzegovina Serbo-Croatian
+Brazil Portuguese
+Bulgaria Bulgarian
+"Kingdom of Cambodia" Cambodian
+Canada English
+Canada French
+Chile Spanish
+People_'s_Republic_of_China Chinese
+"Republic of Colombia" Spanish
+Costa_Rica Spanish
+Croatia Serbo-Croatian
+Cuba Spanish
+Cyprus Greek
+Czech_Republic Czech
+Denmark Danish
+Ecuador Spanish
+Egypt Arabic
+El_Salvador Spanish
+"Republic of Estonia" Estonian
+Finland Finnish
+Finland Swedish
+France French
+Georgia Georgian
+Germany German
+Greece Greek
+Guatemala Spanish
+Honduras Spanish
+Hungary Hungarian
+Iceland Icelandic
+India English
+Indonesia Indonesian
+"Islamic Republic of Iran" Persian
+Iraq Arabic
+Republic_of_Ireland English
+Republic_of_Ireland Irish
+Israel Hebrew
+Israel Arabic
+Italy Italian
+Japan Japanese
+Jordan Arabic
+Kazakhstan Kazakh
+ "Republic of Kenya"  English
+Kuwait Arabic
+Kyrgyzstan Kirghiz
+"Lao People's Democratic Republic" Laothian
+"Republic of Latvia" Latvian
+Lebanon Arabic
+"Great Socialist People's Libyan Arab Jamahiriya" Arabic
+"Republic of Lithuania" Lithuanian
+Luxembourg French
+Malaysia Malay
+Malta Maltese
+Malta English
+Mexico Spanish
+"Republic of Moldova" Moldavian
+Monaco French
+Mongolia Mongolian
+Montenegro Serbo-Croatian
+Morocco Arabic
+Morocco French
+Morocco Spanish
+Netherlands Dutch
+New_zealand English
+Nicaragua Spanish
+Nigeria English
+Democratic_People_'s_Republic_of_Korea Korean
+Norway Norwegian
+Pakistan English
+Panama Spanish
+Paraguay Spanish
+Peru Spanish
+Philippines English
+Poland Polish
+Portugal Portuguese
+Qatar Arabic
+Romania Romanian
+Russian_Federation Russian
+Most_Serene_Republic_of_San_Marino Italian
+Saudi_Arabia Arabic
+Serbia Serbo-Croatian
+"Republic of Singapore" English
+Slovakia Slovak
+Slovenia Slovenian
+Republic_of_Korea Korean
+Spain Spanish
+Sweden Swedish
+Switzerland German
+Switzerland French
+Switzerland Italian
+Switzerland Rhaeto-Romance
+Syrian_Arab_Republic Arabic
+"Republic of China" Chinese
+"United Republic of Tanzania" English
+Thailand Thai
+Tunisia Arabic
+Turkey Turkish
+Uganda English
+Ukraine Ukrainian
+Ukraine Russian
+United_Arab_Emirates Arabic
+United_Kingdom English
+"Republica Oriental del Uruguay" Spanish
+"United States of America" English
+Uzbekistan Uzbek
+"Bolivarian Republic of Venezuela" Spanish
+Vietnam Vietnamese
+"Republic of Zimbabwe" English
+
+table: ~geofact  (^relation ^area ^value ) 
+
+^createfact(^value ^relation ^area)
+
+DATA:
+# size in square km
+area Earth 510000000
+#land: 148.94 million sq km   29.2%
+#water: 361.132 million sq km 70.8%
+area Arctic_Ocean 14000000
+area "Pacific Ocean" 155557000
+area "Atlantic Ocean" 76762000
+area "Indian Ocean" 68556000
+area "Southern Ocean" 20327000
+area "Aruba" 193
+area "Antigua and Barbuda" 442
+area "United Arab Emirates" 83600
+area "Afghanistan" 647500
+area "Algeria" 2381740
+area "Azerbaijan" 86600
+area "Albania" 28748
+area "Armenia" 29800
+area "Andorra" 468
+area "Angola" 1246700
+area "Argentina" 2766890
+area "Australia" 7686850
+area "Austria" 83870
+area "Antarctica" 14
+area "Bahrain" 665
+area "Barbados" 431
+area "Botswana" 600370
+area "Bermuda" 53
+area "Belgium" 30528
+area "Bahamas" 13940
+area "Bangladesh" 144000
+area "Belize" 22966
+area "Bosnia and Herzegovina" 51129
+area "Bolivia" 1098580
+area "Union of Myanmar" 678500
+area "Republic of Benin" 112620
+area "Belarus" 207600
+area "Brazil" 8511965
+area "Kingdom of Bhutan" 47000
+area "Bulgaria" 110910
+area "Brunei Abode of Peace" 5770
+area "Republic of Burundi" 27830
+area "Canada" 9984670
+area "Great Britain" 80823 
+area Scotland 30414
+area Wales 20779
+area England 130395
+area "Kingdom of Cambodia" 181040
+area "Republic of Chad" 1284000
+area "Democratic Socialist Republic of Sri Lanka" 65610
+area "Republic of the Congo" 342000
+area "Democratic Republic of the Congo" 2345410
+area "People_'s_Republic_of_China" 9596960
+area "Chile" 756950
+area "Cameroon" 475440
+area "Union of the Comoros" 2170
+area "Republic of Colombia" 1138910
+area "Costa Rica" 51100
+area "Central African Republic" 622984
+area "Cuba" 110860
+area "Republic of Cape Verde" 4033
+area "Cyprus" 9250
+area "Denmark" 43094
+area "Republic of Djibouti" 23000
+area "Commonwealth of Dominica" 754
+area "Dominican Republic" 48730
+area "Ecuador" 283560
+area "European Union" 4324782
+area "Egypt" 1001450
+area "Republic of Ireland" 70280
+area "Republic of Equatorial Guinea" 28051
+area "Republic of Estonia" 45226
+area "Eritrea" 121320
+area "El Salvador" 21040
+area "Ethiopia" 1127127
+area "Czech Republic" 78866
+area "Finland" 338145
+area "Fiji" 18270
+area "Federated States of Micronesia" 702
+area "Faroe Islands" 1399
+area "France" 643427
+area "Gambia" 11300
+area "Gabon" 267667
+area "Georgia" 69700
+area "Ghana" 239460
+area "Gibraltar" 6
+area "Grenada" 344
+area "Greenland" 2166086
+area "Germany" 357021
+area "Greece" 131940
+area "Guatemala" 108890
+area "Republic of Guinea" 245857
+area "Guyana" 214970
+area "Haiti" 27750
+area "Hong Kong" 1092
+area "Honduras" 112090
+area "Croatia" 56542
+area "Hungary" 93030
+area "Iceland" 103000
+area "Indonesia" 1919440
+area "India" 3287590
+area "Islamic Republic of Iran" 1648000
+area "Israel" 20770
+area "Italy" 301230
+area "Cote d'Ivoire" 322460
+area "Iraq" 437072
+area "Japan" 377835
+area "Jamaica" 10991
+area "Jordan" 92300
+area "Republic of Kenya" 582650
+area "Kyrgyzstan" 198500
+area "Democratic People's Republic of Korea" 120540
+area "Kiribati" 811
+area Republic_of_Korea 98480
+area "Kuwait" 17820
+area "Kazakhstan" 2717300
+area "Lao People's Democratic Republic" 236800
+area "Lebanon" 10400
+area "Republic of Latvia" 64589
+area "Republic of Lithuania" 65200
+area "Liberia" 111370
+area "Slovakia" 48845
+area "Principality of Liechtenstein" 160
+area "Kingdom of Lesotho" 30355
+area "Luxembourg" 2586
+area "Great Socialist People's Libyan Arab Jamahiriya" 1759540
+area "Madagascar" 587040
+area "Republic of Moldova" 33843
+area "Mongolia" 1564116
+area "Malawi" 118480
+area "Montenegro" 14026
+area "Republic of Macedonia" 25333
+area "Mali" 124000
+area "Monaco" 1
+area "Morocco" 446550
+area "Mauritius" 2040
+area "Mauritania" 1030700
+area "Malta" 316
+area "Sultanate of Oman" 212460
+area "Republic of Maldives" 300
+area "Mexico" 1972550
+area "Malaysia" 329750
+area "Mozambique" 801590
+area "Niue" 260
+area "Republic of Niger" 1267000
+area "Republic of Vanuatu" 12200
+area "Nigeria" 923768
+area "Netherlands" 41526
+area "Norway" 323802
+area "Nepal" 147181
+area "Republic of Nauru" 21
+area "Republic of Suriname" 163270
+area "Nicaragua" 129494
+area "New Zealand" 268680
+area "Paraguay" 406750
+area "Peru" 1285220
+area "Pakistan" 803940
+area "Poland" 312685
+area "Panama" 78200
+area "Portugal" 92391
+area "Independent State of Papua New Guinea" 462840
+area "Republic of Palau" 458
+area "Guinea-Bissau" 36120
+area "Qatar" 11437
+area "Serbia" 88361
+area "Romania" 237500
+area "Philippines" 300000
+area "Puerto Rico" 13790
+area "Russian Federation" 17075200
+area "Rwanda" 26338
+area "Saudi Arabia" 2149690
+area "Federation of Saint Kitts and Nevis" 261
+area "Republic of Seychelles" 455
+area "South Africa" 1219912
+area "Senegal" 196190
+area "Slovenia" 20273
+area "Sierra Leone" 71740
+area "Most Serene Republic of San Marino" 61
+area "Republic of Singapore" 692
+area "Somalia" 637657
+area "Spain" 504782
+area "Saint Lucia" 616
+area "Sudan" 2505810
+area "Sweden" 449964
+area "Syrian Arab Republic" 185180
+area "Switzerland" 41290
+area "Trinidad and Tobago" 5128
+area "Thailand" 514000
+area "Tajikistan" 143100
+area "Tonga" 748
+area "Togo" 56785
+area "Democratic Republic of Sao Tome and Principe" 1001
+area "Tunisia" 163610
+area "Democratic Republic of Timor-Leste" 15007
+area "Turkey" 780580
+area "Tuvalu" 26
+area "Republic of China" 35980
+area "Turkmenistan" 488100
+area "United Republic of Tanzania" 945087
+area "Uganda" 236040
+area "United Kingdom" 244820
+area "Ukraine" 603700
+area "United States of America" 9826630
+area "Burkina Faso" 274200
+area "Republica Oriental del Uruguay" 176220
+area "Uzbekistan" 447400
+area "Saint Vincent and the Grenadines" 389
+area "Bolivarian Republic of Venezuela" 912050
+area "Vietnam" 329560
+area Vatican_City 0
+area "Namibia" 825418
+area "Samoa" 2944
+area "Swaziland" 17363
+area "Yemen" 527970
+area "Zambia" 752614
+area "Republic of Zimbabwe" 390580
+area England 130395 
+area Scotland 78772
+area Wales 20779 
+
+diameter Mercury 3031
+diameter Venus 7521
+diameter Earth 7927
+diameter Mars 4222
+diameter Jupiter 88700
+diameter Saturn 74900
+diameter Uranus 31765
+diameter Neptune 30764
+diameter Pluto 1429
+
+#population
+population Earth 6602224175.00
+population Palestine 4148000
+population "Antigua and Barbuda" 69481
+population "Afghanistan" 31889923
+population "Algeria" 33333216
+population "Azerbaijan" 8120247
+population "Albania" 3600523
+population "Armenia" 2971650
+population "Andorra" 71822
+population "Angola" 12263596
+population "Argentina" 40301927
+population "Australia" 20434176
+population "Austria" 8199783
+population "Barbados" 280946
+population "Bermuda" 66163
+population "Belgium" 10392226
+population "Bangladesh" 150448339
+population "Belize" 294385
+population "Bosnia and Herzegovina" 4552198
+population "Bolivia" 9119152
+population "Belarus" 9724723
+population Brazil 191908598 
+population "Bulgaria" 7322858
+population "Brunei Abode of Peace" 374577
+population "Canada" 33390141
+population "Republic of Chad" 9885661
+population "People_'s_Republic_of_China" 1321851888
+population France 61538322
+population "Chile" 16284741
+population "Union of the Comoros" 711417
+population "Republic of Colombia" 44379598
+population "Costa Rica" 4133884
+population "Cuba" 11394043
+population "Republic of Cape Verde" 423613
+population "Cyprus" 788457
+population "Denmark" 5468120
+population "Republic of Djibouti" 496374
+population "Commonwealth of Dominica" 72386
+population "Dominican Republic" 9365818
+population "Ecuador" 13755680
+population "European Union" 490426060
+population "Egypt" 80335036
+population "Republic of Ireland" 4109086
+population "Republic of Equatorial Guinea" 551201
+population "Republic of Estonia" 1315912
+population "Eritrea" 4906585
+population "El Salvador" 6948073
+population "Czech Republic" 10228744
+population "Finland" 5238460
+population "Fiji" 918675
+population "Federated States of Micronesia" 107862
+population "Faroe Islands" 47511
+population "Gambia" 1688359
+population "Georgia" 4646003
+population "Gibraltar" 27967
+population "Grenada" 89971
+population "Greenland" 56344
+population "Germany" 82400996
+population "Greece" 10706290
+population "Guatemala" 12728111
+population "Republic of Guinea" 9947814
+population "Hong Kong" 6980412
+population "Croatia" 4493312
+population "Hungary" 9956108
+population "Iceland" 301931
+population "Indonesia" 234693997
+population "India" 1129866154
+population "Islamic Republic of Iran" 65397521
+population "Italy" 58147733
+population "Iraq" 27499638
+population "Japan" 127433494
+population "Jamaica" 2780132
+population "Jordan" 6053193
+population "Kyrgyzstan" 5284149
+population "Democratic People's Republic of Korea" 23301725
+population "Kiribati" 107817
+population Republic_of_Korea 49044790
+population "Kazakhstan" 15284929
+population "Lao People's Democratic Republic" 6521998
+population "Lebanon" 3925502
+population "Republic of Latvia" 2259810
+population "Republic of Lithuania" 3575439
+population "Liberia" 3195931
+population "Slovakia" 5447502
+population "Principality of Liechtenstein" 34247
+population "Luxembourg" 480222
+population "Madagascar" 19448815
+population "Republic of Moldova" 4320490
+population "Mongolia" 2951786
+population "Montenegro" 684736
+population "Republic of Macedonia" 2055915
+population "Mali" 11995402
+population "Monaco" 32671
+population "Morocco" 33757175
+population "Mauritius" 1250882
+population "Mauritania" 3270065
+population "Malta" 401880
+population "Republic of Maldives" 369031
+population "Mexico" 108700891
+population "Malaysia" 24821286
+population "Republic of Niger" 12894865
+population "Republic of Vanuatu" 211971
+population "Netherlands" 16570613
+population "Norway" 4627926
+population "Nepal" 28901790
+population "Republic of Nauru" 13528
+population "Republic of Suriname" 470784
+population "Nicaragua" 5675356
+population "New Zealand" 4115771
+population "Paraguay" 6669086
+population "Peru" 28674757
+population "Pakistan" 164741924
+population "Poland" 38518241
+population "Panama" 3242173
+population "Portugal" 10642836
+population "Independent State of Papua New Guinea" 5795887
+population "Republic of Palau" 20842
+population "Guinea-Bissau" 1472780
+population "Qatar" 907229
+population "Serbia" 10150265
+population "Romania" 22276056
+population "Philippines" 91077287
+population "Puerto Rico" 3944259
+population "Russian Federation" 141377752
+population "Federation of Saint Kitts and Nevis" 39349
+population "Republic of Seychelles" 81895
+population "Senegal" 12521851
+population "Slovenia" 2009245
+population "Sierra Leone" 6144562
+population "Most Serene Republic of San Marino" 29615
+population "Republic of Singapore" 4553009
+population "Spain" 40448191
+population "Saint Lucia" 170649
+population "Sudan" 39379358
+population "Sweden" 9031088
+population "Switzerland" 7554661
+population "Trinidad and Tobago" 1056608
+population "Tajikistan" 7076598
+population "Tonga" 116921
+population "Democratic Republic of Sao Tome and Principe" 199579
+population "Tunisia" 10276158
+population "Turkey" 71158647
+population "Tuvalu" 11992
+population "Republic of China" 22858872
+population "Turkmenistan" 5097028
+population "United Kingdom" 60776238 
+population "Ukraine" 46299862
+population "United States of America" 301139947
+population "Republica Oriental del Uruguay" 3460607
+population "Uzbekistan" 27780059
+population "Saint Vincent and the Grenadines" 118149
+population "Bolivarian Republic of Venezuela" 26023528
+population "Wales" 3004600
+population "Scotland" 5168500 
+population "Vietnam" 85262356
+population Vatican_City 821
+population "Yemen" 22230531
+# missing a bunch
+
+# population of cities
+population Tokyo 35,197,000
+population Mexico_City 19,411,000
+population New_York_City 18,718,000
+population Sao_Paulo 18,333,000
+population Jakarta 18,215,000
+population Mumbai (Bombay) 18,196,000
+population Delhi 15,048,000
+population Shanghai 15,503,000
+population Calcutta 14,277,000
+population Buenos_Aires 12,550,000
+population Dhaka 12,430,000
+population Los_Angeles 12,550,000
+population Karachi 11,608,000
+population Rio_de_Janeiro 11,469,000
+
+
+#gdp
+gdp Palestine 1500
+gdp Vatican_City 25500
+gdp Scotland 39680
+gdp Wales 30546 
+gdp England 38000
+gdp "Aruba" 21800
+gdp "Antigua and Barbuda" 10900
+gdp "United Arab Emirates" 49700
+gdp "Afghanistan" 800
+gpd "Grenada" 13600
+gdp "Algeria" 7600
+gdp "Azerbaijan" 7500
+gdp "Albania" 5700
+gdp "Armenia" 5700
+gdp "Andorra" 38800
+gdp "Angola" 4500
+gdp "Argentina" 15200
+gdp "Australia" 33300
+gdp "Austria" 34700
+gdp "Bahrain" 25600
+gdp "Barbados" 18400
+gdp "Botswana" 10900
+gdp "Bermuda" 69900
+gdp "Belgium" 33000
+gdp "Bahamas" 21600
+gdp "Bangladesh" 2300
+gdp "Belize" 8400
+gdp "Bosnia and Herzegovina" 5600
+gdp "Bolivia" 3100
+gdp "Union_of_Myanmar" 1800
+gdp "Republic_of_benin" 1100
+gdp "Belarus" 8100
+gdp "Brazil" 8800
+gdp "Kingdom_of_Bhutan" 1400
+gdp "Bulgaria" 10700
+gdp "Brunei Abode of Peace" 25600
+gdp "Republic_of_burundi" 700
+gdp "Canada" 35700
+gdp "Kingdom_of_Cambodia" 2800
+gdp "Republic_of_Chad" 1500
+gdp "Democratic Socialist Republic of Sri Lanka" 4700
+gdp "Republic of the Congo" 1400
+gdp "Democratic Republic of the Congo" 700
+gdp "People_'s_Republic_of_China" 7800
+gdp "Chile" 12600
+gdp "Cameroon" 2500
+gdp "Union_of_the_Comoros" 600
+gdp "Republic_of_Colombia" 8600
+gdp "Costa Rica" 12500
+gdp "Central African Republic" 1200
+gdp "Cuba" 4100
+gdp "Republic of Cape Verde" 6000
+gdp "Cyprus" 23000
+gdp "Denmark" 37100
+gdp "Republic_of_Djibouti" 1000
+gdp "Commonwealth_of_Dominica" 3800
+gdp "Dominican Republic" 8400
+gdp "Ecuador" 4500
+gdp "European Union" 29900
+gdp "Egypt" 4200
+gdp "Republic of Ireland" 44500
+gdp "Republic of Equatorial Guinea" 50200
+gdp "Republic_of_Estonia" 20300
+gdp "Eritrea" 1000
+gdp "El Salvador" 4900
+gdp "Ethiopia" 1000
+gdp "Czech Republic" 22000
+gdp "Finland" 33500
+gdp "Fiji" 6200
+gdp "Federated States of Micronesia" 2300
+gdp "Faroe Islands" 31000
+gdp "France" 31200
+gdp "Gambia" 2000
+gdp "Gabon" 7100
+gdp "Georgia" 3900
+gdp "Ghana" 2700
+gdp "Gibraltar" 27900
+gdp "Grenada" 3900
+gdp "Greenland" 20000
+gdp "Germany" 31900
+gdp "Greece" 24000
+gdp "Guatemala" 5000
+gdp "Republic_of_Guinea" 2100
+gdp "Guyana" 4900
+gdp "Haiti" 1800
+gdp "Hong Kong" 37300
+gdp "Honduras" 3100
+gdp "Croatia" 13400
+gdp "Hungary" 17500
+gdp "Iceland" 38000
+gdp "Indonesia" 3900
+gdp "India" 3800
+gdp "Islamic_Republic_of_Iran" 8700
+gdp "Israel" 26800
+gdp "Italy" 30200
+gdp "Cote d'Ivoire" 1600
+gdp "Iraq" 1900
+gdp "Japan" 33100
+gdp "Jamaica" 4700
+gdp "Jordan" 5100
+gdp "Republic_of_Kenya" 1200
+gdp "Kyrgyzstan" 2100
+gdp "Democratic People's Republic of Korea" 1800
+gdp "Kiribati" 2800
+gdp "Republic of Korea" 24500
+gdp "Kuwait" 23100
+gdp "Kazakhstan" 9400
+gdp "Lao_people_'s_Democratic_Republic" 2200
+gdp "Lebanon" 5900
+gdp "Republic_of_Latvia" 16000
+gdp "Republic_of_Lithuania" 15300
+gdp "Liberia" 900
+gdp "Slovakia" 18200
+gdp "Principality of Liechtenstein" 25000
+gdp "Kingdom_of_Lesotho" 2700
+gdp "Luxembourg" 71400
+gdp "Great_Socialist_People_'s_Libyan_Arab_Jamahiriya" 12300
+gdp "Madagascar" 900
+gdp "Republic_of_Moldova" 2000
+gdp "Mongolia" 2100
+gdp "Malawi" 600
+gdp "Montenegro" 3800
+gdp "Republic of Macedonia" 8300
+gdp "Mali" 1300
+gdp "Monaco" 30000
+gdp "Morocco" 4600
+gdp "Mauritius" 13700
+gdp "Mauritania" 2600
+gdp "Malta" 21300
+gdp "Sultanate_of_Oman" 14400
+gdp "Republic_of_Maldives" 3900
+gdp "Mexico" 10700
+gdp "Malaysia" 12800
+gdp "Mozambique" 1500
+gdp "Niue" 5800
+gdp "Republic_of_Niger" 1000
+gdp "Republic_of_Vanuatu" 2900
+gdp "Nigeria" 1500
+gdp "Netherlands" 32100
+gdp "Norway" 46300
+gdp "Nepal" 1500
+gdp "Republic_of_Nauru" 5000
+gdp "Republic_of_Suriname" 7100
+gdp "Nicaragua" 3100
+gdp "New zealand" 26200
+gdp "Paraguay" 4800
+gdp "Peru" 6600
+gdp "Pakistan" 2600
+gdp "Poland" 14400
+gdp "Panama" 8200
+gdp "Portugal" 19800
+gdp "Independent State of Papua New Guinea" 2700
+gdp "Republic_of_Palau" 7600
+gdp "Guinea-Bissau" 900
+gdp "Qatar" 29800
+gdp "Serbia" 4400
+gdp "Romania" 9100
+gdp "Philippines" 5000
+gdp "Puerto Rico" 19300
+gdp "Russian_Federation" 12200
+gdp "Rwanda" 1600
+gdp "Saudi Arabia" 13800
+gdp "Federation of Saint Kitts and Nevis" 8200
+gdp "Republic_of_Seychelles" 7800
+gdp "South Africa" 13300
+gdp "Senegal" 1800
+gdp "Slovenia" 23400
+gdp "Sierra Leone" 900
+gdp "Most Serene Republic of San Marino" 34100
+gdp "Republic_of_Singapore" 31400
+gdp "Somalia" 600
+gdp "Spain" 27400
+gdp "Saint Lucia" 4800
+gdp "Sudan" 2400
+gdp "Sweden" 32200
+gdp "Syrian_Arab_Fepublic" 4100
+gdp "Switzerland" 34000
+gdp "Trinidad and Tobago" 19800
+gdp "Thailand" 9200
+gdp "Tajikistan" 1300
+gdp "Tonga" 2200
+gdp "Togo" 1700
+gdp "Democratic Republic of Sao Tome and Principe" 1200
+gdp "Tunisia" 8900
+gdp "Democratic_Republic_of_Timor-Leste" 800
+gdp "Turkey" 9100
+gdp "Tuvalu" 1600
+gdp "Republic_of_China" 29600
+gdp "Turkmenistan" 8500
+gdp "United_Republic_of_Tanzania" 800
+gdp "Uganda" 1900
+gdp "United Kingdom" 31800
+gdp "Ukraine" 7800
+gdp "United States of America" 43800
+gdp "Burkina faso" 1400
+gdp "Republica_Oriental_del_Uruguay" 10900
+gdp "Uzbekistan" 2000
+gdp "Saint Cincent and the Grenadines" 3600
+gdp "Bolivarian_Republic_of_Venezuela" 7200
+gdp "Vietnam" 3100
+gdp "Namibia" 7500
+gdp "Samoa" 2100
+gdp "Swaziland" 5300
+gdp "Yemen" 1000
+gdp "Zambia" 1000
+gdp "Republic_of_Zimbabwe" 2100
+
+concept: ~currency()
+
+table: ~currencies (^country ^currency ^exchangerate ) 
+# currency and exchange rate per us $
+^createfact(^currency member ~currency)
+^createfact(^currency currency ^country)
+^createfact(^currency currency ^country)
+^createfact(^exchangerate exchange_rate ^country)
+
+ DATA:
+ "Serbia" "Serbian dinar"  0.02
+  "Aruba" "Aruban florin" 1.79
+  "Antigua and Barbuda" "East Caribbean dollar" 2.7
+  "United Arab Emirates" "Emirati dirham" 3.673
+  "Afghanistan" "afghani"  46
+  "Algeria" "Algerian dinar" 72.647
+  "Azerbaijan" "Azerbaijani manat" 0.8934
+  "Albania" "leke" 98.384
+  "Armenia" "dram" 414.69
+  "Andorra" "euro" 0.7964
+  "Angola" "kwanza" 80.4
+  "Argentina" "Argentine peso" 3.0543
+  "Australia" "Australian dollar" 1.3285
+  "Austria" "euro" 0.7964
+  "Bahrain" "Bahraini dinar"  0.376
+  "Barbados" "Barbadian dollar" 2
+  "Botswana" "pula" 5.8447
+  "Bermuda" "Bermudian dollar" 1.0000
+  "Belgium" "euro" 0.7964
+  "Bahamas" "Bahamian dollar"  1
+  "Bangladesh" "taka" 69.031
+  "Belize" "Belizean dollar" 2
+  "Bosnia and Herzegovina"  "Konvertibilna maraka" 1.5576
+  "Bolivia" "boliviano" 8.0159
+  "Union_of_Myanmar" "kyat"  1280
+  "Republic_of_Benin" "Communaute Financiere Africaine franc" 522.59
+  "Belarus" "Belarusian ruble" 2144.6
+  "Brazil" real 0.550358
+  "Kingdom_of_Bhutan" "ngultrum" 45.279
+  "Bulgaria" "leva" 1.5576
+  "Brunei Abode of Peace" "Bruneian dollar" 1.5886
+  "Republic_of_Burundi" "Burundi franc" 1030
+  "Canada" "Canadian dollar" 1.1334
+  "Kingdom_of_Cambodia" "riel" 4103
+  "Republic_of_Chad" "Communaute Financiere Africaine franc"  522.59
+  "Democratic Socialist Republic of Sri Lanka" "Sri Lankan rupee" 103.99
+  "Republic of the Congo" "Communaute Financiere Africaine franc" 522.59
+  "Democratic Republic of the Congo" "Congolese franc" 464.69
+  "People_'s_Republic_of_China" "yuan"  7.97
+  "Chile" "Chilean peso" 530.29
+  "Cameroon" "Communaute Financiere Africaine franc" 522.59
+  "Union_of_the_Comoros" "Comoran franc" 392.03
+  "Republic_of_Colombia" "Colombian peso" 2358.6
+  "Costa Rica" "Costa Rican colone" 511.3
+  "Central African Republic" "Communaute Financiere Africaine franc" 522.59
+  "Cuba" "Convertible peso"  0.9231
+  "Republic of Cape Verde" "Cape Verdean escudos"  87.946
+  "Cyprus" "Cypriot pound" 0.4586
+  "Denmark" "Danish kroner"  5.9468
+  "Republic_of_Djibouti" "Djiboutian franc"  174.75
+  "Commonwealth_of_Dominica" "East Caribbean dollar"  2.7
+  "Dominican Republic" "Dominican peso" 33.406
+  "European Union" "euro" 0.7964
+  "Egypt" "Egyptian pound" 5.725
+  "Republic of Ireland" "euro" 0.7964
+  "Republic of Equatorial Guinea" "Communaute Financiere Africaine franc" 522.4
+  "Republic_of_Estonia" "krooni" 12.473
+  "Eritrea" "nakfa"  15.4
+  "Ethiopia" "birr" 8.69
+  "Czech Republic" "koruny" 22.596
+  "Finland" "euro" 0.7964
+  "Fiji" "Fijian dollar" 1.7313
+  "Faroe Islands" "Danish kroner"  5.9468
+  "France" "euro"  0.7964
+  "Gambia" "dalasi" 28.3
+  "Gabon" "Communaute Financiere Africaine franc" 522.89
+  "Georgia" "lari" 1.78
+  "Ghana" "cedi" 9174.8
+  "Gibraltar" "Gibraltar pound" 0.5434
+  "Grenada" "East Caribbean dollar"  2.7
+  "Greenland" "Danish kroner"  5.9468
+  "Germany" "euro"  0.7964
+  "Greece" "euro"  0.7964
+  "Guatemala" "quetzale"  7.6026
+  "Republic_of_Guinea" "Guinean franc"  5350
+  "Guyana" "Guyanese dollar"  200.28
+  "Haiti" "gourde"  40.232
+  "Hong Kong" "Hong Kong dollar"  7.7678
+  "Honduras" "lempira"  18.895
+  "Croatia" "kuna"  5.8625
+  "Hungary" "forint"  210.39
+  "Iceland" "Icelandic kronur"  70.195
+  "Indonesia" "Indonesian rupiah"  9159.3
+  "India" "Indian rupee"  45.3
+  "Islamic_Republic_of_Iran" "rial" 9227.1
+  "Israel" "New Israeli shekel"  4.4565
+  "Italy" "euro"  0.7964
+  "Cote d'Ivoire" "Communaute Financiere Africaine franc"  522.89
+  "Iraq" "New Iraqi dinar" 1466
+  "Japan" "yen"  116.18
+  "Jamaica" "Jamaican dollar"  65.768
+  "Jordan" "Jordanian dinar"  0.709
+  "Republic_of_Kenya" "Kenyan shilling"  72.101
+  "Kyrgyzstan" "som"  40.149
+  "Democratic People's Republic of Korea" "North Korean won"  141
+  "Kiribati" "Bustralian dollar" 1.3285
+  "Republic of Korea" "South Korean won" 955.3
+  "Kuwait" "Kuwaiti dinar" 0.29
+  "Kazakhstan" "tenge" 126.09
+  "Lao_People_'s_Democratic_Republic" "kip" 10235
+  "Lebanon" "Lebanese pound" 1507.5
+  "Republic_of_Latvia" "lati" (lats) 0.5597
+  "Republic_of_Lithuania" "litai" 2.7498
+  "Liberia" "Liberian dollar" 59.43
+  "Slovakia" "koruny" 29.611
+  "Principality_of_Liechtenstein" "Swiss franc" 1.2539
+  "Kingdom_of_Lesotho" "maloti" 6.85
+  "Luxembourg" "euro" 0.7964
+  "Great_Socialist_People_'s_Libyan_Arab_Jamahiriya" "Libyan dinar" 1.3108
+  "Madagascar" "Malagasy ariary" 2161.4
+  "Republic_of_Moldova" "lei" 13.131
+  "Mongolia" "togrog" 1179.6
+  "Malawi" "Malawian kwacha" 135.96
+  "Montenegro" "euro" 0.7964
+  "Republic of Macedonia" "Macedonian denar" 48.978
+  "Mali" "Communaute Financiere Africaine franc" 522.59
+  "Monaco" "euro" 0.7964
+  "Morocco" "Moroccan dirham" 8.7722
+  "Mauritius" "Mauritian rupee" 31.656
+  "Mauritania" "Ouguiya" 271.3
+  "Malta" "Maltese liri" 0.37
+  "Sultanate_of_Oman" "Omani rial" 0.3845
+  "Republic_of_Maldives" "rufiyaa" 12.8
+  "Mexico" "Mexican peso" 10.899
+  "Malaysia" "ringgit" 3.6683
+  "Mozambique" "meticai" 25.4
+  "Niue" "New Zealand dollar" 1.5408
+  "Republic_of_Niger" "Communaute Financiere Africaine franc" 522.59
+  "Republic_of_Vanuatu" "vatu" 111.93
+  "Nigeria" "naira" 127.38
+  "Netherlands" "euro" 0.7964
+  "Norway" "Norwegian kroner" 6.4117
+  "Nepal" "Nepalese rupee" 72.446
+  "Republic_of_Nauru" "Bustralian dollar" 1.3285
+  "Republic_of_Suriname" "Surinamese dollar" 2.7317
+  "Nicaragua" "Gold cordoba" 17.582
+  "New Zealand" "New Zealand dollar" 1.5408
+  "Paraguay" "guarani" 5672.8
+  "Peru" "nuevo sol" 3.2742
+  "Pakistan" "Pakistani rupee" 60.35
+  "Poland" "zlotych" 3.1032
+  "Panama" "balboa" 1
+  "Portugal" "euro" 0.7964
+  "Independent State of Papua New Guinea" "kina" 3.0643
+  "Guinea-Bissau" "Communaute Financiere Africaine franc" 522.59
+  "Qatar" "Qatari rial" 3.64
+  "Romania" "lei" 2.809
+  "Philippines" "Philippine peso" 51.246
+  "Russian_Federation" "Russian ruble" 27.2
+  "Rwanda" "Rwandan franc" 560
+  "Saudi Arabia" "Saudi riyal" 3.745
+  "Federation of Saint Kitts and Nevis" "East Caribbean dollar" 2.7
+  "Republic_of_Seychelles" "Seychelles rupee" 5.5
+  "South Africa" "rand" 6.7649
+  "Senegal" "Communaute Financiere Africaine franc" 522.89
+  "Slovenia" "tolar" 190.85
+  "Sierra Leone" "leone" 2961.7
+  "Most Serene Republic of San Marino" "euro" 0.7964
+  "Republic_of_Singapore" "Singapore dollar" 1.5889
+  "Somalia" "Somali shilling" 1438.3
+  "Spain" "euro" 0.7964
+  "Saint Lucia" "East Caribbean dollar" 2.7
+  "Sudan" "Sudanese dinar" 217.2
+  "Sweden" "Swedish kronor" 7.3731
+  "Syrian_Arab_Republic" "Syrian pound" 51.689
+  "Switzerland" "Swiss franc" 1.2539
+  "Trinidad and Tobago" "Trinidad and Tobago dollar" 6.3107
+  "Thailand" "baht" 37.882
+  "Tajikistan" "Tajikistani somoni" 3.3
+  "Tonga" "pa'anga" 2.0277
+  "Togo" "Communaute Financiere Africaine franc" 522.59
+  "Democratic Republic of Sao Tome and Principe" "dobra" 12050
+  "Tunisia" "Tunisian dinar" 1.331
+  "Turkey" "Turkish lira" 1.4286
+  "Tuvalu" "Tuvaluan dollars or Australian dollar" 1.3285
+  "Republic_of_China" "New Taiwan dollar" 32.534
+  "United_Republic_of_Tanzania" "Tanzanian shilling" 1251.9
+  "Uganda" "Ugandan shilling" 1834.9
+  "United Kingdom" "British pound" 0.54
+  "Scotland" "British pound" 0.54
+  "England" "British pound" 0.54
+  "Wales" "British pound" 0.54
+  "Ukraine" "hryvnia" 5.05
+  "United States of America" dollar 1
+  "Burkina Faso" "Communaute Financiere Africaine franc" 522.59
+  "Republica_Oriental_del_Uruguay" "Uruguayan peso" 24.048
+  "Uzbekistan" "Uzbekistani soum" 1219.8
+  "Saint Vincent and the Grenadines" "East Caribbean dollar" 2.7
+  "Bolivarian_Republic_of_Venezuela" "bolivare" 2147
+  "Vietnam" "dong" 15983
+  "Vatican City" "euro" 0.7964
+  "Namibia" "Namibian dollar" 6.7649
+  "Samoa" "tala" 2.7594
+  "Swaziland" "emalangeni" 6.85
+  "Yemen" "Yemeni rial" 197.18
+  "Zambia" "Zambian kwacha" 3601.5
+  "Republic_of_Zimbabwe" "Zimbabwean dollar" 162.07
+  "Democratic_Republic_of_Timor-Leste" dollar 1
+  "Ecuador" dollar 1
+  "El Salvador" dollar 1
+  "Federated States of Micronesia" dollar 1
+  "Puerto Rico" dollar 4.4565
+  "Palestine" "New Israeli shekel" 1
+  "Turkmenistan" "Turkmen manat" 11100
+  "Republic of Palau" dollar 1
+
+table: ~capital (^base ^city)
+_7 = join(^city , _ ^base)
+^addproperty(^base  SPACEWORD NOUN_PROPER_SINGULAR NOUN)
+^addproperty(_7  SPACEWORD NOUN_PROPER_SINGULAR NOUN)
+^createfact(^city refine _7)
+^createfact(_7 part ^base)
+^createfact(_7 member ~capital)
+^createfact(_7 member  ~city)
+DATA:
+
+# state Capitals
+Utah Salt_Lake_City
+Vermont Montpelier
+Virginia Richmond
+Washington Olympia
+West_Virginia Charleston
+Wisconsin Madison
+Wyoming Cheyenne
+South_Carolina Columbia
+South_Dakota Pierre
+Tennessee Nashville
+Alabama Montgomery
+Alaska Juneau
+Arizona Phoenix
+Arkansas Little_Rock
+Texas Austin
+California Sacramento
+Colorado Denver
+Connecticut Hartford
+Florida Tallahassee
+Georgia Atlanta
+Delaware Dover
+Hawai'i Honolulu
+Idaho Boise
+Illinois Springfield
+Iowa Des_Moines
+Kansas Topeka
+Kentucky Frankfort
+Louisiana Baton_Rouge
+Maryland Annapolis
+Massachusetts Boston
+Michigan Lansing
+Minnesota St._Paul
+Mississippi Jackson
+Missouri Jefferson
+Montana Helena
+Nebraska Lincoln
+Nevada Carson
+New_Hampshire Concord
+New_Jersey Trenton
+New_Mexico Santa_Fe
+New_York Albany
+North_Dakota Bismarck
+North_Carolina Raleigh
+Ohio Columbus
+Oklahoma Oklahoma_City
+Oregon Salem
+Pennsylvania Harrisburg
+Rhode_Island Providence
+# country capitals
+Afghanistan Kabul
+Albania Tirana
+Algeria Algiers
+Andorra Andorra_la_Vella
+Angola Luanda
+Argentina Buenos_Aires
+Armenia Yerevan
+Australia Canberra
+Austria Vienna
+Azerbaijan Baku
+Bahamas Nassau
+Bahrain Manama
+Bangladesh Dhaka
+Barbados Bridgetown
+Belarus Minsk
+Belgium Brussels
+Belize Belmopan
+"Republic of Benin" Porto-Novo
+"Kingdom of Bhutan" Thimphu
+Botswana Gaborone
+Brazil Brasilia
+Bulgaria Sofia
+"Republic of Burundi" Bujumbura
+"Kingdom of Cambodia"  Phnom_Penh
+Cameroon Yaounde
+Canada Ottawa
+"Republic of Cape Verde" Praia
+Central_African_Republic Bangui
+"Republic of Chad" N'Djamena
+Chile Santiago
+"People's Republic of China" Beijing
+"Republic of Colombia" Bogota
+"Union of the Comoros" Moroni
+Costa_Rica San_Jose
+Croatia Zagreb
+Cuba Havana
+Cyprus Nicosia
+Czech_Republic Prague
+Denmark Copenhagen
+"Commonwealth of Dominica" Roseau
+Dominican_Republic Santo_Domingo
+"Democratic Republic of Timor-Leste" Dili
+Ecuador Quito
+Egypt Cairo
+El_Salvador San_Salvador
+"Republic of Equatorial Guinea" Malabo
+Eritrea Asmara
+"Republic of Estonia" Tallinn
+Ethiopia Addis_Ababa
+Fiji Suva
+Finland Helsinki
+France Paris
+Gabon Libreville
+Gambia The_Banjul
+Georgia Tbilisi
+Germany Berlin
+Ghana Accra
+Greece Athens
+Grenada St._George's
+Guatemala Guatemala_City
+"Republic of Guinea" Conakry
+Guinea-Bissau Bissau
+Guyana Georgetown
+Haiti Port-au-Prince
+Honduras Tegucigalpa
+Hungary Budapest
+Iceland Reykjavik
+India New_Delhi
+Indonesia Jakarta
+"Islamic Republic of Iran" Tehran
+Iraq Baghdad
+Republic_of_Ireland Dublin
+Israel Jerusalem
+Italy Rome
+Jamaica Kingston
+Japan Tokyo
+Jordan Amman
+Kazakhstan Astana
+ "Republic of Kenya"  Nairobi
+Kiribati South_Tarawa
+Kuwait Kuwait_City
+Kyrgyzstan Bishkek
+"Lao People's Democratic Republic" Vientiane
+"Republic of Latvia" Riga
+Lebanon Beirut
+"Kingdom of Lesotho" Maseru
+Liberia Monrovia
+"Great Socialist People's Libyan Arab Jamahiriya" Tripoli
+"Principality of Liechtenstein" Vaduz
+"Republic of Lithuania" Vilnius
+Luxembourg Luxembourg
+Republic_of_Macedonia Skopje
+Madagascar Antananarivo
+Malawi Lilongwe
+Malaysia Kuala_Lumpur
+"Republic of Maldives" Malee
+Mali Bamako
+Malta Valletta
+Marshall_Islands Majuro
+Mauritania Nouakchott
+Mauritius Port_Louis
+Mexico Mexico_City
+Micronesia Palikir
+"Republic of Moldova" Chisinau
+Monaco Monaco
+Mongolia Ulan_Bator
+Montenegro Podgorica
+Morocco Rabat
+Mozambique Maputo
+"Union of Myanmar" Naypyidaw
+Namibia Windhoek
+Nepal Kathmandu
+Netherlands Amsterdam
+New_Zealand Wellington
+Nicaragua Managua
+"Republic of Niger" Niamey
+Nigeria Abuja
+"Democratic People's Republic of Korea" Pyongyang
+Northern_Ireland Belfast
+Norway Oslo
+"Sultanate of Oman" Muscat
+Pakistan Islamabad
+"Republic of Palau" Melekeok
+Panama Panama_City
+"Independent State of Papua New Guinea" Port_Moresby
+Paraguay Asuncion
+Peru Lima
+Philippines Manila
+Poland Warsaw
+Portugal Lisbon
+Qatar Doha
+Romania Bucharest
+"Russian Federation" Moscow
+Rwanda Kigali
+Samoa Apia
+Saudi_Arabia Riyadh
+Senegal Dakar
+Serbia Belgrade
+"Republic of Seychelles" Victoria
+Sierra_Leone Freetown
+"Republic of Singapore" Singapore_City
+Slovakia Bratislava
+Slovenia Ljubljana
+Solomon_Islands Honiara
+Somalia Mogadishu
+South_Africa Pretoria
+Republic_of_Korea Seoul
+Spain Madrid
+"Democratic Socialist Republic of Sri Lanka" Colombo
+Sudan Khartoum
+"Republic of Suriname" Paramaribo
+Swaziland Mbabane
+Sweden Stockholm
+Switzerland Bern
+"Syrian Arab Republic" Damascus
+Tajikistan Dushanbe
+"United Republic of Tanzania" Dodoma
+Thailand Bangkok
+Togo Lome
+Tonga Nuku'alofa
+Tunisia Tunis
+Turkey Ankara
+Turkmenistan Ashgabat
+Tuvalu Funafuti
+Uganda Kampala
+Ukraine Kiev
+United_Arab_Emirates Abu_Dhabi
+United_Kingdom London
+"United States of America" Washington_D.C.
+"Republica Oriental del Uruguay" Montevideo
+Uzbekistan Tashkent
+"Republic of Vanuatu" Port_Vila
+Vatican_City Vatican_City
+"Bolivarian Republic of Venezuela" Caracas
+Vietnam Hanoi
+Yemen Sanaa
+Zambia Lusaka
+"Republic of Zimbabwe" Harare
+American_Samoa Pago_Pago
+Anguilla The_Valley
+Aruba Oranjestad
+Ascension_Island Georgetown
+Bermuda Hamilton
+Cayman_Islands George_Town
+Christmas_Island The_Settlement
+Cocos_Islands West_Island
+Cook_Islands Avarua
+Falkland_Islands Stanley
+Faroe_Islands Torshavn
+French_Polynesia Papeete
+Gibraltar Gibraltar
+Greenland Nuuk
+Guam Hagatna
+Guernsey St_Peter_Port
+Iraq Baghdad
+Jersey Saint_Helier
+Mayotte Mamoudzou
+Montserrat Brades
+Netherlands_Antilles Willemstad
+New_Caledonia Noumea
+Niue Alofi
+Norfolk_Island Kingston
+Northern_Mariana_Islands Saipan
+Pitcairn_Island Adamstown
+Puerto_Rico San_Juan
+Saint-Barthelemy Gustavia
+Saint_Helena Jamestown
+Saint-Martin Marigot
+Tristan_da_Cunha Edinburgh_of_the_Seven_Seas
+
+table: ~geography  (^relation ^base ^piece)
+^addproperty(^base  SPACEWORD NOUN_PROPER_SINGULAR NOUN)
+^addproperty(^piece  SPACEWORD NOUN_PROPER_SINGULAR NOUN)
+^createfact(^piece ^relation ^base)
+DATA:
+
+#adjacency
+ adjacent "Southern Ocean" ["Pacific Ocean"  "Atlantic Ocean" ]
+ adjacent "Arctic Ocean" ["Pacific Ocean"  "Atlantic Ocean" ]
+ adjacent "United Arab Emirates"  ["Sultanate_of_Oman" "Saudi Arabia"]
+ adjacent "Afghanistan" [ "People_'s_Republic_of_China" "Islamic Republic of Iran"  "Pakistan" "Tajikistan" "Turkmenistan" "Uzbekistan"]
+ adjacent "Algeria"  ["Great_Socialist_People_'s_Libyan_Arab_Jamahiriya" "Mali" "Mauritania" "Morocco" "Republic of Niger" "Tunisia" "Western Sahara"]
+ adjacent "Azerbaijan"  ["Armenia" "Georgia" "Islamic Republic of Iran" "Russian Federation"  "Turkey"]
+ adjacent "Albania"  ["Greece" "Republic of Macedonia" "Montenegro" "Serbia"]
+ adjacent "Armenia"  ["Azerbaijan" "Georgia" "Islamic Republic of Iran"  "Turkey"]
+ adjacent "Andorra"  ["France" "Spain"]
+ adjacent "Angola"  ["Democratic Republic of the Congo" "Namibia" "Zambia"]
+ adjacent "Argentina"  ["Bolivia" "Brazil" "Chile" "Paraguay" "Republica Oriental del Uruguay"]
+ adjacent "Austria"  ["Czech Republic" "Germany" "Hungary" "Italy" "Principality of Liechtenstein" "Slovakia" "Slovenia" "Switzerland"]
+ adjacent "Botswana"  ["Namibia" "South Africa" "Republic of Zimbabwe"]
+ adjacent "Belgium"  ["France" "Germany" "Luxembourg" "NDetherlands"]
+ adjacent "Bangladesh"  ["Union_of_Myanmar" "India"]
+ adjacent "Belize"  ["Guatemala" "Mexico"]
+ adjacent "Bosnia and Herzegovina"  ["Croatia" "Montenegro" "Serbia"]
+ adjacent "Bolivia"  ["Srgentina" "Brazil" "Chile" "Paraguay" "Peru"]
+ adjacent "Union_of_Myanmar"  ["Bangladesh" "People_'s_Republic_of_China" "India" "Lao_People_'s_Democratic_Republic" "Thailand"]
+ adjacent "Republic_of_benin"  ["Burkina faso" "Republic of Niger" "Nigeria" "Togo"]
+ adjacent "Belarus"  ["Republic_of_latvia" "Republic of lithuania" "Poland" "Russian Federation"  "Ukraine"]
+ adjacent "Brazil"  ["Argentina" "Bolivia" "Republic of Colombia"  "Guyana" "Paraguay" "Peru" "Republic of Suriname" "Republica Oriental del Uruguay" "Bolivarian Republic of Venezuela"]
+ adjacent "Kingdom_of_Bhutan"  ["People_'s_Republic_of_China" "India"]
+ adjacent "Bulgaria"  ["Greece" "Republic of macedonia" "Romania" "Serbia" "Turkey"]
+ adjacent "Brunei Abode of Peace"  ["Malaysia"]
+ adjacent "Republic_of_Burundi"  ["Democratic Republic of the Congo" "Rwanda" "United Republic of Tanzania"]
+ adjacent "Canada"  "United_States_of_America"
+ adjacent "Kingdom_of_Cambodia" [ "Lao_People_'s_Semocratic_Republic" "Thailand" "Vietnam"]
+ adjacent "Republic_of_Chad"  ["Cameroon" "Central African Republic" "Great Socialist People's Libyan Arab Jamahiriya" "Republic of Niger" "Nigeria" "Sudan"]
+ adjacent "Republic of the Congo"  ["Angola" "Cameroon" "Central African Republic" "Democratic Republic of the Congo" "Gabon"]
+ adjacent "Democratic Republic of the Congo"  ["Angola" "Central African Republic" "Republic of the Congo" "Rwanda" "Sudan" "United Republic of Tanzania" "Uganda" "Zambia"]
+ adjacent "People_'s_Republic_of_China"  ["Afghanistan" "Kingdom of Bhutan" "Union of Myanmar" "India" "Kazakhstan" "Democratic People's Republic of Korea" "Kyrgyzstan" "Lao_People_'s_Democratic_Republic" "Mongolia" "Nepal" "Pakistan" "Russian Federation"  "Tajikistan" "Vietnam"]
+ adjacent "Chile"  ["Argentina" "Bolivia" "Peru"]
+ adjacent "Cameroon"  ["Central African Republic" "Republic of Chad" "Republic of the Congo" "Republic of Equatorial Guinea" "Gabon" "Nigeria"]
+ adjacent "Republic_of_Colombia"  ["Brazil" "Ecuador" "Panama" "Peru" "Bolivarian Republic of Venezuela"]
+ adjacent "Costa Rica"  ["Nicaragua" "Panama"]
+ adjacent "Central African Republic"  ["Cameroon" "Republic of Chad" "Democratic Republic of the Congo" "Republic of the Congo" "Sudan"]
+ adjacent "Cyprus"  ["Akrotiri" "Dhekelia Na"]
+ adjacent "Denmark"  "Germany"
+ adjacent "Republic_of_Djibouti"  ["Eritrea" "Ethiopia" "Somalia"]
+ adjacent "Dominican Republic"  "Haiti"
+ adjacent "Ecuador"  ["Republic_of_Colombia" "Peru"]
+ adjacent "Egypt"  ["Gaza Strip" "Israel" "Great Socialist People's Libyan Arab Jamahiriya" "Sudan"]
+ adjacent "Republic of Ireland"  "United_Kingdom"
+ adjacent "Republic of Equatorial Guinea"  ["Cameroon" "Gabon"]
+ adjacent "Republic_of_Estonia"  ["Republic_of_Latvia" "Russian Federation" ]
+ adjacent "Eritrea" [ "Republic_of_djibouti" "Ethiopia" "Sudan"]
+ adjacent "El Salvador"  ["Guatemala" "Honduras"]
+ adjacent "Ethiopia"  ["Republic_of_Djibouti" "Eritrea" "Republic of kenya" "Somalia" "Sudan"]
+ adjacent "Czech Republic" [ "Austria" "Germany" "Poland" "Slovakia"]
+ adjacent "Finland"  ["Norway" "Sweden" "Russian Federation" ]
+ adjacent "France" [ "Andorra" "Belgium" "Germany" "Italy" "Luxembourg" "Monaco" "Spain" "Switzerland"]
+ adjacent "Gambia"  "Senegal"
+ adjacent "Gabon" [ "Cameroon" "Republic of the congo" "Republic of Equatorial Guinea"]
+ adjacent "Georgia"  ["Armenia" "Azerbaijan" "Russian Federation"  "Turkey"]
+ adjacent "Ghana" [ "Burkina Faso" "Cote d'Ivoire" "Togo"]
+ adjacent "Gibraltar"  "Spain"
+ adjacent "Germany"  ["Austria" "Belgium" "Czech Republic" "Denmark" "France" "Luxembourg" "Netherlands" "Poland" "Switzerland"]
+ adjacent "Greece"  ["Albania" "Bulgaria" "Turkey" "Republic of Msacedonia"]
+ adjacent "Guatemala" [ "Belize" "El Salvador" "Honduras" "Mexico"]
+ adjacent "Republic_of_Guinea"  ["Cote d'Ivoire" "Guinea-Bissau" "Liberia" "Mali" "Senegal" "Sierra Leone"]
+ adjacent "Guyana" [ "Brazil" "Republic of Suriname" "Bolivarian Republic of Venezuela"]
+ adjacent "Haiti"  "Dominican Republic"
+ adjacent "Honduras"  ["Guatemala" "El Salvador" "Nicaragua"]
+ adjacent "Croatia"  ["Bosnia and Herzegovina" "Hungary" "Serbia" "Montenegro" "Slovenia"]
+ adjacent "Hungary" [ "Austria" "Croatia" "Romania" "Serbia" "Slovakia" "Slovenia" "Ukraine"]
+ adjacent "Indonesia"  ["Democratic_Republic_of_Timor-Leste" "Malaysia" "Independent State of Papua New Guinea"]
+ adjacent "India"  ["Bangladesh" "Kingdom of Bhutan" "Union of Myanmar" "People_'s_Republic_of_China" "Nepal" "Pakistan"]
+ adjacent "Islamic_Republic_of_Iran" [ "Afghanistan" "Armenia" "Azerbaijan-Proper" "Azerbaijan-Naxcivan Exclave" "Iraq" "Pakistan" "Turkey" "Turkmenistan"]
+ adjacent "Israel" [ "Egypt" "Gaza Strip" "Jordan" "Lebanon" "Syrian Arab Republic" "West Bank"]
+ adjacent "Italy"  ["Austria" "France" Vatican_City "Most Serene Republic of san marino" "Slovenia" "Switzerland"]
+ adjacent "Cote d'Ivoire"  ["Burkina Faso" "Ghana" "Republic of Guinea" "Liberia" "Mali"]
+ adjacent "Iraq"  ["Islamic_Republic_of_Iran" "Jordan" "Kuwait" "Saudi Arabia" "Syrian Arab Republic" "Turkey"]
+ adjacent "Jordan"  ["Iraq" "Israel" "Saudi Arabia" "Syrian Arab Republic" "West Bank"]
+ adjacent "Republic_of_Kenya"  ["Ethiopia" "Somalia" "Sudan" "United Republic of Tanzania" "Uganda"]
+ adjacent "Kyrgyzstan"  ["People_'s_Republic_of_China" "Kazakhstan" "Tajikistan" "Uzbekistan"]
+ adjacent "Democratic People's Republic of Korea" ["People_'s_Republic_of_China" "Republic of Korea" "Russian Federation" ]
+ adjacent "Republic of Korea"  "Democratic People's Republic of Korea"
+ adjacent "Kuwait"  ["Iraq" "Saudi Arabia"]
+ adjacent "Kazakhstan"  ["People_'s_Republic_of_China" "Kyrgyzstan" "Russian Federation"  "Turkmenistan" "Uzbekistan"]
+ adjacent "Lao_People_'s_Democratic_Republic"  ["Union_of_Myanmar" "Kingdom of Cambodia" "People_'s_Republic_of_China" "Thailand" "Vietnam"]
+ adjacent "Lebanon" [ "Israel" "Syrian Arab Republic"]
+ adjacent "Republic_of_Latvia" ["Belarus" "Republic of Estonia" "Republic of Lithuania" "Russian Federation" ]
+ adjacent "Republic_of_Lithuania"  ["Belarus" "Republic of latvia" "Poland" "Russian Federation" ]
+ adjacent "Liberia" [ "Republic_of_Guinea" "Cote d'Ivoire" "Sierra Leone"]
+ adjacent "Slovakia"  ["Austria" "Czech Republic" "Hungary" "Poland" "Ukraine"]
+ adjacent "Principality_of_Liechtenstein"  ["Austria" "Switzerland"]
+ adjacent "Kingdom_of_Lesotho"  "South Africa"
+ adjacent "Luxembourg"  ["Belgium" "France" "Germany"]
+ adjacent "Great_Socialist_People_'s_Libyan_Arab_Jamahiriya" [ "Algeria" "Republic of Chad" "Egypt" "Republic of Niger" "Sudan" "Tunisia"]
+ adjacent "Republic_of_Moldova" [ "Romania" "Ukraine"]
+ adjacent "Mongolia" [ "People_'s_Republic_of_China" "Russian Federation" ]
+ adjacent "Malawi"  ["Mozambique" "United Republic of Tanzania" "Zambia"]
+ adjacent "Montenegro" [ "Albania" "Bosnia and Herzegovina" "Croatia" "Serbia"]
+ adjacent "Republic of Macedonia" [ "Albania" "Bulgaria" "Greece" "Serbia"]
+ adjacent "Mali"  ["Algeria" "Burkina faso" "Republic of Guinea" "Cote d'Ivoire" "Mauritania" "Republic of Niger" "Senegal"]
+ adjacent "Monaco"  "France"
+ adjacent "Morocco"  ["Algeria" "Western Sahara" "Spain" "Spain"]
+ adjacent "Mauritania" [ "Algeria" "Mali" "Senegal" "Western Sahara"]
+ adjacent "Sultanate_of_Oman"  ["Saudi Arabia" "United_Arab_Emirates" "Yemen"]
+ adjacent "Mexico" [ "Belize" "Guatemala" "United_States_of_America"]
+ adjacent "Malaysia"  ["Brunei Abode of Peace" "Indonesia" "Thailand"]
+ adjacent "Mozambique"  ["Malawi" "South Africa" "Swaziland" "United Republic of Tanzania" "Zambia" "Republic of Zimbabwe"]
+ adjacent "Republic_of_Niger"  ["Algeria" "Republic of Benin" "Burkina Faso" "Republic of Chad" "Great Socialist People's Libyan Arab Jamahiriya" "Mali" "Nigeria"]
+ adjacent "Nigeria"  ["Republic_of_Benin" "Cameroon" "Republic of Chad" "Republic of Niger"]
+ adjacent "Netherlands"  ["Belgium" "Germany"]
+ adjacent "Norway"  ["Finland" "Sweden" "Russian Federation" ]
+ adjacent "Nepal"  ["People_'s_Republic_of_China" "India"]
+ adjacent "Republic_of_Suriname"  ["Brazil"  "Guyana"]
+ adjacent "Nicaragua"  ["Costa Rica" "Honduras"]
+ adjacent "Paraguay" [ "Argentina" "Bolivia" "Brazil"]
+ adjacent "Peru"  ["Bolivia" "Brazil" "Chile" "Republic of Colombia" "Ecuador"]
+ adjacent "Pakistan"  ["Afghanistan" "People_'s_Republic_of_China" "India" "Islamic Republic of Iran" ]
+ adjacent "Poland"  ["Belarus" "Czech Republic" "Germany" "Republic of Lithuania" "Russian Federation" "Slovakia" "Ukraine"]
+ adjacent "Panama"  ["Republic_of_Colombia" "Costa Rica"]
+ adjacent "Portugal"  "Spain"
+ adjacent "Independent State of Papua New Guinea"  "Indonesia"
+ adjacent "Guinea-Bissau"  ["Republic_of_Guinea" "Senegal"]
+ adjacent "Qatar"  "Saudi Arabia"
+ adjacent "Serbia"  ["Albania" "Bosnia and Herzegovina" "Bulgaria" "Croatia" "Hungary" "Republic of Macedonia" "Montenegro" "Romania"]
+ adjacent "Romania"  ["Bulgaria" "Hungary" "Republic of Moldova" "Serbia" "Ukraine" "Ukraine"]
+ adjacent "Russian_Federation"  ["Azerbaijan" "Belarus" "People_'s_Republic_of_China" "Republic of Estonia" "Finland" "Georgia" "Kazakhstan" "Democratic People's Republic of Korea" "Republic of Latvia" "Republic of Lithuania" "Mongolia" "Norway" "Poland" "Ukraine"]
+ adjacent "Rwanda"  ["Republic_of_Burundi" "Democratic Republic of the Congo" "United Republic of Tanzania" "Uganda"]
+ adjacent "Saudi Arabia"  ["Iraq" "Jordan" "Kuwait" "Sultanate of Oman" "Qatar" "United Arab Emirates" "Yemen"]
+ adjacent "South Africa"  ["Botswana" "Kingdom of Lesotho" "Mozambique" "Namibia" "Swaziland" "Republic of Zimbabwe"]
+ adjacent "Senegal"  ["Gambia" "Republic of Guinea" "Guinea-Bissau" "Mali" "Mauritania"]
+ adjacent "Slovenia"  ["Austria" "Croatia" "Hungary" "Italy"]
+ adjacent "Sierra Leone"  ["Republic_of_Guinea" "Liberia"]
+ adjacent "Most Serene Republic of San Marino"  "Italy"
+ adjacent "Somalia"  ["Republic_of_djibouti" "Ethiopia" "Republic of Kenya"]
+ adjacent "Spain"  ["Andorra" "France" "Gibraltar" "Portugal" "Morocco"]
+ adjacent "Sudan" [ "Central African Republic" "Republic of Chad" "Democratic Republic of the Congo" "Egypt" "Eritrea" "Ethiopia" "Republic of Kenya" "Great Socialist People's Libyan Arab Jamahiriya" "Uganda"]
+ adjacent "Sweden"  ["Finland" "Norway"]
+ adjacent "Syrian_Arab_Republic"  ["Iraq" "Israel" "Jordan" "Lebanon" "Turkey"]
+ adjacent "Switzerland"  ["Austria" "France" "Italy" "Principality of Liechtenstein" "Germany"]
+ adjacent "Thailand"  ["Union_of_Myanmar" "Kingdom of Cambodia" "Lao_People_'s_Democratic_Republic" "Malaysia"]
+ adjacent "Tajikistan"  ["Afghanistan" "People_'s_Republic_of_China" "Kyrgyzstan" "Uzbekistan"]
+ adjacent "Togo" [ "Republic_of_Benin" "Burkina Faso" "Ghana"]
+ adjacent "Tunisia" [ "Algeria" "Great Socialist People's Libyan Arab Jamahiriya"]
+ adjacent "Democratic_Republic_of_Timor-Leste"  "Indonesia"
+ adjacent "Turkey" [ "Armenia" "Azerbaijan" "Bulgaria" "Georgia" "Greece" "Islamic Republic of Iran"  "Iraq" "Syrian Arab Republic"]
+ adjacent "Turkmenistan" [ "Afghanistan" "Islamic Republic of Iran"  "Kazakhstan" "Uzbekistan"]
+ adjacent "United_Republic_of_Tanzania"  ["Republic_of_Burundi" "Democratic Republic of the Congo" "Republic of Kenya" "Malawi" "Mozambique" "Rwanda" "Uganda" "Zambia"]
+ adjacent "Uganda" [ "Democratic Republic of the Congo" "Republic of kenya" "Rwanda" "Sudan" "United Republic of Tanzania"]
+ adjacent "United Kingdom" (Great_Britain Britain) ["Republic of Ireland"]
+ adjacent "Ukraine" [ "Belarus" "Hungary" "Republic of Moldova" "Poland" "Romania" "Romania" "Russian Federation"  "Slovakia"]
+ adjacent "United States of America" [ "Canada"]
+ adjacent "Burkina Faso"  ["Republic_of_Benin" "Cote d'Ivoire" "Ghana" "Mali" "Republic of Niger" "Togo"]
+ adjacent "Republica_Oriental_del_Uruguay"  ["Argentina" "Brazil"]
+ adjacent "Uzbekistan" [ "Afghanistan" "Kazakhstan" "Kyrgyzstan" "Tajikistan" "Turkmenistan"]
+ adjacent "Bolivarian_Republic_of_Venezuela"  ["Brazil" "Republic of Colombia" "Guyana"]
+ adjacent "Vietnam"  ["Kingdom_of_Cambodia" "People_'s_Republic_of_China" "Lao_People_'s_Democratic_Republic"]
+ adjacent Vatican_City  "Italy"
+ adjacent "Namibia" [ "Angola" "Botswana" "South Africa" "Zambia"]
+ adjacent "Swaziland"  ["Mozambique" "South Africa"]
+ adjacent "Yemen"  ["Sultanate_of_Oman" "Saudi Arabia"]
+ adjacent "Zambia" [ "Angola" "Democratic Republic of the Congo" "Malawi" "Mozambique" "Namibia" "United Republic of Tanzania" "Republic of Zimbabwe"]
+ adjacent "Republic_of_Zimbabwe"  ["Botswana" "Mozambique" "South Africa" "Zambia"]

@@ -1,0 +1,54 @@
+ .22 ( meanings=1 NOUN NOUN_SINGULAR ) 
+  twenty-two~1n 
+ 'hood ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+  'hood~1nz (neighborhood~2n) a neighborhood
+ 's_Gravenhage ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+  The_Hague~1n 
+ 's ( POSSESSIVE ) 
+ "pj's" ( NOUN NOUN_SINGULAR ) 
+ .22_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .22-calibre~1az of or relating to the bore of a gun that measures twenty-two hundredths of an inch in diameter
+ .22-caliber ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .22_caliber~1a 
+ .22_calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .22-caliber~1a 
+ .22-calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .22_calibre~1a 
+ .38_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .38-calibre~1az of or relating to the bore of a gun that measures thirty-eight hundredths of an inch in diameter
+ .38-caliber ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .38_caliber~1a 
+ .38_calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .38-caliber~1a 
+ .38-calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .38_calibre~1a 
+ .45_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .45-calibre~1az of or relating to the bore of a gun that measures forty-five hundredths of an inch in diameter
+ .45-caliber ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .45_caliber~1a 
+ .45_calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .45-caliber~1a 
+ .45-calibre ( meanings=1 ADJECTIVE ADJECTIVE_BASIC ) 
+  .45_calibre~1a 
+ "leet speak" ( ADJECTIVE ADJECTIVE_BASIC ) 
+ 'tween ( meanings=1 ADVERB ADVERB_BASIC ) 
+  between~2b 
+ 'tween_decks ( meanings=1 ADVERB ADVERB_BASIC ) 
+  between_decks~1b 
+ . ( PUNCTUATION ) 
+ ; ( PUNCTUATION ) 
+ : ( PUNCTUATION ) 
+ ? ( PUNCTUATION ) 
+ , ( COMMA ) 
+ ! ( PUNCTUATION ) 
+ ( ( PAREN ) 
+ ) ( PAREN ) 
+ [ ( PUNCTUATION ) 
+ ] ( PUNCTUATION ) 
+ % ( PUNCTUATION ) 
+ / ( PUNCTUATION ) 
+ + ( PUNCTUATION ) 
+ - ( PUNCTUATION ) 
+ * ( PUNCTUATION ) 
+ = ( PUNCTUATION ) 
+ ' ( POSSESSIVE ) 

@@ -1,0 +1,121 @@
+<scene exported_by="curtismckinney" formatVersion="1.0.1" previous_export_time="1339889151.579574" export_time="1339894788.942897" >
+	<nodes >
+		<node name="Sun" >
+                       <position y="100.903862" x="4.076245" z="-1.005454" />
+                       <rotation qy="0.755880" qx="0.169076" qz="-0.272171" qw="0.570947" />
+                       <scale y="1.000000" x="1.000000" z="1.000000" />
+                       <game >
+                               <sensors />
+                               <actuators />
+                       </game>
+                       <light shadow="true" type="spot" name="Lamp" powerScale="1000.0" >
+                               <position y="100.903862" x="4.076245" z="-1.005454" />
+                               <direction y="-1.0" x="0.0" z="0.0" />
+                               <lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.03333335240683057" />
+                               <colourDiffuse r="1.0" b="1.0" g="1.0" />
+                               <colourSpecular r="1.0" b="1.0" g="1.0" />
+                               <colourShadow r="1.0" b="1.0" g="1.0" />
+                       </light>
+               </node>
+		<node name="Cube.002" >
+			<position y="10.699492" x="29.863617" z="-0.000000" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="10.000000" x="10.000000" z="10.000000" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="str" name="CollisionGroup" value="EnemyGroup" />
+			<user_data type="float" name="Mass" value="1.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<user_data type="str" name="CursorType" value="LookCursor" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Cube.002.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Cube.002" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False"  />
+		</node>
+		<node name="Log" >
+			<position y="-2.109118" x="-17.285112" z="34.855957" />
+			<rotation qy="0.000000" qx="0.998863" qz="-0.000000" qw="0.047674" />
+			<scale y="1.452290" x="17.618315" z="17.522902" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="float" name="Mass" value="10.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<user_data type="str" name="CursorType" value="ActivateCursor" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Log.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Log" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False"  />
+		</node>
+		
+		<node name="Cube.001" >
+			<position y="-7.413795" x="0.000000" z="50.605541" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="10" x="10" z="10" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="float" name="Mass" value="3.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<user_data type="str" name="CursorType" value="PickUpCursor" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Cube.001.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Cube.001" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False"  />
+		</node>
+		<node name="Icosphere" >
+			<position y="-5.627556" x="-22.069899" z="-0.000000" />
+			<rotation qy="1.000000" qx="0.000000" qz="-0.000000" qw="0.000000" />
+			<scale y="17.677670" x="17.677670" z="17.677670" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Sphere" />
+			<user_data type="float" name="Mass" value="50.0" />
+			<user_data type="int" name="Hollow" value="0" />
+			<user_data type="str" name="CursorType" value="HackCursor" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Icosphere.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Icosphere" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False"  />
+		</node>
+		<node name="Cube" >
+			<position y="-229.079506" x="0.555396" z="0.191613" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="221.257515" x="2221.257515" z="2221.257515" />
+			<user_data type="int" name="PhysicsEnabled" value="1" />
+			<user_data type="str" name="BodyType" value="Rigid" />
+			<user_data type="str" name="ShapeType" value="Box" />
+			<user_data type="float" name="Mass" value="0.0" />
+			<user_data type="int" name="Hollow" value="1" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Cube.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Cube" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False"  />
+		</node>
+		<node name="Camera" >
+			<position y="6.207113" x="8.438016" z="6.477438" />
+			<rotation qy="0.334251" qx="0.481707" qz="-0.212922" qw="0.781600" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<camera projectionType="perspective" fov="0.5033799435163735" name="Camera" >
+				<clipping far="100.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" farPlaneDist="100.0" />
+			</camera>
+		</node>
+	</nodes>
+	
+	<environment>
+		<colourBackground r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+		<colourAmbient r="0.0" b="0.0" g="0.0" />
+		<colourDiffuse r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+	</environment>
+	
+</scene>

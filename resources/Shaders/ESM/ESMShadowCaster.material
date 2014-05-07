@@ -1,0 +1,26 @@
+import * from ESMSharedParams.material
+
+////////////////////////////////////////////////////////////////////////////////
+// Default
+////////////////////////////////////////////////////////////////////////////////
+material ESMShadowCaster
+{
+	technique
+	{
+		pass
+		{		
+			vertex_program_ref ESMShadowCasterVPCG
+			{
+			}
+
+			fragment_program_ref ESMShadowCasterFPCG
+			{
+				shared_params_ref ESM/SharedParams
+			}
+		}
+	}
+}
+
+
+
+

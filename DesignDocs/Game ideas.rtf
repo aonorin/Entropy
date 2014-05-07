@@ -1,0 +1,2173 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red90\green91\blue94;\red26\green26\blue26;\red0\green0\blue128;
+\red100\green100\blue100;}
+\vieww19520\viewh12140\viewkind0
+\deftab720
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 Engine Notes:
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+March 23, 2013: New Ideas:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0 \cf0 Current plans are to create a Metroid style exploratory game with emphasis on ambience and discovery.
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Pure Data style graphical programming for abilities. New modules are found throughout the world and can be linked together to program the logic for modular abilities. The programming should have a circuitry/hacking/cyber/bio punk flavor that fits in with the rest of the game.
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Module Actors:
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Movement, Point, Target
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Module Operators:
+\f1 \
+
+\f0 +, *, -, /, invert, feed back
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Bio Punk?
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Give players a generative level creator so they can create levels to share with eachother. Also make ability circuits exportable/loadable for sharing as well.
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 Should we make a documentary about the making of the game to give away for free with the release of the game?
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\fs30 \cf0 \
+\
+\
+	Curtis:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	-
+\b0 Make Engine into a Library DONE!
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-Update Actions (Coordinate based, more?)
+\f1\fs24 \
+
+\f0\fs30 	-Lua interface for Time based events both regular timedEvent and progressEvent DONE!
+\f1\fs24 \
+
+\f0\fs30 	-Make Level Editor
+\f1\fs24 \
+
+\f0\fs30 	-Virgil Actions (tied to Lua? Create a "Virgil Interpreter" to be able to create triggers based off of dialogue) DONE!
+\f1\fs24 \
+
+\f0\fs30 	-Trigger Objects and Trigger groups in Blender (or perhaps Map editor)????
+\f1\fs24 \
+
+\f0\fs30 	-Algorithmic Mesh Generator (In Progress)
+\f1\fs24 \
+
+\f0\fs30 	-Voxel Based Terrain (IN PROGRESS)
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\b Chad:
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 	-
+\b0 Flying - DONE!
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-Fix Debug Draw - DONE!
+\f1\fs24 \
+
+\f0\fs30 	-Add EventActions - DONE!
+\f1\fs24 \
+
+\f0\fs30 	-Fix Spurious Physics Crashes?! (Also when closing, sometimes getting a lock crash from boost [with debug draw up?])
+\f1\fs24 \
+
+\f0\fs30 	-Actor actions, Done!\'85ish (Framework in place, but not real testing done)
+\f1\fs24 \
+
+\f0\fs30 	-Collision Actions with Lua interface DONEish
+\f1\fs24 \
+
+\f0\fs30 	-Fixed bug with picking being from the middle of the collision object instead of from the camera height
+\f1\fs24 \
+
+\f0\fs30 	-Finish up collision bindings by adding the ability to add and clear Collision Groups from the CollisionGroupManager, also, add a CustomCollision which takes a lua function
+\f1\fs24 \
+
+\f0\fs30 	-Pickup/throw objects - Done, but there might be some right click bug. Right now in general my computer isn't recognizing right click so I can't really test.
+\f1\fs24 \
+
+\f0\fs30 	-Saving and Loading
+\f1\fs24 \
+
+\f0\fs30 	-Shadows/Lighting Done!
+\f1\fs24 \
+
+\f0\fs30 \
+	- Movement updates:
+\f1\fs24 \
+
+\f0\fs30 		You can no longer FPS move when in the air. When you jump the character is pushed in the direction they're going and can't change direction until they hit the ground.
+\f1\fs24 \
+
+\f0\fs30 		You can jump higher when you're running.
+\f1\fs24 \
+
+\f0\fs30 		You can't run when crouching.
+\f1\fs24 \
+
+\f0\fs30 		Crouching now slides into position instead of popping straight to it.
+\f1\fs24 \
+
+\f0\fs30 		Made crouch slower, walking slower, and running faster to accentuate the differences. I also felt like the walking speed was a bit too fast, especially for an "ambient horror game", however these can always be tweaked.
+\f1\fs24 \
+
+\f0\fs30 		Possibly need to make the walk/run speed ramp which will make gauging jump distances perhaps easier, if you jump sooner you won't go as far, so it will be easier to jump on something right in front of you
+\f1\fs24 \
+
+\f0\fs30 	
+\f1\fs24 \
+
+\f0\fs30 	
+\b General:
+\f1\b0\fs24 \
+
+\f0\fs30 	-Make player a cylinder - DONE!
+\f1\fs24 \
+
+\f0\fs30 	-Fix Camera - DONE!
+\f1\fs24 \
+
+\f0\fs30 	-No Infinite Jump - DONE!
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \
+	-
+\b0 Make our own map editor?
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-Make engine open-source at some point?
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\b New Tasks:
+\f1\b0\fs24 \
+
+\f0\fs30 	Make abilities: Flash light, UltraViolet Vision, etc\'85
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 	
+\b0 Implement hunger/sleep cycles
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	Create umbilicus and implement in physics
+\f1\fs24 \
+
+\f0\fs30 	Mesh/Texture/Normal/Bump generators
+\f1\fs24 \
+
+\f0\fs30 	Crouching - Done! Although standing while moving could be slightly better
+\f1\fs24 \
+
+\f0\fs30 	Climbing? Perhaps just object of a certain height in front of you?
+\f1\fs24 \
+
+\f0\fs30 	Light Based Hiding
+\f1\fs24 \
+
+\f0\fs30 	Realtime lighting and Shadows
+\f1\fs24 \
+
+\f0\fs30 	
+\f1\fs24 \
+
+\f0\fs30 	
+\f1\fs24 \
+
+\f0\fs30 	-I think making a map editor would take a month max
+\f1\fs24 \
+
+\f0\fs30 	-Make the game engine a separate library. Make the game link to it. Keep game specific code out of the engine library
+\f1\fs24 \
+
+\f0\fs30 	-If we do make a level editor, make it also link to the game
+\f1\fs24 \
+
+\f0\fs30 	-Game specific content should go in the game project, Game Engine specific stuff should go in the engine project
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 	RANDOM IDEAS:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	-
+\b0 Flickering bioluminescent plants!
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-For Music: Wave FUCKIN' Train, listen to that shiot.
+\f1\fs24 \
+
+\f0\fs30 	-ascii-ify the hacking game????
+\f1\fs24 \
+
+\f0\fs30 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Gameplay Ideas: 
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+	Overall Theme: Hard Science Fiction
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+	---------------------------------------------------------------------------------
+\f1\b0\fs24 \
+
+\f0\b\fs30 	Exploration - Main Mechanic!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+\f1\b0\fs24 \
+
+\f0\b\fs30 	---------------------------------------------------------------------------------
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+	The game's main "mechanic" is traversal through foreign and mysterious areas with distinct properties. Heavily influenced by House of Leaves.
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+	
+\fs38 AMBIENT HORROR EXPEDITION
+\fs30 ?!? (House of Leaves-tastic)
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+UPDATE
+\f1\b0\fs24 : New Ideas: Generative enemies and combat?\
+
+\f0\b\fs30 \
+	
+\b0 Narrative change: There's not much of an exposition. You work at the lab. There is a sudden intelligence explosion, which causes Somnus (or Hypnos) to create vast chunks of its environments to be built simultaneously. causing the environment to degrade Game starts with an intro over floating over water, fades to black, sounds of explosions, screeching metal, strange noises etc, then it jump cuts to area where you have to traverse upwards. At first you know nothing, but when you get to Virgil things become more clear.
+\f1\fs24 \
+
+\f0\b\fs30 \
+	
+\b0 There will be safe areas like the area with Virgil however, however you need to get certain things and you have to traverse certain areas. In each area you have an umbilicus which is your
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	only source of air in the radiated  and toxic environments as well as communication with Virigil. It also supplies power for light and hacking.
+\f1\fs24 \
+
+\f0\fs30 \
+	It needs to be scary!!!!!!!!!!!!!!!!!!!
+\fs26 THE TERRAIN IS THE BOSS FIGHT
+\fs40 .
+\fs30  Shadow of the Colossus meets house of leaves. Level design as boss fight.
+\f1\fs24 \
+
+\f0\fs30 \
+	--!!!!!!!!!!!!Voxel based terrain generation system!!!!!!!!!!!!!!! tweaked for each level. Each level is different. Perhaps generates a new one each time you enter. Last level is huge/infinite.
+\f1\fs24 \
+
+\f0\fs30 	-Possibly deformable? Possibly not?
+\f1\fs24 \
+
+\f0\fs30 \
+	Megaman type level design. There is a central hub location and each level branches off from this central location. You can choose any level to traverse and if you're having trouble with one you can move on to a different one and come back to it. Non-linear choices of level traversal, but you can't save in the middle of level. This will also make the story (picked up through video/audio found throughout levels) non-linear as well. As you get deeper communication with Virgil becomes more glitchy/staticy
+\f1\fs24 \
+
+\f0\fs30 \
+	Makes modding perhaps more inspiring as a project. On second play through (and perhaps in mods too) you can have timed traversals.
+\f1\fs24 \
+
+\f0\fs30 \
+	9 "levels":
+\f1\fs24 \
+
+\f0\fs30 \
+	Each level ends when you get access to some item which is a fragment of the whole object is necessary to move on to the end area.
+\f1\fs24 \
+
+\f0\fs30 	Levels have certain direction or angular momentum to the level design.
+\f1\fs24 \
+
+\f0\fs30 \
+	Level 1: The intro which is how you find Virgil and the central hub.
+\f1\fs24 \
+
+\f0\fs30 	Levels 2-6: Different areas tied to the central hub.
+\f1\fs24 \
+
+\f0\fs30 	Level 7: The final end level to end where "Somnus" is.
+\f1\fs24 \
+
+\f0\fs30 \
+\
+	You have a specific set of skills, and it's how you apply those skills to a given level that will allow you to traverse a level. Make it skill intensive. 
+\f1\fs24 \
+
+\f0\fs30 	Baseline abilities: 
+\f1\fs24 \
+
+\f0\fs30 	Walking. Running, with a limited stamina (you get tired)
+\f1\fs24 \
+
+\f0\fs30 	Jumping.
+\f1\fs24 \
+
+\f0\fs30 \
+	You have to eat and sleep. You can find (generative artificial) plants to eat, some of them hurt you though or make you hallucinate.
+\f1\fs24 \
+
+\f0\fs30 	There is a plant there regrows every time you get back to the central hub so you always have something to eat when you get back.
+\f1\fs24 \
+
+\f0\fs30 -The Two people leaving video logs you find eventually find something of yours that you lost or maybe your vlog. 
+\f1\fs24 \
+
+\f0\fs30 	Power is a limited resource. Usage over time: it recharges.
+\f1\fs24 \
+
+\f0\fs30 	items use power over time, but when they're off you recharge.
+\f1\fs24 \
+
+\f0\fs30 \
+	Items that use electricity:
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 		Flash Light
+\f1\fs24 \
+
+\f0\fs30 		Healing (However you can't heal until you've stopped taking damage for a short time)
+\f1\fs24 \
+
+\f0\fs30 		Coolant/Decontaminant - Cools you off as well as wash off acidic or dangerous substances
+\f1\fs24 \
+
+\f0\fs30 		Ultraviolet vision
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 	Items that don't use electricity but are a limited resource:
+\f1\fs24 \
+
+\f0\fs30 \
+		Chemical flares (for marking where you've been or where not to go
+\f1\fs24 \
+
+\f0\fs30 \
+	Items you May encounter on your expedition:
+\f1\fs24 \
+
+\f0\fs30 		-Camps made by previous explorers that include:
+\f1\fs24 \
+
+\f0\fs30 			-Food from previous explorers
+\f1\fs24 \
+
+\f0\fs30 			-Chemical flares from previous explorers
+\f1\fs24 \
+
+\f0\fs30 			-explorer's bodies
+\f1\fs24 \
+
+\f0\fs30 		-Safe points for sleeping
+\f1\fs24 \
+
+\f0\fs30 		-Cognitive Disruptors (create a kind of cognitive interference that messes with your vision and mobility
+\f1\fs24 \
+
+\f0\fs30 		-
+\f1\fs24 \
+
+\f0\fs30 \
+	The umbilicus can retract and pull you.
+\f1\fs24 \
+
+\f0\fs30 \
+\
+	You can pick certain things up and move/throw them
+\f1\fs24 \
+
+\f0\fs30 \
+	Levels: 
+\f1\fs24 \
+
+\f0\fs30 \
+		Level 1: Set the tone.  You're in the lab area. Things go bad. Hell breaks, power goes out and the elevators go out and you have to make your way upwards. Always going higher. If you fall, you die. No umbilicus yet. Everything is falling apart.
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 		 Dark Level
+\f1\fs24 \
+
+\f0\fs30 		A level that is completely in the dark and you have very limited light power. You traverse with a flash light. The level change shape/paths as you progress through it. (House of leaves)
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 		Water Level
+\f1\fs24 \
+
+\f0\fs30 		Underwater level that get's darker as you go. Underground lake. Always going down further and further. Something can detach your umbilicus.  You have limited air and you have to get the umbilicus back to survive. Have parts where you have to activity dodge objects?
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 		Gravity Level
+\f1\fs24 \
+
+\f0\fs30 		Level where gravity regularly changes. Certain parts have certain behaviors. Some are fixed others have timed changes. Their color determines their gravity direction.
+\f1\fs24 \
+
+\f0\fs30 		
+\f1\fs24 \
+
+\f0\fs30 		Strobing Level		
+\f1\fs24 \
+
+\f0\fs30 		Strobing terrain, paths of electroluminescence. Has a rhythm or encoded message that lights up the environment but often times you can't see anything. The environment turns off your power when it goes off, rendering your flash light useless in the dark moments. Electrical items can be used effectively in this environment because they automatically turn off when the strobing is off.
+\f1\fs24 \
+
+\f0\fs30 \
+		Time Level
+\f1\fs24 \
+
+\f0\fs30 		Time is slightly unstable in this level with some areas running faster/slower or can change. Timing is very important to gameplay (jumps, moving mechanical parts etc\'85) however they're made more challenging by the dilation. The level is composed of (large) mechanical moving parts.
+\f1\fs24 \
+
+\f0\fs30 \
+\
+		Level 9: 
+\f1\fs24 \
+
+\f0\fs30 		Infinite Level
+\f1\fs24 \
+
+\f0\fs30 		Large open spaces using generative techniques. It's about exploring a vast world much unlikely the claustrophobic areas of the previous levels. The only things to eat are artificial floral that give you slight hallucinations when eaten. Large open terrains that morph and change over time.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \
+	-Cool Effects ideas to possibly add:
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-Glitchy Shaders from "cognitive interference"
+\f1\fs24 \
+
+\f0\fs30 	-One enemy causes your flashlight to flicker when it is near the player.
+\f1\fs24 \
+
+\f0\fs30 	-Day/Night inspired cycles in some or all of the levels? Levels could have "states" that it shifts between that affect the fauna and flora, doesn't have to be day/night necessarily.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \
+	Crafting - WE WILL LIKELY NOT BE DOING THIS, AT LEAST NOT TO THE EXTENT THAT THESE IDEAS EXPLORE
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	Inspired by Under the Garden/Ocean which has a lot of in depth combinations. Our game will use more real world and technology focused crafting. 
+\f1\fs24 \
+
+\f0\fs30 \
+		Random Ideas:
+\f1\fs24 \
+
+\f0\fs30 \
+		You can always disassemble items into their core components. This will allow us to have several potential combinations that could be useful for solving puzzles, while others could just
+\f1\fs24 \
+
+\f0\fs30 		be for fun or as a red herring.
+\f1\fs24 \
+
+\f0\fs30 \
+		You have to craft a portable computer for hacking: Find A motherboard, wires, a soldering iron, and a touchscreen.
+\f1\fs24 \
+
+\f0\fs30 		However you also need to install the OS: Find a copy somewhere and flash the drive. 
+\f1\fs24 \
+
+\f0\fs30 		Install you're hacking program: Find a compiler. Find the source code. Compile the hacking program.
+\f1\fs24 \
+
+\f0\fs30 		Their computer should have a fully functional unix console and complete access to lua if they want. They can make complete programs and run them.
+\f1\fs24 \
+
+\f0\fs30 		This won't be a requirement, but interested users can rewrite the source (probably a very lua simple script) for certain things in the game, changing their behavior.
+\f1\fs24 \
+
+\f0\fs30 		Objects can be found lying around or can be salvaged by disassembling found items.
+\f1\fs24 \
+
+\f0\fs30 \
+		Objects to/for crafting: 
+\f1\fs24 \
+
+\f0\fs30 			
+\f1\fs24 \
+
+\f0\fs30 			A watch (Made from gears using a special tool? Useful as a timer?),  
+\f1\fs24 \
+
+\f0\fs30 			A lighter
+\f1\fs24 \
+
+\f0\fs30 			Gunpowder
+\f1\fs24 \
+
+\f0\fs30 			Solenoids
+\f1\fs24 \
+
+\f0\fs30 			Batteries
+\f1\fs24 \
+
+\f0\fs30 			Circuit boards with Arm chips running a unix based OS
+\f1\fs24 \
+
+\f0\fs30 			Soldering Iron
+\f1\fs24 \
+
+\f0\fs30 			Springs
+\f1\fs24 \
+
+\f0\fs30 			Photocells
+\f1\fs24 \
+
+\f0\fs30 			Microphones (Contact, Diaphragm, Piezo)
+\f1\fs24 \
+
+\f0\fs30 			Book (They're flammable aren't they?)
+\f1\fs24 \
+
+\f0\fs30 			Magnets
+\f1\fs24 \
+
+\f0\fs30 			Camera
+\f1\fs24 \
+
+\f0\fs30 			Chemicals (chemical reactions!)
+\f1\fs24 \
+
+\f0\fs30 						
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\b Eat/Sleep
+\b0 :
+\f1\fs24 \
+
+\f0\fs30 	1. You have to eat and drink. If you don't you get slower and slower.
+\f1\fs24 \
+
+\f0\fs30 	2. You have to sleep You have a certain amount of rest resting in a bed gives you more resting on a floor gives you much less If you don't sleep you get slower and eventually you start 	hallucinating a bit not full on Amnesia style, but some when you do sleep sometimes you dream sometimes they're abstract audio visual moments other times it's like you wake up like 	normal but as you play you realize that it's a dream because things aren't right and you wake up If you're sleeping in an area with enemies they can get you and do whatever it is that they 	do.	
+\f1\fs24 \
+
+\f0\fs30 \
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 GRAVITY LEVEL:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	
+\b0 Level where gravity regularly changes. Certain parts have certain behaviors. Some are fixed others have timed changes. Their color determines their gravity direction.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	-Hexagonal or Triangular, Tesselated look and feel to the  terrain?
+\f1\fs24 \
+
+\f0\fs30 	-"Shiny/Metallic" feel to the level, a fog hangs over the ground
+\f1\fs24 \
+
+\f0\fs30 	-Rain that goes in strange directions
+\f1\fs24 \
+
+\f0\fs30 	-Shifting Gravity
+\f1\fs24 \
+
+\f0\fs30 	-Floating terrain and objects
+\f1\fs24 \
+
+\f0\fs30 \
+	-AI Enemy: Teleporting Enemy
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \ul \ulc0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+\cf0 \ulnone -Sequel idea: 
+\b0 Dystopian/Utopia A Brave New World. AI has taken over and done everything for us better than we ever could. "
+\f2\fs24 \cf2 In this future, the only thing left for us to do, is tell the machines how we want our eggs cooked for breakfast"
+\f0\fs30 \cf0  
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+-Repeating symbols?
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 Themes:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	
+\b0 Water, "Talking as water, water as talking" , repetition, corrupted repetition, corruption, desecration, uncanny valley. Does the AI have art? music?
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	Reflective Decision Making Theory
+\f1\fs24 \
+
+\f0\fs30 \
+-
+\b Game Value System
+\b0 : what is valued is progression. 
+\f1\fs24 \
+
+\f0\fs30 	Rewards: 
+\f1\fs24 \
+
+\f0\fs30 		-Storyline, video logs, etc. 
+\f1\fs24 \
+
+\f0\fs30 		-Puzzle "Keys"
+\f1\fs24 \
+
+\f0\fs30 		-Progress
+\f1\fs24 \
+
+\f0\fs30 		-Clues
+\f1\fs24 \
+
+\f0\fs30 		-Resources
+\f1\fs24 \
+
+\f0\fs30 	Punishments: 
+\f1\fs24 \
+
+\f0\fs30 		-Some kind of lost of player control (being teleported, being thrown by telekinesis, being dragged away).
+\f1\fs24 \
+
+\f0\fs30 		-As above, progress.
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Game Resources:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	
+\b0 -Food?
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	-Items
+\f1\fs24 \
+
+\f0\fs30 	-Flashlight
+\f1\fs24 \
+
+\f0\fs30 	-Neurocaster
+\f1\fs24 \
+
+\f0\fs30 \
+-
+\b Hero:
+\b0  The hero is you\'85.no name supplied, no face given, not even a sex insinuated. YOU are in the game, not just playing a character in the game.
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Hook:
+\b0  "Unbeknownst to the world, an event has occurred at a small geothermal research station in the arctic ocean that will change the world as we know it."
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Franchise: 
+\b0 A blend of horror, hard-science-fiction, and adventure gaming. Based on a world where an AI construct has gone sentient, possible intelligence explosion. The repeating character is 
+\b Antumbra Energy Company.
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Scope and Scale: 
+\b0 10 hours of gameplay, with voice acting.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 -Storytelling Strategy: 
+\b0 A blend of written logs, audio logs, and video logs, with interactive dialogue with an AI.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \ul \ulc0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b0 \cf0 \ulnone \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 \ul SETTING:
+\f1\b0\fs24 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 Isolated Mountain top lab/station. Unlockable areas ala Metroid. Day/night time cycle. Mountain top is dank and foggy. Lab is overly pristine. 
+\f1\fs24 \
+
+\f0\fs30 \
+Year is 2031. Due to increasing automation unemployment has reached 39% in the US. A true third party has arisen, the Democratic Liberty party, a libertarian party who has just voted in their first president. A brain drain is occurring, as researchers and intelligentsia flee to China, now the major powerhouse of academic pursuit. Private companies and wealthy individuals have started to create their own micro countries that operate as flotillas off the shoes of the US in intercontinental waters. This has further increased the economic hardship of the US, who is no longer considered a Super Power. The population that works is mainly relegated to either services(such as customer service, bartender, escorts, retail, etc) or the booming automation repair industry. The unemployed are minimally supported by the state, though that is now in danger thanks to the newly elected Democratic Liberty party.
+\f1\fs24 \
+
+\f0\fs30 \
+While Mexico is still united, increasingly the affluent peoples are retreating to closed communities that operate with their private police and council agencies. Those in lower classes are left outside to be subjected to the rampant drug gangs and mafias. The mexican government has been under martial law for 10 years. 
+\f1\fs24 \
+
+\f0\fs30 \
+Brazil is arising as a major economic player, though its economic divide between the haves and have nots is severely increasing, with the lower class now finding it harder to find even basic necessities such as food and medicine.
+\f1\fs24 \
+
+\f0\fs30 \
+Canada, once a bastion of peace, now sees gaining enemies as it prospers in these increasingly turbulent times. Where once terrorist groups focused solely on the US, now more violence has been making its way into the north.
+\f1\fs24 \
+
+\f0\fs30 \
+The EU has completely collapsed with Germany, France, and the UK forming a new entity called the Western European Confederated States (or WECS), leaving other members such as Spain, portugal, italy, greece, etc to destitution. There has been an escalating campaign of violence conducted against the WECS from many sides, including islamic terrorist, internal rebellions, various retribution groups seeking revenge for leaving the EU, and an uprising of fundamentalist christian terrorism seeking to strike back against muslims. Due to this the WECS, and the UK especially, has turned more and more into veritable police states.
+\f1\fs24 \
+
+\f0\fs30 \
+Russia has seen a boom in economic growth, and several former Soviet states and satellites have voluntarily chosen to be reabsorbed. Russia and China are even closer allies, with the two now dominating world politics.
+\f1\fs24 \
+
+\f0\fs30 \
+Japan has seen an increasing stagnation of its economy and a fall in its population rate. Nostalgia is a large factor in Japanese culture now, and revivals of older music, TV, and movies is common and celebrated. Many have begun to refer to the people of this age as the "Final generation", a sign of increasing despondency.
+\f1\fs24 \
+
+\f0\fs30 \
+India has come into its own, with a booming research, technology, and manufacturing driven economy. India is the second largest center of manufacturing outside of China, thanks in large part to their own cheap labor and automated manufacturing plants. in 2025, after a prolonged war, India defeats pakistan. After a period of rule by India, the country has now been divided up into several smaller states, who are experiencing extreme destitution.
+\f1\fs24 \
+
+\f0\fs30 \
+China has now become the sole super power of the world, with a colossal economy and a population of 1.5 billion. China is the world's producer, housing 70% of the worlds manufacturing plants, virtually all automated. Workers are now mainly employed to repair and oversee operation of the various manufacturing AI's. Militarily China has seen an unprecedented boom in advance military technology. This is largely boosted by their vast manufacturing ability and research capabilities. For the first time a country is now spending more on military expenditures than the US. Increasingly the Chinese government has allowed more and more economic freedom inside its borders, however, in response to this they have increased social dominance, with nearly every facet of social life now being regulated by government, including number of children, age of consenting sexual relations, banning of all religion, complete regulation of the internet and phone infrastructures, and large military style police raids on civilian sectors "conducting peaceful investigations" inside people's homes.
+\f1\fs24 \
+
+\f0\fs30 \
+Africa's landscape is changing. Due to a succession of governments being overthrown northern Africa is now largely dominated by Fundamentalist Islamic governments. Though doing well economically, these countries are harsh and ultraconservative. The poorer african nations have begun to dissolve into lawlessness. This is exacerbated by the increasing lack of United Nations military presence and funding to these areas.
+\f1\fs24 \
+
+\f0\fs30 \
+Protest movements such as Occupy Wall Street have seen a large increase in activity, but there has been little real change made on governmental institutions. The message of these protest movements has becomes even more splintered and confused, with multiple sub groups even going into conflict(peaceful and armed) with each other.
+\f1\fs24 \
+
+\f0\fs30 \
+Technology is increasing at even a faster pace than originally thought. Quantum computing is now driving future technological growth. Despite these large gains in computational power, cracking true AI has been harder than expected, with "narrow AI" dominating the world. However, among the lower class there is an increasing backlash against technology and AI in particular, as they see the devastating effects is has had on them. Several new christian denominations have arisen who preach a message of "returning to the purity of christ" and forgoing all electronic technology. Wealthy individuals have many different "servant" robots to take care of their needs and wants.
+\f1\fs24 \
+
+\f0\fs30 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 \ul PUZZLES IDEAS:
+\f1\b0\fs24 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 \
+-Blinded real world work with sonar path finder
+\f1\b0\fs24 \
+
+\f0\b\fs30 -Neural Net Programming an AI puzzle:
+\f1\b0\fs24 \
+
+\f0\b\fs30 -Zork Like game within the game:
+\f1\b0\fs24 \
+
+\f0\b\fs30 -Hacking Game DONE:
+\f1\b0\fs24 \
+
+\f0\b\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+\cf0 \ul HACKING
+\b0 :
+\f1\fs24 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+peak: Analyze a file structure. Percentage chance for altering the system.
+\f1\fs24 \
+
+\f0\fs30 nuke: Destroy 
+\f1\fs24 \
+
+\f0\fs30 -Instead of turn based, it's on an updated timer loop, with colors and animations to boot
+\f1\fs24 \
+
+\f0\fs30 -Go down like in flow. Can see "blurred" version of lower chamber in upper chamber
+\f1\fs24 \
+
+\f0\fs30 -Background has cyber "sheen" to it
+\f1\fs24 \
+
+\f0\fs30 -Start with normal Rogue-like rooms
+\f1\fs24 \
+
+\f0\fs30 -Eventually switch to  cellular automata rooms, that slowly shift? (Walls hurt you if you touch them)
+\f1\fs24 \
+
+\f0\fs30 -Perhaps a better idea is end rooms are cellular automata Shifting walls? Or maybe a random chance of shifting rooms? Not a bad idea\'85
+\f1\fs24 \
+
+\f0\fs30 -Perhaps 3 or more different room types, separated by difficulty. Initial room type is Rogue like. Hardest difficulty is Shifting walls.
+\f1\fs24 \
+
+\f0\fs30 -Game within a game within a game.
+\f1\fs24 \
+
+\f0\fs30 -USE PARALAX SCROLLING FOR BACKGROUND
+\f1\fs24 \
+
+\f0\fs30 -Create Doors
+\f1\fs24 \
+
+\f0\fs30 -Create way of procedurally demanding certain types of nodes in map builder
+\f1\fs24 \
+
+\f0\fs30 -Some rooms can  have multiple nodes
+\f1\fs24 \
+
+\f0\fs30 \
+-Health bar as well as Suspicion bar, when Suspicion bar reaches the top it triggers the alarm. Each action has a different amount of suspicion associated with it. Program Progress bar
+\f1\fs24 \
+
+\f0\fs30 \
+-Defensive Subroutines (These are like little enemies that scurry around the map when released):
+\f1\fs24 \
+
+\f0\fs30 	-Dragon Subroutines: Attack the player on release. Released when alarm is set off.
+\f1\fs24 \
+\pard\tx1660\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tx9360\tx10080\pardeftab720\li720\fi-720\ri0
+\cf0 \expnd0\expndtw0\kerning0
+ 
+\f3 \expnd0\expndtw0\kerning0
+\uc0\u8259 
+\f1 \expnd0\expndtw0\kerning0
+	
+\f0\fs30 \kerning1\expnd0\expndtw0 		-Phantom Subroutines: Released at 50% suspicion. Scan nodes, and upon detection of player programs calls alarms and attempts cleaning infection
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\
+-Different types of Nodes:
+\f1\fs24 \
+
+\f0\fs30 	-I/O Node(your starting point, if the back tracer captures this, your session is ended)
+\f1\fs24 \
+
+\f0\fs30 	-Scanner Node(Where the back tracer starts. Capture this and you have no fear of being kicked out by the back tracer)
+\f1\fs24 \
+
+\f0\fs30 	-Data Node (This houses encrypted data files that may give you important information)
+\f1\fs24 \
+
+\f0\fs30 	-Control Node (This houses controls that affect the outside world)
+\f1\fs24 \
+
+\f0\fs30 	-Spawner Node(This spawns defensive subroutines. They may be hacked to work for you instead)
+\f1\fs24 \
+
+\f0\fs30 	-Wetware Node(contains programs which you can run, "treasure chest"):
+\f1\fs24 \
+
+\f0\fs30 		Wetware programs:
+\f1\fs24 \
+
+\f0\fs30 			-DNS spoof - lowers suspicion
+\f1\fs24 \
+
+\f0\fs30 			-Quantum Cryptography - Automatically Decrypts one Node controlled by the enemy
+\f1\fs24 \
+
+\f0\fs30 			-Recursive Self-improvement - heals player
+\f1\fs24 \
+
+\f0\fs30 			-Ghost shell - for 90 seconds the player is completely hidden from defensive subroutines, and all actions incur 				no suspicion penalties
+\f1\fs24 \
+
+\f0\fs30 			-ARP Poisoning - teleports you into an enemy node
+\f1\fs24 \
+
+\f0\fs30 			-Glitch - completely lowers suspicion level to zero
+\f1\fs24 \
+
+\f0\fs30 			-Hatch Phantom - spawns a phantom subroutine which encrypts, and installs trojan and daemon software into 				your nodes
+\f1\fs24 \
+
+\f0\fs30 			-Hatch Dragons - spawns two dragon subroutine under your control, which protect you from 				defensive subroutines
+\f1\fs24 \
+
+\f0\fs30 \
+-Ports are the entrances to Nodes.
+\f1\fs24 \
+
+\f0\fs30 -Different programs which alter ports and nodes:
+\f1\fs24 \
+
+\f0\fs30 	Port Routines:
+\f1\fs24 \
+
+\f0\fs30 		-Up Scan - scan for defensive routines
+\f1\fs24 \
+
+\f0\fs30 \
+		-Left Glitch- temporarily gain access
+\f1\fs24 \
+
+\f0\fs30 		-Right Crack - gain permanent access
+\f1\fs24 \
+
+\f0\fs30 		-If worse comes to worst, you can "brute force" your way in by attacking the port.
+\f1\fs24 \
+
+\f0\fs30 			This raises the alarm, but can get past Black ICE without harming you.
+\f1\fs24 \
+
+\f0\fs30 \
+		-Left Trojan - fools subroutines into believing that this node is not infected		-Right Daemon - Damages those who attempt access without cracking the port.
+\f1\fs24 \
+
+\f0\fs30 		-Up Alarm - notifies you (or the system) of a break in.
+\f1\fs24 \
+
+\f0\fs30 		-Black ICE - impenetrable, automatically triggers alarm, scrambles display(Can't be installed by player unless they 			have all 3 other defensive port programs activated)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	Node Routines:
+\f1\fs24 \
+
+\f0\fs30 		-Left Decrypt - gain read access to encrypted node
+\f1\fs24 \
+
+\f0\fs30 		-Right Infect - gain read and write access to encrypted node
+\f1\fs24 \
+
+\f0\fs30 		-Up Crash - permanently shutdown node
+\f1\fs24 \
+
+\f0\fs30 \
+		-Left Encrypt - provides protection against enemy access.
+\f1\fs24 \
+
+\f0\fs30 		-Up Honey Pot - draws attention of defensive subroutines to this node, 
+\f1\fs24 \
+
+\f0\fs30 		-Right IP Spoof -When alarms goes if this draws the attention of the back tracer subroutine until either it has hacked by 			a spawn routine(revealing it as a decoy) or the back tracer is tricked into believing 			it has ejected the intruder, in which case the node is destroyed.(Dropping)
+\f1\fs24 \
+
+\f0\fs30 	Net Routines:
+\f1\fs24 \
+
+\f0\fs30 		-Left Scramble Attack
+\f1\fs24 \
+
+\f0\fs30 		-Right Rez Bomb Attack
+\f1\fs24 \
+
+\f0\fs30 		-Ghost, Hide from Defensive Subroutines
+\f1\fs24 \
+
+\f0\fs30 \
+-Push Buttons to confirm change?
+\f1\fs24 \
+
+\f0\fs30 -Multiple active programs?
+\f1\fs24 \
+
+\f0\fs30 \
+-Parallax map things Behind and IN FRONT of scene
+\f1\fs24 \
+
+\f0\fs30 -Create a contiguous hallway finder to reduce CPU strain and allow for more natural looking hallways.
+\f1\fs24 \
+
+\f0\fs30 -Infecting a System lowers suspicion
+\f1\fs24 \
+
+\f0\fs30 \
+-AI talks to you in one hacking map
+\f1\fs24 \
+
+\f0\fs30 -Improve Collision detection code
+\f1\fs24 \
+
+\f0\fs30 -3D "parallax" background
+\f1\fs24 \
+
+\f0\fs30 \
+-Hacking more Nodes allows you to "download" faster
+\f1\fs24 \
+
+\f0\fs30 \
+-Uncanny Valley. 
+\f1\fs24 \
+
+\f0\fs30 -Instead of trying to communicate with an alien mind, you are trying to communicate with an AI mind that's vastly different.
+\f1\fs24 \
+
+\f0\fs30 -"Evolving" rooms, that each time you leave and come back to are slightly different.
+\f1\fs24 \
+
+\f0\fs30 -Structures whose significance you can't quite fathom
+\f1\fs24 \
+
+\f0\fs30 \
+-Originally project started by the geothermal team employing AI to help design more efficient power structures.
+\f1\fs24 \
+
+\f0\fs30 -Eventually the AI started designing structures for which the scientists couldn't explain its purpose.
+\f1\fs24 \
+
+\f0\fs30 \
+\
+Handle dynamic public port remappings in OSCthlhu
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\pardeftab720
+
+\f2 \cf3 Could be a section that's influenced by I have no mouth and I must scream
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 though the AI wouldn't be as malicious
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 it's just trying to communicate with you
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 but in doing so sends you into some ungodly freakish version of existence
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+-Tomie opening song
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 was not designed as well thought out as Friendly AI, in fact it didn't even start out as pure AI project at all
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\
+\pard\pardeftab720
+
+\i\b \cf3 REVISED GAME IDEAS:
+\f1\i0\b0\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 Setting: 
+\b0\fs26 Jan Mayen, Norway, in the arctic ocean.
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf0 Locus\cf3  (Or some other name, still thinking about it):
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\b\fs30 \cf3 \
+"
+\f0\b0 \cf0 It is suggested that the ability to ask {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/Question"}}{\fldrslt \cf4 \ul questions}}
+\f1\fs24  is the central cognitive element that distinguishes human and animal cognitive abilities."\
+
+\f2\b\fs30 \cf3 \
+\pard\pardeftab720
+\cf0 Locus
+\b0 \cf3  is a machine of extreme intelligence, however it's thought process occurs on a vector of thought far outside the human mind. Eventually the player comes to find out it is "dreaming". It has been slowly melding with the crew of the lab by convincing each one separately to willingly upload their minds into the machine, as they lay sleeping, sending the AI into a deeper, darker, and more surreal sphere of consciousness, to the point now that it barely pays attention to the outside world.
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 \
+So, this particular machine
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 was not designed as well thought out as Friendly AI, in fact it didn't even start out as pure AI project at all
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 It started out as an Evolutionary Algorithm to help these scientist research geothermal power.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 However, the researchers were realizing that they were spending too much time designing algorithms, and not enough time analyzing data, or writing papers.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 So they had an idea, why not design an algorithm that designs algorithms that make geothermal power designs.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 So they went down that path, and it started to work.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 they built in some learning mechanisms for it to do learning based on corpus research, like \'a0Watson, and to find more research on the open internet.
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf5 \'a0
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 Eventually it started to design increasingly efficient geothermal power designs.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 Eventually it even designed something more efficient than the most efficient design made by a human
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 surpassed it by several percent but after that, something strange happened it started to add things to the designs that they couldn't understand the impact of.
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf5 \'a0
+\f1\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 The designs became more and more dominated by mysterious structures and components, but the team kept building them with advanced 3d printers because the designs were still becoming more efficient and they thought that perhaps it had surpassed current human research on the topic. Eventually they equipped the AI with some new form of technology that allowed it to start transmitting caverns into these power harvesting structures.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+So eventually things in the lab start to get very strange things are changing ever slightly you walk out of a room and come back in and light will be in different place or a cabinet will be bigger. or a table gone. Or the window will face a different direction. They couldn't explain any of it
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+To get to the thrust of it. T\uc0\u8234 he machine is essentially melding with their uploaded consciousnesses\uc0\u8236 . It's hyper intelligent, but it barely notices the "real world" anymore, because its dreaming. 
+\b As it becomes more human, it enters more and more into it's own surreal realm
+\b0 , filled with certain symbols and memories from people it's melded with, but that us combined with things it's learned from geothermal designs, and with things it's encountered online. It has started to derive pleasure from this, a sort of unconscious AI "utopia"(though whose imagery is freaky and hellacious to us perhaps).
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+The player is joined by at least two other characters in the storyline.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+1. Virgil, the ai assistant, who leads the player through Hell (Dante's Inferno).
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+2. A researcher at the lab. Makes contact with the player through text on a computer. Claims to be trapped in a cold and dark place, communicating via personal computer, and requests the players help. Eventually the player finds the researcher's dead body, complete with personal affects. Then the player comes to find that the researcher's mind has been extracted via osmosis into a computer that has been slowly melding it with the AI. The researcher claims to be alive and pleads with the player to help them somehow. The player may choose to destroy the computer they reside on.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+You cannot simply talk to the AI, as it is both magnitudes more intelligent, but it also experiences consciousness on a completely different vector and timescale from humanity(being many thousands of times faster in its perceived time than humans). The game is essentially about attempting to communicate and understand with a being fundamentally different to us. That said the AI has taken on some human characteristics, as it has melded consciousness with several of the researchers that were in the lab, leading it to exhibit memories of the researchers as part of several phenomenon.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+Encounters with the machine alternate between strange, quixotic, and intense.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+Specific encounter ideas:
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+"First Encounter" (Early game)
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 After finding out the location of the large 
+\b \cf0 Locus
+\b0 \cf3  research dome in some documents in a different part of the lab, you head there to find it. When entering the room, it is filled with gigantic screen that hang all around the dome of the lab, you are walking on scaffolding, and below you is an extremely deep cavern, filled with glowing rock and strange shapes made out of unknown materials, if you look ever closely, it seems like they might be moving ever slowly. The screens above are filled with glitches out visuals(think the random glitch shit that we keep making on accident with opengl) that is twitching and turning sporadically. As you walk the long scaffolding towards the control desk at the end, the screens begin switch, one by one, to that of something tumbling ever downward. Eventually you arrive at the terminal that is used to communicate directly with the AI. Previously you had read about some commands that you could use to instantiate direct communications. It involves let's say 10 commands. What it returns is strangely enough is typed back slowly instead of immediately like most machines. The first one returns back "session initialization bootstrap completed". The second one returns "Session glyphic representation program complete", third returns "task complete", fourth returns "complete", fifth returns "compl", sixth returns "c". Seventh returns nothing, eighth returns nothing, the ninth returns nothing. The tenth returns a huge epic fuck ton explosion of characters on the screen, from all over the unicode structure, glitched out mess, it keeps going spilling more and more characters on the screen, a sound is growing from below you, from where the shapes are, The terminal freezes/crashes, and exists out, and the sound slowly dies down. The screens now each show different security cam views of you. Otherwise, the computer is unresponsive.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+"The Red Room" (Midgame)
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 There is a hallway you always walk down, but turn left before the end to do something. However, the hallway goes a bit past this door, but mysteriously ends with no entrance nor exit. However at one point walking down the hallway, you notice a bit of red light and some faint sounds coming from the end of the hallway. At the end of the hallways you encounter a door(and perhaps a puzzle?). As you open the door and enter the room it is bathed in strong red light, and you realize the sound emitted was the sound of blaring music(uncanny valley creepy/surreal guitar w electronics). It's the favorite song of one of the researchers at the lab, this must be his room that you read about that disappeared, but how did it reappear, and why? There's a light on the wall that is a button, pressing turns the red light off, the normal light on, and shuts off the hella loud music. This also reveals a spot holding a journal. You read the journal, from the researcher whose room this is, who talks about his ever more vivid growing dreams, and his coming obsession with a song. After finding nothing else you go to leave the room, however the controls no longer work, and the doors cannot shut, as you walk back down the hallway facing away from it, the red light flicks on super bright, and the music Switches on again super loud. Your version goes blurry, and you black out. You wake up on the floor in a different room in the lab. The room at the end of the hallways is now gone.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+"In the country of the blind" (Late game)
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 At some point along the way you've picked up an ultra-sonic navigator(like tudor used for that piece, but more powerful). Though you have no immediate use for it. At a certain point in the game your mind is stricken from you by the AI attempting to interface with your mind directly for communication. You come to in a dark hallway *somewhere*, you can barely make out shapes but cannot see detail or passageways. Freaky sounds around you, using the sonic navigator you can find items and doorways. The player has to use this to make their way out of the hallways. As you approach down the hallway, a horrendous sound creeps up behind you, coming closer and closer. You must, using the sonic navigator, move out of the main hallway, to another place to hide to avoid it. ( you are essentially losing your sanity form the direct encounter with the AI consciousness. The phantom behind you is not "real" perhaps, but it is driving you insane). A foil is that some times the hallway might change configuration, say by pulling certain levers. Eventually you make it out of the hallway and you begin to recover your vision. You realize that you were in the lower maintenance area of the lab. The doors close behind you, locked.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+"A Minor Awakening" 
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 The player has made a journey similar to Dante in the travels so far, starting in hell, and eventually coming out into "Paradiso". However, this is not any human conception of it, instead it is the surreal realm being constructed by the AI in the underbelly of the mountain that the lab resides on (Which explains the temperature changes noticed on the top of the mountain). The AI has through some manner, either through the unconscious flailing of a dreaming mind, or through some more conscious effort, started to construct a wholly alien landscape(one generatively constructed). When the player first enters, it begins first as a series of amber/golden crystalline structures and caves, with odd structures whose purpose is not clearly known, as the player journeys down, some form of viscous liquid starts to emerge from these crystalline structures. Further down, some form of blueish grass like plant has begun to sprout up. Eventually the claustrophobic chasms opens up into a vast landscape, with a light blue sky, and a vast ocean to the right. These dimensions simply cannot be contained in the mountain, as big as it is, to be logical. In the distance is a vast structure reaching up into the sky, on the horizon. Here the player has a hidden choice to make, they may either attempt to return, or they may attempt to venture forth even further. 
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+If the player ventures further into the landscape, be it towards the structure, or any other direction away from the entrance, the player's vision will start to be filled with hallucinogenic kaleidoscopic visions, more and more, growing brighter and brighter until they are lost completely in the brightness. The sonic leit motif of the machine gains in intensity, but sounds somehow more natural, more human, more inviting. The player has found peace as a part of this new consciousness. 
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\
+ideas:
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -End is a journey deeper and deeper downwards, starting with geothermal power structures, starts to change, eventually through past a dark twilight lit underground lake.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -You can commit suicide at the end? AI revives you if you do.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Maybe at the end section you reach a point where it's about survival out in the ai "wilderness" sort of like minecraft?
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -House of leaves style "expedition" video logs left by researcher heading into the unknown areas the AI has constructed
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 LOG IDEAS:
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 -A series of "Expedition" Logs, influenced by House of Leaves
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -First a series of written logs detailing the experience of watching certain videos and audio broadcasts constructed by the AI(not sure if communication or\'85dreaming?), and read/see video logs of how it is driving them insane, then you start finding the videos that the AI constructed. (Influence from the movie The Signal). It distorts your sight to look at them
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 \ul Puzzle/Gameplay Ideas:
+\f1\b0\fs24 \cf0 \ulnone \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 \
+-Hyperdimensional Puzzle
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Audio Scrubbing,splicing, etc puzzle?
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -"Chinese Room" puzzle. You have to take output from the AI in the form of a CA grid(it's "language", and communicate a response back to it "Chinese room". It's probing you to see if YOU are intelligent. so like, part of it is you have to find these CA charts the researchers have found that they think mean certain things to the AI
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 then you have to manipulate a CA grid to achieve the right responses to the AI. part of the puzzle is finding the charts and maybe the researchers aren't 
+\b sure
+\b0  if one chart means one thing or another so you have to try them out in different combinations and the AI responds either positively or negatively
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Invisible "Minotaur" in 3 mazes that can knock you around, if it "hurts" you enough you get knocked down, start to get dragged away, fades to black, you wake at the entrance to the maze (still with your inventory items).
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Basic Scientific chemistry/manipulation in place of basic combination puzzles?
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Different visual modes(electrostatic,x-ray,etc) as a throw back to metroid prime 2?
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -"Source Code": The AI has been self improving, rewriting its source as part of an effort to gain more vast intelligence. However, cut off from society and the internet, it hits a wall. That said it has still reached an enormous level of intelligence, and has as such completely replaced any semblance of the man-made source code that created it in the first place. While it might seem more logical for the AI to construct its new source code in binary, the machine has gone about constructing itself in a completely new and alien programing language that is then compiled down into binary. It seems that the AI understands this symbology better than 0's and 1's and prefers to write code in this manner. The new programing language uses Shapes and geometry. It's up to the player to attempt to communicate with the AI via the only known written semblance of communication it has laid out. "Chinese Room" influence.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 -Extreme Magnetism levitation.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 \ul Environment Ideas:
+\f1\b0\fs24 \cf0 \ulnone \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 Artificial seas filled with artificial floating "jellyfish" type things.
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 \ul EnemyIdeas:
+\f1\b0\fs24 \cf0 \ulnone \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 -Invisible "Minotaur" for  mazes.
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 -Teleporting "Ghost" of the woman researcher, missing an eye and a hand. She can not kill you, but she fucks up your vision(like controller from STALKER), launches you , glitches your vision, and you come to somewhere else in the map.
+\f1\fs24 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 \
+\pard\pardeftab720
+
+\b \cf3 \ul Music ideas:
+\f1\b0\fs24 \cf0 \ulnone \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 -Gamelan Music for a level
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b \cf0 Story structure:
+\f1\b0\fs24 \
+\pard\pardeftab720
+
+\f2\i\fs30 \cf3 Overview:
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720
+
+\f2\fs30 \cf3 	
+\f0\b \cf0 ACT I, Exposition (Arrive/Investigate)
+\f1\b0\fs24 \
+
+\f2\fs30 \cf3 		
+\f0\i \cf0 Chapter I, Holy Mountain (Drop this?)
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 		
+\i\b0 Chapter II, A Sublimation
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\i Chapter III, Third Circle of Gluttony 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 	
+\i0\b ACT II, Rising Action (Investigate/Help Researcher)
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\i Chapter IV, The Passenger 
+\f1\i0\fs24 \
+
+\f0\fs30 		
+\i Chapter V, An Encounter 
+\i0 (Minotaur)
+\f1\fs24 \
+
+\f0\fs30 		
+\i Chapter VI, Valley of Obsolescence 
+\f1\i0\fs24 \
+
+\f0\fs30 	
+\b ACT III, Climax (Investigate/Shutdown AI)
+\f1\b0\fs24 \
+
+\f0\fs30 		
+\i Chapter VII, Paradise Gained 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		Chapter VIII, Belly of Leviathan 
+\f1\i0\fs24 \
+
+\f0\i\fs30 		Chapter IX The Red Room 
+\i0 (Minotaur) 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 	ACT IV, Dramatic Fall (Investigate/Shutdown AI/Escape)
+\f1\b0\fs24 \
+
+\f0\b\fs30 		
+\i\b0 Chapter X, Life
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		Chapter XI, Death
+\f1\i0\fs24 \
+
+\f0\i\fs30 		Chapter XII, In The Country of the Blind 
+\i0 (Minotaur)
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 	ACT V, Catastrophe (Shutdown AI)
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\i Chapter XIII, Revelations in Simulacra
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		Chapter XIV, Immanence 
+\f1\i0\fs24 \
+
+\f0\i\fs30 		Chapter XV, A Minor Awakening 
+\f1\i0\fs24 \
+
+\f0\i\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\i0\b \cf0 General Lab Description:
+\f1\b0\fs24 \
+
+\f0\b\fs30 	
+\b0 As a research center dedicated to the cause of alternative energy great strides have been made to make the facility as eco friendly as possible. Every possible energy loop hole has been closed, the lab attempts to have zero net loss of energy, though this is more idealistic and the lab must still rely on some amount of fossil fuels burned on site for power(as there is no power grid). The architecture and decor is extremely modern, relying upon nature inspired algorithms for the design of both the exterior and interiors of the building. The building has a pronounced algorithmic digital atmosphere to the architecture and decor. Labs and facilities have fantastical/alien/exotic quality to them
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 ACT I, Exposition: 
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	
+\i Chapter I, Holy Mountain: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Report to duty at your new job. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Initial cut scene of phone call with the your boss about being reassigned to the Geothermal project. First you fly by helicopter to the island. Then you must make your way up the mountain. At first it is freezing cold, but as you make your way up, strangely the temperature warms. You encounter security(Virgil) there, and must get inside.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - (Outside) 
+\b0 Phone Call,Helicopter Ride,Mountain
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter II, A Sublimation: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Find Virgil, then report back to Boss using Virgil. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 		STORY -
+\b0 The Lab is deserted, but looks as if everyone is was just there. Also, it seems station wide comms are down, as you cannot hail Virgil. You need to find Jackson McCarthy and you must get to Virgil central processing unit. After finding Virgil you attempt to report to the boss that no one is there, but comms are down. Virgil's memory has been wiped regarding everything before your arrival. Virgil informs you that protocol dictates that you will need to find out what happened to the team while Virgil continues to attempt to get in contact with the main base. Several rooms associated with a certain researcher are missing(bed room, shower,Locker,office). Doors are missing to lower maintenance chambers.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b LOCATIONS - (Living Area) 
+\b0 Lobby, Living Quarters(Minus 1 room\'85), Rec Room, Library, Locker room, Bathrooms/Showers,Kitchen/Brewery, offices, (Shut off for some reason)Virgil Central Interface
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 	
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	
+\i Chapter III, Third Circle of Gluttony: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL -
+\b0  Find The Logs and Experimental Data Left by the Team to find out what happened.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY -
+\b0  Going through the logs and taking experimental data and equipment to Virgil reveals the beginnings of what happened at the lab. The lab was beginning to use AI to help design more efficient geothermal power sources. Virgil informs you that bidirectional communications are still down, but that a packet containing emergency code 6799 was transmitted, which implies that something even more serious than missing researchers is occurring somewhere on the mountain, though the specifics are not certain.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - (Lab Areas) 
+\b0 Offices, The Crucible (High Heat/Pressure Lab), Wet testing chamber, Ferrofluids lab,
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 ACT II, Rising Action: 
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	
+\i Chapter IV, The Passenger: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Get to the Researcher in trouble. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Virgil states that there is an unread relay chat on one of the computers. After finding it, you communicate via chat with a researcher trapped in another part of the lab, they need help. They are hurt. They are in a unknown are at the far end of the lab, past the maintenance shafts, the 
+\f2\b Locus
+\f0\b0  AI comm chamber, the geo-structure prototyping area, and somewhere beyond known area of the lab.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - (Maintenance Area) 
+\b0 Security Monitor Station, Maintenance Shaft, Windows into living areas(spying on them?[buttons emit gas])
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter V, An Encounter: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Get Through AI Comm Chamber to the injured researcher. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Attempt contact with AI to grant access to lower prototyping chamber, AI freaks out, gives you access to lower chambers where it designs geo structures. Make way through this.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - (
+\f2 Locus
+\f0  Area I) 
+\f2 Locus
+\f0\b0  Comm Area, 
+\f2\b Locus
+\f0\b0  Pit I, Geo Structure I, Geo Structure II
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter VI, Valley of Obsolescence:  
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Get Through Maintenance Area to the injured researcher. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Journey through maintenance area to the coordinates that the researcher gave you. Upon arriving, there is no one, except some clues of some sort. Journey back to talk with researcher and Virgil.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 Artificial Well, Chasm, Artificial Rooms
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 ACT III, Climax:
+\b0  	
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	
+\i Chapter VII, Paradise Gained: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Report to Virgil/Investigate Emergency.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY -
+\b0  Upon waking you find yourself in the living quarters(it's changed slightly, you are awake in the missing researcher's room placed correctly, and now your room is missing.). You make your way to Virgil. Virgil still cannot establish full bidirectional communications, however fragmented packets reveal that the lab is being using increasingly dire emergency codes, implying that whatever is happening is intensifying. Virgil sends you top side to attempt to ascertain exactly what the root of the emergency prompts are. You make your way to the top side monitoring station at the peak of the lab. There you find that something terrible is happening to the mountain where the lab is stationed. The vast whole of the mountainous area is changing form, beginning to cause tremors earthquakes in neighboring areas. As well, the temperature changes are causing dangerous weather. It is thought the AI has some role to play in this. You get a broken emergency message informing you of such when you reach the top, and view it with your own eyes. Repair broken comm equipment. You can now communicate with Virgil in the lab remotely.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 Living Areas(Version II), Virgil Central Interface,Spire stairs, observatory, Top side lab, comm equipment area.
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter VIII, Belly of Leviathan: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL -
+\b0  Shutdown AI Testing and Processing Areas. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 When you report back Virgil informs you that further fragmented communications packets reveal that the highest emergency code 9999 has been instantiated, which calls for a full shutdown of all operations, and the 
+\f2\b Locus
+\f0\b0  AI in particular, which seems to be at the root of supernatural geological occurrences. You make your way to the AI testing and central processing areas and shut them down, however strangely this seems to not make a difference, implying that 
+\f2\b Locus
+\f0\b0  has somehow spread it's influence beyond these chambers.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 		LOCATIONS - 
+\b0 Living Areas(Version III),(
+\f2\b Locus
+\f0\b0  Area II) 
+\f2\b Locus
+\f0\b0  Observatory, 
+\f2\b Locus
+\f0\b0  Power Grid, Server Room (in liquid coolant), Opening to\'85.something off the grid.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	
+\i Chapter IX Red Room
+\i0 : 
+\f1\fs24 \
+
+\f0\fs30 		
+\b GOAL - 
+\b0 Find out what is behind the mysterious door
+\f1\fs24 \
+
+\f0\fs30 		
+\b STORY - 
+\b0 Upon arriving back to the place where the terminal that you chatted with the researcher is at is gone, in its place a door. Entering the door leads you to a journey through a maze constructed out of the missing researcher's missing rooms and affects. Ends with the Red Room. When you enter, you see a humanoid shaped chrysalises of sorts(seems as though a human body is hanging upside down, with a disfigured head coming out at the bottom), and it is slowly pulled upward into the ceiling with a horrendous wet grinding,cracking, crushing sound. Blood and other liquids are sprayed about. You search the room, turn on the lights(turning off red lights) and the music. read journal entry. Leave the room, as you leave music blares loudly again and red light engulfs you and the area. The minotaur comes again, this time there is no escaping it, and you are dragged away.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 Long hallway, comprised of a reassembly of the missing researcher's rooms(shower, locker,office), ends with red room
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 ACT IV, Dramatic Fall:
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	
+\i Chapter X, Life: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL -
+\b0  Investigate the AI's increased sphere of influence and find a way to stop it.
+\b  
+\f1\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 		STORY - 
+\b0 While attempting to ascertain the nature of the hidden(or added? cannot say) research and AI areas, you hear an intensely high pitched ultrasonic pitch permeating. Following it leads you to the dead body of the researcher that was contacting you before. Right when you find their body, a terminal hails you for communication. It is the researcher asking for help. This is obviously impossible as they are, um, dead. Talk to the ai construct of the researcher. They wish to be killed, find a way to kill them.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b LOCATIONS - 
+\b0 GeoStructures III, GeoStructures IV, (Artificial Lab Area) Artificial Lab I, Artificial Lab II, Artificial Terminals
+\f1\fs24 \
+
+\f0\fs30 	
+\f1\fs24 \
+
+\f0\fs30 	
+\i Chapter XI, Death: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Destroy AI personality construct.
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Destroying the AI personality construct ends up killing you as well(explosion or some shit). However, the AI recovers your body and revives you.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 (Artificial Lab Area), Artificial Servers I
+\f1\fs24 \
+
+\f0\fs30 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\i \cf0 	Chapter XII, In The Country of The Blind: 
+\f1\i0\fs24 \
+
+\f0\i\fs30 		
+\i0\b GOAL - 
+\b0 Escape. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\b\fs30 \cf0 		STORY - 
+\f2\b0 \cf3 You come to in a dark hallway *somewhere*, you can barely make out shapes but cannot see detail or passageways. Freaky sounds around you, using the sonic navigator you can find items and doorways. The player has to use this to make their way out of the hallways. As you approach down the hallway, a horrendous sound creeps up behind you, coming closer and closer. You must, using the sonic navigator, move out of the main hallway, to another place to hide to avoid it. ( you are essentially losing your sanity form the direct encounter with the AI consciousness. The phantom behind you is not "real" perhaps, but it is driving you insane). A foil is that some times the hallway might change configuration, say by pulling certain levers. Eventually you make it out of the hallway and you begin to recover your vision. You realize that you were in the lower maintenance area of the lab that had gone missing. The doors close behind you, locked.
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f2\fs30 \cf3 		
+\f0\b \cf0 LOCATIONS - 
+\b0 Dark Hallways(Lower Maintenance Chambers).
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf0 ACT V, Catastrophe:
+\b0  
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 \
+	
+\i Chapter XIII, Revelations in Simulacra: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Reach the center of the AI's Constructed Realm. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 When you are back Virgil informs you that something has changed, the lab has been shifting and changing more dramatically, and now there is a chasm at the center of the living area. Virgil has detected what it believes to be the central hub of the AI's new processing structures deep down in the chasm. Virgil requires you to transport it physically into the area to interface with and shutdown the AI. At one point Virgil must be connected to the AI mainframe to gain passage through three sealed doors. Opening Each doorway causes Virgil to glitch and freak out more, until the third which destroys Virgil in the process(Or is he absorbed into 
+\f2\b Locus
+\f0\b0 ? It's ambiguous).
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 Living Areas(version IV more drastically altered), Virgil Central Interface, The New Chasm, Sealed Doors
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter XIV, Immanence: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Reach the center of the AI's Constructed Realm. 
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\b0 Now without the guidance of Virgil, and with your way behind you sealed, you have no real choice but to press on and find the AI central processing area(even though you are now not sure even how to stop it without Virgil's help). You start long descent down, passing through increasingly complex geological structures. Starts with the geothermal power structures, which grow in complexity, eventually things change, glowing blue lights being to emerge, you enter a large twilit underground lake, which you must cross, then into a series of narrow caverns.
+\f1\fs24 \
+
+\f0\fs30 		
+\b LOCATIONS - 
+\b0 Geo Structure V,VI, VII, Glowing Caverns I, Glowing Caverns II, Twilit Lake, narrow passageway.
+\f1\fs24 \
+
+\f0\fs30 \
+	
+\i Chapter XV, A Minor Awakening: 
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 		
+\i0\b GOAL - 
+\b0 Shutdown the AI(but instead be absorbed by it).
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		
+\b STORY - 
+\f2\b0 \cf3 The player has made journey similar to Dante in the travels so far, starting in hell, and eventually coming out into "Paradise". However, this is not any human conception of it, instead it is the surreal realm being constructed by the AI in the underbelly of the mountain that the lab resides on (Which explains the temperature changes noticed on the top of the mountain). The AI has through some manner, either through the unconscious flailing of a dreaming mind, or through some more conscious effort, started to construct a wholly alien landscape(one generatively constructed). When the player first enters, it begins first as a series of amber/golden crystalline structures and caves, with odd structures whose purpose is not clearly known, as the player journeys down, some form of viscous liquid starts to emerge from these crystalline structures. Further down, some form of blueish grass like plant has begun to sprout up. Eventually the claustrophobic chasms opens up into a vast landscape, with a light blue sky, whose dimensions simply cannot be contained in the mountain, as big as it is, to be logical. In the distance is a vast structure reaching up into the sky.  on the horizon. The player's vision will start to be filled with hallucinogenic kaleidoscopic visions, more and more, growing brighter and brighter until they are lost completely in the brightness. They rise up off the ground levitating. The player has found peace as a part of this new consciousness. 
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f2\fs30 \cf3 		
+\b LOCATIONS - 
+\b0 Strange Caverns I, Strange Caverns II, Lush Caverns, Vast Landscape
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+Number Generative:
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+Number non-generative: 14
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\b \cf3 ALL LOCATIONS:
+\f1\b0\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f2\fs30 \cf3 	
+\f0 \cf0 Phone Call,
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	Helicopter Ride(Optional, may not be needed),
+\f1\fs24 \
+
+\f0\fs30 	
+\i Mountain
+\i0 ,
+\f1\fs24 \
+
+\f0\fs30 	
+\i Living Area (
+\f1\i0\fs24 \
+
+\f0\fs30 		Lobby, 
+\f1\fs24 \
+
+\f0\fs30 		Living Quarters(Version1, minus 1 room), 
+\f1\fs24 \
+
+\f0\fs30 		Rec Room, 
+\f1\fs24 \
+
+\f0\fs30 		Library,
+\f1\fs24 \
+
+\f0\fs30 		Locker room,(Minus 1 locker) 
+\f1\fs24 \
+
+\f0\fs30 		Bathrooms/Showers (Minus 1 shower),
+\f1\fs24 \
+
+\f0\fs30 		Kitchen/Brewery, 
+\f1\fs24 \
+
+\f0\fs30 		offices (Minus 1 office),
+\f1\fs24 \
+
+\f0\fs30 		Virgil Central Interface,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 	Maintenance Area (
+\f1\i0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 		Maintenance Shaft, 
+\f1\fs24 \
+
+\f0\fs30 		Hidden One-way Windows into living areas,
+\f1\fs24 \
+
+\f0\fs30 		Hidden Security Monitor Station, 
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\f2\i Locus
+\f0  Area I 
+\i0 (
+\f1\fs24 \
+
+\f0\fs30 		
+\f2\i Locus
+\f0\i0  Comm Area, 
+\f1\fs24 \
+
+\f0\fs30 		
+\f2\i Locus
+\f0\i0  Pit I, 
+\f1\fs24 \
+
+\f0\fs30 		Geo Structure I, 
+\f1\fs24 \
+
+\f0\fs30 		Geo Structure II,
+\f1\fs24 \
+
+\f0\fs30 		Artificial Well, 
+\f1\fs24 \
+
+\f0\fs30 		Chasm, 
+\f1\fs24 \
+
+\f0\fs30 		Artificial Room
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\i Lost Rooms
+\i0 (
+\f1\fs24 \
+
+\f0\fs30 		Long hallway/maze reconstructed from missing rooms, 
+\f1\fs24 \
+
+\f0\fs30 		red room,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\i Living Areas
+\i0 (Version II),
+\f1\fs24 \
+
+\f0\fs30 	
+\i Mountain Top
+\i0  (
+\f1\fs24 \
+
+\f0\fs30 		Spire stairs, 
+\f1\fs24 \
+
+\f0\fs30 		observatory, 
+\f1\fs24 \
+
+\f0\fs30 		Top side lab, 
+\f1\fs24 \
+
+\f0\fs30 		comm equipment area,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\i\fs30 \cf0 	Living Areas
+\i0 (Version III),
+\f1\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f0\fs30 \cf0 	
+\f2\i Locus
+\f0  Area II 
+\i0 (
+\f1\fs24 \
+
+\f0\fs30 		
+\f2\b Locus
+\f0\b0  Observatory, 
+\f1\fs24 \
+
+\f0\fs30 		
+\f2\b Locus
+\f0\b0  Power Grid, 
+\f1\fs24 \
+
+\f0\fs30 		Server Room,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\f2\i Locus
+\f0  Area III
+\i0  (
+\f1\fs24 \
+
+\f0\fs30 		GeoStructures III, 
+\f1\fs24 \
+
+\f0\fs30 		GeoStructures IV,
+\f1\fs24 \
+
+\f0\fs30 		Artificial Lab I, 
+\f1\fs24 \
+
+\f0\fs30 		Artificial Lab II, 
+\f1\fs24 \
+
+\f0\fs30 		Artificial Terminals,
+\f1\fs24 \
+
+\f0\fs30 		Artificial Servers I,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\i Dark Hallways
+\i0 ,
+\f1\fs24 \
+
+\f0\fs30 	
+\i Living Areas
+\i0 (Version IV),
+\f1\fs24 \
+
+\f0\fs30 	
+\i Portal To Landscape
+\i0  (
+\f1\fs24 \
+
+\f0\fs30 		The New Chasm, 
+\f1\fs24 \
+
+\f0\fs30 		Sealed Doors,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\f2\i Locus
+\f0  Primordial 
+\i0 (
+\f1\fs24 \
+
+\f0\fs30 		Geo Structure V,VI, VII, 
+\f1\fs24 \
+
+\f0\fs30 		Glowing Caverns I, 
+\f1\fs24 \
+
+\f0\fs30 		Glowing Caverns II, 
+\f1\fs24 \
+
+\f0\fs30 		Twilit Lake, 
+\f1\fs24 \
+
+\f0\fs30 		narrow passageway,
+\f1\fs24 \
+
+\f0\fs30 	)
+\f1\fs24 \
+
+\f0\fs30 	
+\f2\i Locus
+\f0  Landscape
+\i0  (
+\f1\fs24 \
+
+\f0\fs30 		
+\f2 \cf3 Strange Caverns I, 
+\f1\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720
+
+\f2\fs30 \cf3 		Strange Caverns II, 
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 		Lush Caverns, 
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 		Vast Landscape
+\f1\fs24 \cf0 \
+
+\f2\fs30 \cf3 	)
+\f1\fs24 \cf0 \
+}

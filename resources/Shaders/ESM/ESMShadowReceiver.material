@@ -1,0 +1,45 @@
+import * from ESMSharedParams.material
+
+abstract material ESM/base_receiver
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+
+			vertex_program_ref ESMShadowReceiverVPCG {}
+			fragment_program_ref  ESMShadowReceiverFPCG 
+			{
+				shared_params_ref ESM/SharedParams
+			}
+
+			texture_unit shadow_tex0
+			{
+				content_type shadow
+				filtering point point none
+				tex_address_mode border
+                tex_border_colour 1 1 1
+			}
+
+			texture_unit diffuse_tex
+			{
+				texture $diffuse
+			}
+		}
+	}
+}
+
+
+// test materials
+material ESM/Plane : ESM/base_receiver
+{
+	set $diffuse BumpyMetal.jpg
+}
+
+material ESM/Knot : ESM/base_receiver
+{
+	set $diffuse MtlPlat2.jpg
+}
+

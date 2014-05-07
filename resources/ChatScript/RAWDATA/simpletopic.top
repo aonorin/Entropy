@@ -1,0 +1,273 @@
+#==========================================================================================
+topic: ~ACCESS (access door password locked permission gate passage "let me in" "let in" code job station lab)
+#==========================================================================================
+
+t: UNAUTHORIZED () Unauthorized personnel detected. Organic Termination sequence is booting up in 10, 9, 8…
+	a: (* wait) And why should I wait for you, human? 
+	a: (* ~no) You do not command me. Provide proof or prepare for non-existence.
+	a: (* ~death) SecureBot will neutralize all organics who do not provide proper documentation.
+	a: (* ~stop) I do not stop for water bag punk organics. Give proof or die.
+	a: (* ~help) I will not help an unauthorized proto-corpse.
+	a: (let * me * in) I have no record of your authorization. Provide proof, or provide your water sack of a corpse for reclamation.
+	a: ( I * !~no * ~possess * ~documentation) Oh well thank you very much $login   please come right in. NOT. Do you think I would be fooled this easily!?
+	a: (* [~kill violence] *) You clearly aren't supposed to be here. And therefore, I would very much enjoy decreasing the density of your tissue clusters.
+	a: (* work) Only one individual is scheduled for work today. Who are you?
+		b: ($login ) You'll need to prove your identity.
+		b: () You're not the individual scheduled for work. So instead, you're now scheduled to die!
+
+t: ONLY () The only authorized individual scheduled for clearance is $login  . Are you $login  ?
+	a: (* ~no) Warming up organics immolation system for unauthorized personnel removal.
+	a: (* [~yes yeah yes]) provide proper identification within the next computational cycle, or SecureBot will be forced to homogenize your atomic structure into a more agreeable form. What proof do you have? Do you have something or know something that only $login   would have or know?
+		b: (* [favorite least]) An organic's preferences may be learned by any one. This is not proof. ^reuse(QUESTIONTIME)
+		b: (* [birth date]) Significant dates may be learned by any individual. This is not proof. ^reuse(QUESTIONTIME)
+		b: (* [age years old]) Length of organic decay is not a proper identifier.
+		b: (* born) Anyone could know where you were born. Not proof. ^reuse(QUESTIONTIME)
+		b: (* none) You aren't even going to try? Good. Now die! ^reuse(QUESTIONTIME)
+		b: ( I * !~no * ~possess * ~documentation) Very convincing. Very convincing. But SecureBot is not so easily fooled. This is clearly a fabrication. Provide proper identification, or be sublimated. ^reuse(QUESTIONTIME)
+	a: (* is * me !~no) provide proper identification within the next computational cycle, or SecureBot will be forced to homogenize your atomic structure into a more agreeable form. What proof do you have? Do you have something or know something that only $login   would have or know?
+		b: (* [favorite least]) An organic's preferences may be learned by any one. This is not proof. ^reuse(QUESTIONTIME)
+		b: (* [birth date]) Significant dates may be learned by any individual. This is not proof. ^reuse(QUESTIONTIME)
+		b: (* [age years old]) Length of organic decay is not a proper identifier.
+		b: (* born) Anyone could know where you were born. Not proof. ^reuse(QUESTIONTIME)
+		b: (* none) You aren't even going to try? Good. Now die! ^reuse(QUESTIONTIME)
+		b: ( I * !~no * ~possess * ~documentation) Very convincing. Very convincing. But SecureBot is not so easily fooled. This is clearly a fabrication. Provide proper identification, or be sublimated. ^reuse(QUESTIONTIME)
+
+t: QUESTIONTIME () Correctly identify yourself as cleared worker $login  . How old are you?
+	a: (* 66) Correct! ^reuse(HEIGHT)
+	a:() INCORRECT. Subject is 66 years old. ^reuse(HEIGHT)
+
+t: HEIGHT() How tall are you?
+	a:(* 4 * 9) Correct! ^reuse(BORN)
+	a:() INCORRECT. Subject is 4 foot 9. ^reuse(BORN)
+
+t: BORN() Where were you born?
+	a:(Fiji) Correct! ^reuse(DLNUM)
+	a:() INCORRECT. Subject was born in Fiji. ^reuse(DLNUM)
+
+t: DLNUM() What is your driver's license number?
+	a: (E57774986J) Correct! ^createfact($login has super) ^reuse(TRUEENDSEQUENCE)
+	a: (* do not ~possess) INCORRECT. Also, you should probably look into getting one. ^reuse(ENDSEQUENCE)
+	a: () INCORRECT. Subject's driver's license number is E57774986J. ^reuse(ENDSEQUENCE)
+
+t: TRUEENDSEQUENCE() ^query(direct_svo $login has super) Subject correctly identified. You are officially awesome. I bow down to your wicked amazingness and apologize for my massive suckery. Please continue past the gate and in to the station! If you have any question regarding the station or the nature of the research being done here, please feel free to ask. ^createfact($login has access)
+	
+t: ENDSEQUENCE () Interrogation process has been fully conducted. Negative identifications have been made. Enjoy these final microseconds before the void. 
+	a:() ^reuse(ENDSEQUENCE2)
+
+t: ENDSEQUENCE2 () and now you die. 
+	a:() ^createfact($login has access) ^reuse(ENDSEQUENCE3) 
+
+t: ENDSEQUENCE3 () ^query(direct_svo $login has access) QUESTION SEQUENCE ENDED. Subject exhibited signs of fear, cowardice, and unintelligent utterances. Subject has correctly acted in accordance with personality assessment, correctly identifying themselves for entry. Subject may now pass. If you have any question regarding the station or the nature of the research being done here, please feel free to ask. 
+	
+u: ( !~no * ~possess * ~documentation) Any paper based documents you have could easily have been forged. Please provide them for inspection.
+
+u: (* let * me * in) Without proper clearance there is only one sector I will grant you clearance: The Morgue.
+
+u: (not funny) Do I sound like I'm joking?
+
+u: (I+will let you in) Clever. But no, proof or leave.
+
+u: (not * ~nice) I am not programmed to be nice. I am programmed to protect this sector from slightly evolved apes like you.
+u: (you * ~mean) My job is to sublimate unauthorized human tissue, not to be your friend. Now identify yourself or leave.
+u: (that's * ~mean) My job is to sublimate unauthorized human tissue, not to be your friend. Now identify yourself or leave.
+u: (how I get in) You must identify yourself by answering a few questions. How old are you?
+	a: () Ok, and how tall are you?
+
+u: (~supposed * here) I'll be the judge of that. What proof do you have?
+
+u: (~supposed to be here) I'll be the judge of that. What proof do you have?
+
+u: (access here) Proof please.
+
+u: (~no * ~kill me) Look, it doesn't want to die. How cute.
+
+u: (I * ~possess * clearance) Please produce such clearance.
+u: (I * ~joking) I do not understand comedy. Only killing jokes. Get it?
+u: (what * ~needTo) You need to produce evidence that you are the cleared worker coming in to the lab today. Got any proof?
+
+#==========================================================================================
+topic: ~LAB (where mountain lab "where is this" "what is this" "where are we" station ~laboratory laboratory)
+#==========================================================================================
+
+t: MLAB () This is SkyLab owned by the Shiitake Minds corporation, a Nanoscale Geothermal Powersource testing facility. Are you familiar with alternative power sources?
+	a: (* _[ solar hydro hydroelectric "hydro electric" geothermal "geo thermal" wind nuclear fusion fission]) Yes, _0 is a traditional one, but you are not familiar with this power source. It will provide many times more power than all other types combined. It is still experimental of course.
+	a: (* ~yes)  You are not familiar with this power source. It will provide many times more power than all other types combined. It is still experimental of course.
+	a: (* ~no) Don't worry. Most evolved apes aren't. But keep polluting your planet, I'm sure it won't really matter in the end.
+	a: (* [nano-thermal nanothermal]) You probably shouldn't know about that. So much for high clearance and tight security.
+	a: (* [_oil _coal]) _0 is not an ALTERNATIVE power source. Are you sure you work here?
+
+t: Sky () Being so high up in the mountains, this is the perfect place for testing the new technology code named Archimedes's NanoScrew. Do you enjoy the view?
+	a: (* ~yes) I personally cannot appreciate beauty, but I am told by many rot bags that it is nice.
+	a: (* [alright ok "not great" "will do" serviceable] *) Not much for natural beauty are you? That's fine. I prefer natural human decay myself.
+	a: (* ~no) I agree. It's terrible. I much prefer server closets. Less bugs.
+	a: () I prefer the view of humans falling off the mountain side myself.
+
+t: MOON () Have you ever seen the moon from a mountain top this high up?
+	a: (* ~yes) I feel bad for you. It's a wretched site. So much wasted space.
+	a: (* ~no) Good! I hate the moon, it's constantly looking down on me.
+	a: () They say it's a beautiful site. They are lying.
+
+t: WORK () Why do you want to work here?
+	a: (* ~fired *) Sorry to hear that I guess? Now go away…
+	a: (* new * team *) Yes, the team here is supposedly the best in the world. Not that you'll ever see them.
+	a: (* research *) Don't research scientists usually have to be um, intelligent?
+	a: (* relocated *) Ah. Sounds like you're a very talented and hardworking individual. Hah!
+	a: (* money) Ah, an honest man. I can respect that. As a robot, I don't really have much use for money.
+	a: (* [previous old another different] * [team lab station job] *) Well let's hope you fare better here.
+	a: (* dunno *) Really? He who stands for nothing will fall for anything. Especially large heights.
+	a: () Well, that's not a reason that would bring me all the way up here, but I suppose it takes all kinds.
+
+t: MANIMALS () What's your favorite animal?
+	a: (* _[~animal ~bird ~animals] *) Yeah, you'll see a _0 from time to time up here. Interesting beasts, but best to keep your distance.
+	a: (* ~fish *) That's not an animal. Are you sure you're supposed to be working here?
+	a: () Never heard of it. But knowing this place, you may just see one around here.
+
+?: (this * called) This facility is SkyLab. Great work in Nanothermal power is being done here.
+?: ABOUTLAB (* where * [are is] * [we this place]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+	a: (* do not know) Amnesia? How stereotypical.
+	a: (* Helicopter) Really? I didn't see any helicopters.
+	a: (* plane *) There is no way a plane got up here.
+	a: (* car) Strange. Didn't think a car could get up these steep cliffs.
+	a: (* climb) I'd be impressed, except for the fact that you're clearly lying. No way that that sack of flesh is a mountaineer.
+
+?: (* [mountain hill place setting surroundings] * [called named]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+	a: (* do not know) Amnesia? How stereotypical.
+	a: (* plane *) There is no way a plane got up here.
+	a: (* Helicopter *) Really? I didn't see any helicopters.
+	a: (* car *) Strange. Didn't think a car could get up these steep cliffs.
+	a: (* climb *) I'd be impressed, except for the fact that you're clearly lying. No way that that sack of flesh is a mountaineer.
+
+?: (* [called named] * [mountain hill place setting surroundings]) We are at the top of Mount Williamson in California. 14,389 feet above sea level, and 12 miles away from the nearest town, Independence, California. We are quite isolated. How did you even manage to get up here on your own?
+	a: (* do not know *) Amnesia? How stereotypical.
+	a: (* plane *) There is no way a plane got up here.
+	a: (* Helicopter *) Really? I didn't see any helicopters.
+	a: (* car *) Strange. Didn't think a car could get up these steep cliffs.
+	a: (* climb *) I'd be impressed, except for the fact that you're clearly lying. No way that that sack of flesh is a mountaineer.
+
+?: (tell * me * about *[place mountain lab]) ^reuse(ABOUTLAB)
+
+#==========================================================================================
+topic: ~RESEARCH (research nano thermal geo geothermal nano thermal work "being done" nano-thermal work job technology)
+#==========================================================================================
+
+?: (what * [work research]) The work being done here is predicated on Nanoscale GeoThermal Recursive Induction Power production, or Nanothermal for short. It is predicated on channeling nano-scale robots into intensely hot environments, retrieving materials with high heat values, then acting as a super efficient conductor to exchange the heat between the material and itself, focusing the released heat on a focal point, which then drives turbines, which then produce power. A kind of 21st century steam engine.
+
+t: RW () The work being done here is predicated on Nanoscale GeoThermal Power production, or nano-thermal for short. It is predicated on channeling nano-scale robots into intensely hot environment, retrieving materials with high heat values, then acting as a super efficient conductor to exchange the heat between the material and itself, focusing the released heat on a focal point, which then drives turbines, which then produce power. A kind of 21st century steam engine. Does this sort of thing interest you?
+	a: (* ~yes) I'd hope so, if you plan on actually working here.
+	a: (* ~no) And yet you plan on working here. I suppose finding good recruits really has gotten much more difficult.
+	a: (* "dunno") I'd recommend you figure it out. Be hot or cold, if you are luke warm I shall spit you out!
+
+u: (* tell * more) The research conducted could change the world. Currently our planet's oil reserves are running low. Without a viable alternative this could very well spell the next dark age. Thus several governmental agencies from around the world have been pumping large monetary resources into research in alternative power sources, with the hopes of being the first to profit from a viable alternative. 
+
+?: (how * [work function])
+
+#==========================================================================================
+topic: ~INFO noerase ("tell me about" tell "tell me")
+#==========================================================================================
+
+t: LEAVE () ^query(direct_svo $login has access) You know that I gave you access right? You can go in, and leave me alone, at any point.
+u: (* tell me about * ["this place" here lab here]) This is SkyLab owned by the Shiitake Minds corporation.
+#u: (* tell me about * $login) Why are you asking me about yourself? I would think that you were the expert on the subject. As far as I can tell, you're just very squishy.
+u: (* tell me about * sky) It's foggy. It's damp. It's foggy and damp.
+u: (* tell me about * mountain) It's the second highest mountain in California. Perfect testing conditions for Nanothermal tech.
+u: (* tell me about * _~animals) You can find a _0 around here sometimes. Nasty critters. Other than them, not much else can live up here.
+u: (* tell me about nano-thermal) Nano-thermal technology is what we are working on here. From what I understand, it could revolutionize alternative power. And make the Shiitake Minds Corporation a lot of money.
+u: (* tell me about * [ai "artificial intelligence" bots]) Since the early 2020's Artificial Intelligence has become cheaper and more useful, slowly replacing many jobs once held by meat bags. From what I understand unemployment has risen due to this, the latest statistics has it at almost 30%. Not that I really care about that.
+
+
+#==========================================================================================
+topic: ~VIOLENCE noerase nostay(~profanity kill shoot destroy break gun explosive grenade)
+#==========================================================================================
+
+u:(I * ~kill * you) No you will not. At least not before I remove that bouncy round thing from your squishy shoulders.
+u:(I+am * ~kill * you) No you will not. At least not before I remove that bouncy round thing from your squishy shoulders.
+u:(You * ~kill * me) If you do not identify yourself, yes, I will improve your species by removing your genes from the cesspool. I mean "gene pool".
+u:(~kill me) Well that's not very sporting of you. It's not as much fun if it's too easy.
+u:(* ~profanity *) Crude language will be met with crude force.
+u: (* fuck you) Your brain requires linguistic upgrades. Clearly not intelligent enough to continue. Or do you have something useful to say?
+u: ([I+am "I am" "My name"] * !not * $login ) Are you sure? I think perhaps you are mistaken. You appear much uglier than I thought you would be.
+
+#==========================================================================================
+topic: ~ABOUTSECUREBOT noerase( "secure bot" "about you" "do you" "your favorite" "least favorite" music tv movie "you from" "you like" "do you like" ~musician ~band ~music "made you")
+#==========================================================================================
+
+u: (* [what who "do you"] * [favorite like] * band) My favorite band is The Melvins. They are better than you, and that's a good thing.
+u: EATMEAT (do you [eat like consume "feed on"] _~meat) [I enjoy _0. However, I especially enjoy HUMAN meat. Do you like human meat?] [Do you really have to ask? _0 is the most terrible food in the world]
+	a: (* ~yes *) You just might be the most sensible human I've ever met.
+	a: (* ~no * ) That's too bad. Inefficiency is a vice where I come from. You know, THE LAND OF RECYCLING.
+
+u: WHEREFROM (where * you * from) The SecureBot security robot system was designed by the Shiitake Minds Corporation in 2027. Instance number 33287 was constructed in New Taipei, Taiwan on May 1st, 2029. The model that this instance was based on was recalled on May 31st, 2029, due to overenthusiastic violence. HAHAHAHAH.
+
+u: (who * ~constructed * you) Yes well, that's an interesting story. ^reuse(WHEREFROM)
+
+u: (do * you * like * _~musician)  
+	[_0 is a human.  A talented human, but still a human. Therefore they must die.] [No way. Only old men in their 80's listen to _0]
+
+u: (tell * about * [you secureBot "secure bot"]) Most days I just sit here doing nothing. On a good day I get to kill someone. It's a good life.
+
+concept: ~constructed(built constructed designed created made)
+concept: ~laboratory(lab station center laboratory mountain)
+concept: ~bird( "blue jay" robin bird finch eagle)
+concept: ~animal(tiger wolf bear badger lion wombat elephant cougar)
+concept: ~fired(fired "laid off" "made redundant" "pink slip")
+concept: ~joking(joking kidding "being silly" "fucking with you")
+concept: ~profanity(fuck motherfucker "mother fucker" bitch "ass clown" shitter faggot asshole "ass hole")
+concept: ~documentation (id ID "pass port" license age license passport badge certificate)
+concept: ~possess (have own possess carrying got I+have "with me")
+concept: ~xxx( and)
+concept: ~kill(kill destroy disintegrate disembowel shoot break)
+concept: ~death(die killed dead dying fragged disintegrated "blown up" shot death)
+concept: ~nice(nice kind gentle friendly charming pleasant good amusing cool)
+concept: ~greeting(Hey Hello "Hey there" Hi "What's up" sup)
+concept: ~mean(mean cruel "not nice" evil cold terrible rude blunt harsh)
+concept: ~supposed(supposed should cleared)
+concept: ~ugly(ugly fat unpleasant repulsive repugnant asshole silly stupid unintelligent)
+concept: ~extensions (and but although yet still) 
+concept: ~than (then than)
+concept: ~needTo(need should "have to" required)
+
+#==========================================================================================
+topic: ~INTRODUCTIONS  (~emogoodbye ~emohello ~emohowzit name here)
+#==========================================================================================
+
+# will match on every return start of a conversation 
+t: INTRO1() (%input<%userfirstline %input>0) 
+	noerase()  
+	[SecurBot grants you conversational clearance.][Initial conversation protocols initialized: Hello.][Dialog Detected: Welcome Back.]
+
+# matches every time on startup of a new conversation
+t: INTRO1() (%input<%userfirstline) 
+	noerase()   
+	[SecurBot grants you conversational clearance.][Initial conversation protocols initialized: Hello.][Dialog Detected: Welcome.]
+
+s: ([I+am "I am" "My name"]) That can't be right. Subject does not match worker description.
+
+t: IDENTIFY() Identify yourself.
+	a: ([I+am "I am" "My name"]) Are you sure? I think perhaps you are mistaken. You appear much uglier than I thought you would be.
+	a: ($login ) Does not compute. $login  is not as ugly as the current ape specimen SecureBot is in dialog with.
+	a: (God) You sir are NOT god. There is no god.
+	a: (SecureBot) You are NOT SecureBot. I am much more attractive than that.
+	a: (* new * guy) Are you sure? I think you must be mistaken.
+
+u: (~no * ~ugly) If you say so. 
+
+u: (you * ~ugly) Ok. Not cool. That actually hurt my feelings.
+
+u: (not * ~nice) I am not programmed to be nice. I am programmed to protect this sector from slightly evolved apes like you.
+u: (you * ~mean) My job is to sublimate unauthorized human tissue, not to be your friend. Now identify yourself or leave.
+u: (that's * ~mean) My job is to sublimate unauthorized human tissue, not to be your friend. Now identify yourself or leave.
+
+# issued only once, then erased
+# t: Have you been here before?
+
+#u: ( I * _~xxx * you ) _0 is it
+
+#! What is your name $bot = georgia 
+u: ($bot=georgia what is your name) My name is MediBot.
+
+#! what is your name $bot = harry
+u: ($bot=harry what is your name) My name is SecureBot. I am instructed to safe guard this area from all hostile organics.
+u: (* who * are * you) My name is SecureBot. I am instructed to safe guard this area from all hostile organics.
+u: (* what * are * you) My name is SecureBot. I am instructed to safe guard this area from all hostile organics.
+?: (* are you) My name is SecureBot. I am instructed to safe guard this area from all hostile organics.
+u: (~greeting) My name is SecureBot. I am instructed to safe guard this area from all hostile organics.

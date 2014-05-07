@@ -1,0 +1,91 @@
+#pragma target 3.0
+float4 main(
+        float2 uv: TEXCOORD0,
+        float2 projCoord: TEXCOORD1,
+
+        uniform sampler tex: register(s0),
+	uniform sampler indexLookup: register(s1),
+	uniform sampler fontTexture: register(s2)
+        ) : COLOR
+{
+	//vec4 color = tex2D(tex,uv);
+	float areaSize = 0.02;
+	float4 finalColor = float4(0,0,0,1);
+	float3x3 bits;
+	float3x3 colors;
+	float2 newUV;
+	newUV.x = uv.x - fmod(uv.x,areaSize);
+	newUV.y = uv.y - fmod(uv.y,areaSize);
+	float2 tempUV;
+	float areaMul = areaSize/3.0;
+	int bitKey = 0;
+	float highest = 0.0;
+	float lowest = 3.0;
+	for(int x=0;x<3;++x)
+	{
+		for(int y=0;y<3;++y)
+		{
+			
+			tempUV.x = newUV.x + (x*areaMul);
+			tempUV.y = newUV.y + (y*areaMul);
+			float3 tempColor = tex2D(tex,tempUV);
+			finalColor.rgb += tempColor;
+			colors[x][y] = tempColor.r+tempColor.g+tempColor.b;
+			
+			if(colors[x][y]>highest)
+			{
+				highest = colors[x][y];
+			}
+			if(colors[x][y]<lowest)
+			{
+				lowest = colors[x][y];
+			}
+			
+		}
+	}
+	float middle = ((highest - lowest)/2.0)+lowest;
+	int totalBits = 0;
+	for(int x=0;x<3;++x)
+	{
+		for(int y=0;y<3;++y)
+		{
+			if(colors[x][y] <= 1.5)
+			{
+				bits[x][y] = 1.0;
+
+			}
+			else
+			{
+				bits[x][y] = 0.0;
+			}
+			bitKey += bits[x][y] * pow(2.0,(float)(x*3)+y);
+		}
+	}
+	finalColor.rgb = finalColor.rgb/9.0;
+	float finalBrightness = finalColor.r + finalColor.g + finalColor.b;
+	finalBrightness /= 3.0;
+	float2 bitIndex;
+	if(bitKey>256)
+	{
+		bitIndex.x = bitKey/256.0;
+		bitIndex.y = 0;
+	}
+	else
+	{
+		bitIndex.x = mod(bitKey,256)/256.0;
+		bitIndex.y = 0.5;
+	}
+	float  charIndex = tex2D(indexLookup,bitIndex).r;
+	float2 flippedUV = uv;
+        float scale = 50 * 1;
+	flippedUV.x  = fmod(flippedUV.x*scale,1.0)*(1.0/100);
+	//flippedUV.x  = flippedUV.x  + (((1.0/100.0)*trunc(charIndex*100.0)));
+	flippedUV.x  = flippedUV.x  + (((1.0/100.0)*(trunc(finalBrightness*100.0))));
+	flippedUV.x = flippedUV.x*1;//*(2.0/3.0);
+	
+	//flippedUV.y = 1-flippedUV.y;
+	flippedUV.y = (flippedUV.y)*(scale);
+	float4 fontColor = 1 - tex2D(fontTexture,flippedUV);
+    	finalColor = finalColor * fontColor;
+	return finalColor;
+}

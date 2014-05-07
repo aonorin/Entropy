@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL
+END
+SDLMouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL/SDLMouse.h
+END
+SDLInputManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL/SDLInputManager.h
+END
+SDLJoyStick.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL/SDLJoyStick.h
+END
+SDLKeyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL/SDLKeyboard.h
+END
+SDLPrereqs.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/wgois/!svn/ver/4/ois/trunk/includes/SDL/SDLPrereqs.h
+END

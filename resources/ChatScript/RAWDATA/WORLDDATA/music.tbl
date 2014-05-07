@@ -1,0 +1,67 @@
+concept: ~song()
+
+
+
+table: ~men (^role ^male ^kind ^item)
+^createfact(^male member ^role)
+if (^kind != *) {^createfact(^item member ^kind)}
+if (^item != *) {^createfact(^item exemplar ^male)}
+^addproperty(^male NOUN_MALEHUMAN )
+
+DATA:
+~musician "Justin Nozuka" ~song  "After Tonight"
+~musician "Ozzy Osbourne" ~song  "Crazy Train"
+~musician "Gavin DeGraw"  ~song  "In Love With a Girl"
+~musician "George Frideric Handel"  (Handel) ~song Messiah 
+~musician "Gavin Rossdale" ~song "Love Remains the Same"
+~musician "Matt Nathanson" ~song "Come On Get Higher"
+~musician "John Mayer" ~song "Free Fallin'"
+~musician "Phil Collins" ~song "In the Air Tonight"
+~musician "Elvis Presley" (Elvis ) ~song "Heartbreak Hotel"
+~musician "Michael Jackson"  ~song "Thriller"
+~musician "Stevie Wonder"  ~song "Superstition"
+~musician "Justin Timberlake" ~song "What Goes Around"
+~musician "Mims" ~song "This is Why I'm Hot"
+~musician "Akon" ~song "Don't Matter"
+~musician "Jackson Browne" ~song "Running on Empty"
+~musician "T-Pain" ~song "Buy U a Drank"
+~musician "Sean Kingston" ~song "Beautiful Girls"
+~musician "Soulja Boy Tell'em"  ~song "Crank That"
+~musician "Kanye West"  ~song "Stronger"
+~musician "Chris Brown" ~song "Kiss Kiss"
+~musician "Lil Wayne" ~song "Lollipop"
+~musician "Jordin Sparks" ~song "No Air"
+~musician "Jesse McCartney" ~song "Leavin"
+~musician "Chris Brown" ~song "Forever"
+~musician "David Bowie" (Bowie) ~song "Under Pressure"
+~musician "Daniel Powter" ~song "Bad Day"
+~musician "Tom Petty" ~song "Free Fallin'"
+
+table: ~women (^role ^female ^kind ^item)
+^createfact(^female member ^role)
+^createfact(^item member ^kind)
+^createfact(^item exemplar ^female)
+^addproperty(^female NOUN_FEMALEHUMAN )
+DATA:
+~musician "Britney Spears"  ~song "Oops I did it again"
+~musician "Mariah Carey"  ~song "Vision of Love"
+~musician "Mariah Carey"  ~song "Love Takes Time"
+~musician "Madonna"   ~song "Like a Virgin"
+~musician "Whitney Houston"   ~song "Saving All My Love for You"
+~musician "Janet Jackson"   ~song "When I Think of You"
+~musician "Carole King"  ~song Tapestry
+~musician "Beyonce"  ~song "Irreplaceable"
+~musician "Nelly Furtado"  ~song "Say It Right"
+~musician "Fergie"  ~song "Glamorous"
+~musician "Avril Lavigne"  ~song "Girlfriend"
+~musician "Rihanna"  ~song "Umbrella"
+~musician "Fergie"  ~song "Big Girls Don't Cry"
+~musician "Alicia Keys"  ~song "No One"
+~musician "Leona Lewis"  ~song "Bleeding Love"
+~musician "Mariah Carey"  ~song "Touch My Body"
+~musician "Kate Perry"  ~song "I Kissed a Girl"
+~musician "Sara Bareilles"  ~song "Love Song"
+~musician "Rihanna"  ~song "Take a Bow"
+~musician "Rihanna"  ~song "Disturba"
+~musician "Mylie Cyrus"  ~song Breakout
+

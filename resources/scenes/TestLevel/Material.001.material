@@ -1,0 +1,8 @@
+import * from EntropyDeferred.material
+
+// blender material : Material.001
+material Material.001 : Entropy/Deferred/Basic
+{
+	// set $ambient_map WaterWindow.jpg
+	set $diffuse WaterWindow.jpg
+}
