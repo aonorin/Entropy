@@ -9,12 +9,18 @@ Contributors
 ============
 
 Chad McKinney
+
 www.chadmckinneyaudio.com
+
 chad@chadmckinneyaudio.com
 
 
+
+
 Curtis McKinney
+
 www.curtismckinney.com
+
 casiosk1@gmail.com
 
 
